@@ -1,5 +1,6 @@
 import React from "react";
 import { FaInstagram, FaTwitter, FaTiktok, FaYoutube } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -63,7 +64,8 @@ export default function Footer() {
 
           {/* Kontaktua*/}
           <div className="col-12 col-md-3">
-            <h5 className="fw-bold mb-3">Kontaktua</h5>
+            <Link to ="/kontaktua"> <h5 className="fw-bold mb-3">Kontaktua</h5></Link>
+           
             <p className="m-0">info@365score.com</p>
             <p className="mt-2">Tel: +34 600 000 000</p>
           </div>

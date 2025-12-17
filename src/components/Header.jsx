@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -8,14 +9,15 @@ export default function Header() {
 
         {/* Logo */}
         <Navbar.Brand className="d-flex align-items-center gap-2">
-          <img
+          <Link to="/"><img
             src="/logo.png"
             alt="Logo"
             width="50"
             height="50"
             className="rounded"
             
-          />
+          /></Link>
+          
           <span className="fw-bold">
             365 <span className="text-info">SCORE</span>
           </span>
