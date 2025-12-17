@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaTwitter, FaTiktok } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaTiktok, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -13,13 +13,16 @@ export default function Footer() {
             <h5 className="fw-bold mb-3">Sare Sozialak</h5>
             <div className="d-flex justify-content-center justify-content-md-start gap-3">
               {[
-                { icon: <FaInstagram />, link: "#" },
-                { icon: <FaTwitter />, link: "#" },
-                { icon: <FaTiktok />, link: "#" }
+                { icon: <FaInstagram />, link: "https://www.instagram.com/365scorebusiness?igsh=MXh0YmE3NGM3Zm5vMQ==" },
+                { icon: <FaTwitter />, link: "https://x.com/365Score64096" },
+                { icon: <FaTiktok />, link: "https://www.tiktok.com/@365scorebusiness5?_r=1&_t=ZN-92IAwGEdW5u" },
+                { icon: <FaYoutube />, link:"https://www.youtube.com/@365ScoreBusiness" },
               ].map((social, i) => (
                 <a
                   key={i}
                   href={social.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="d-flex align-items-center justify-content-center rounded-circle bg-light text-dark"
                   style={{ width: "40px", height: "40px", transition: "all 0.2s" }}
                   onMouseEnter={e => { e.currentTarget.style.transform = "scale(1.2)"; e.currentTarget.style.backgroundColor = "#ddd"; }}
