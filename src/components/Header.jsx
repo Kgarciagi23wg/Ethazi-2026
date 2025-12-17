@@ -25,25 +25,44 @@ export default function Header() {
 
         <Navbar.Collapse id="main-navbar" className="justify-content-between">
 
-          {/* Logos ligas */}
-          <Nav className="mx-auto d-none d-md-flex gap-3">
-            {["/liga1.png", "/liga2.svg", "/liga3.png", "/liga4.png", "/liga5.png"].map((logo, i) => (
-              <button
-                key={i}
-                className="btn btn-outline-light bg-opacity-25 rounded-3 p-2"
-                style={{ width: "56px", height: "56px" }}
-              >
-                <img src={logo} height="40" alt="liga" />
-              </button>
-            ))}
-          </Nav>
+        {/* Logo ligak */}
+        <div className="w-100 d-flex justify-content-center my-2">
+          {["/liga1.png", "/liga2.svg", "/liga3.png", "/liga4.png", "/liga5.png"].map((logo, i) => (
+            <button
+              key={i}
+              className="btn btn-light btn-outline-secondary rounded-3 p-2 mx-1"
+              style={{ width: "56px", height: "56px", transition: "all 0.2s ease" }}
+              onMouseEnter={e => { e.currentTarget.style.transform = "scale(1.1)"; e.currentTarget.style.backgroundColor = "#f0f0f0"; }}
+              onMouseLeave={e => { e.currentTarget.style.transform = "scale(1)"; e.currentTarget.style.backgroundColor = "white"; }}
+            >
+              <img src={logo} height="40" alt="liga" />
+            </button>
+          ))}
+        </div>
+
 
           {/* Login */}
-          <Nav>
-            <a href="#" className="btn btn-info text-white px-4">
-              Saioa Hasi
-            </a>
-          </Nav>
+            <Nav>
+              <a
+                href="#"
+                className="btn px-4"
+                style={{
+                  backgroundColor: "white",     
+                  color: "#0d3b66",             
+                  border: "1px solid #0d3b66",  
+                  transition: "transform 0.2s ease", 
+                }}
+                onMouseEnter={e => {
+                  e.currentTarget.style.transform = "scale(1.05)"; 
+                }}
+                onMouseLeave={e => {
+                  e.currentTarget.style.transform = "scale(1)";
+                }}
+              >
+                Saioa Hasi
+              </a>
+            </Nav>
+
 
         </Navbar.Collapse>
       </Container>

@@ -6,7 +6,7 @@ import "./Home.css";
 export default function Home() {
   return (
     <div className="home-container">
-      {/* Video de fondo importado */}
+      {/* Bideoa */}
       <video autoPlay loop muted playsInline className="background-video">
         <source src={VideoBackground} type="video/mp4" />
         Tu navegador no soporta videos HTML5.
@@ -15,7 +15,7 @@ export default function Home() {
       {/* Overlay */}
       <div className="video-overlay"></div>
 
-      {/* Contenido */}
+      {/* Informazioa */}
       <Container className="text-center py-5 content-overlay">
         <h2 className="mb-4">Ongi etorri gure zerbitzura</h2>
         <p className="mb-4">
