@@ -22,7 +22,7 @@ export default function Footer() {
                   key={i}
                   href={social.link}
                   target="_blank"
-                  
+                  rel="noopener noreferrer"
                   className="d-flex align-items-center justify-content-center rounded-circle bg-light text-dark"
                   style={{ width: "40px", height: "40px", transition: "all 0.2s" }}
                   onMouseEnter={e => { e.currentTarget.style.transform = "scale(1.2)"; e.currentTarget.style.backgroundColor = "#ddd"; }}
