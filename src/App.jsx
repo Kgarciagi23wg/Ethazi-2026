@@ -6,6 +6,7 @@ import Kontaktua from "./pages/Kontaktua";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
     <BrowserRouter>
