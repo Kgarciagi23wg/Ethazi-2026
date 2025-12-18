@@ -496,15 +496,18 @@ const SaioaHasieraErregistroa = () => {
       <style jsx>{`
         .saioa-hasiera-kontainerra {
           min-height: 100vh;
-          background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+          background: #000000;
+          background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
           padding-top: 2rem;
           padding-bottom: 2rem;
+          color: #ffffff;
         }
         
         .formularioa-sekzioa {
-          background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+          background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
           border-radius: 1.5rem !important;
+          color: #ffffff;
         }
         
         /* Animazioak */
@@ -538,16 +541,20 @@ const SaioaHasieraErregistroa = () => {
         
         .form-control, .form-control-lg {
           border-radius: 0.75rem;
-          border: 1px solid #dee2e6;
+          border: 1px solid #444444;
           transition: all 0.3s ease;
           padding: 0.75rem 1rem;
           font-size: 1rem;
+          background-color: #333333;
+          color: #ffffff;
         }
         
         .form-control:focus {
           border-color: #0d6efd;
           box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
           transform: translateY(-2px);
+          background-color: #333333;
+          color: #ffffff;
         }
         
         .form-control.is-invalid {
@@ -574,20 +581,40 @@ const SaioaHasieraErregistroa = () => {
           border-radius: 0.75rem;
           border: none;
           border-left: 4px solid #198754;
+          background-color: #155724;
+          color: #d4edda;
         }
         
         .alert-danger {
           border-radius: 0.75rem;
           border: none;
           border-left: 4px solid #dc3545;
+          background-color: #721c24;
+          color: #f8d7da;
         }
         
         .shadow-lg {
-          box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1) !important;
+          box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3) !important;
         }
         
         .rounded-4 {
           border-radius: 1.5rem !important;
+        }
+        
+        .text-muted {
+          color: #b0b0b0 !important;
+        }
+        
+        .form-label {
+          color: #ffffff;
+        }
+        
+        .form-text {
+          color: #cccccc !important;
+        }
+        
+        .border-top {
+          border-color: #444444 !important;
         }
         
         /* Responsive doikuntzak */
