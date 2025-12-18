@@ -12,8 +12,8 @@ export default function Header() {
           <Link to="/"><img
             src="/logo.png"
             alt="Logo"
-            width="50"
-            height="50"
+            width="90"
+            height="90"
             className="rounded"
             
           /></Link>
@@ -33,11 +33,11 @@ export default function Header() {
             <button
               key={i}
               className="btn btn-light btn-outline-secondary rounded-3 p-2 mx-1"
-              style={{ width: "56px", height: "56px", transition: "all 0.2s ease" }}
+              style={{ width: "80px", height: "80px", transition: "all 0.2s ease" }}
               onMouseEnter={e => { e.currentTarget.style.transform = "scale(1.1)"; e.currentTarget.style.backgroundColor = "#f0f0f0"; }}
               onMouseLeave={e => { e.currentTarget.style.transform = "scale(1)"; e.currentTarget.style.backgroundColor = "white"; }}
             >
-              <img src={logo} height="40" alt="liga" />
+              <img src={logo} height="60" alt="liga" />
             </button>
           ))}
         </div>

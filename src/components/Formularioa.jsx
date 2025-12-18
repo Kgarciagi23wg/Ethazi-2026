@@ -91,7 +91,7 @@ const Formularioa = () => {
   };
 
   return (
-    <div className="container-fluid py-5 harremanetarako-container">
+    <div className="container-fluid py-5 harremanetarako-container ">
       <div className="row justify-content-center">
         <div className="col-12 col-lg-10 col-xl-8">
          
