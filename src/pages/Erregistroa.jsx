@@ -1,14 +1,13 @@
 import React from "react";
-
 import "../components/Home.css";
-import Formularioa from "../components/Formularioa.jsx";
+import SaioaHasi from "../components/SaioaHasi";
 
 
-export default function Kontaktua() {
+export default function Erregistroa() {
   return (
     <div className="container-fluid p-0">
 
-      <Formularioa />
+      <SaioaHasi />
       {/* Contenido principal */}
       
     </div>
