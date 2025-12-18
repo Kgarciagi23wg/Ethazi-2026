@@ -5,6 +5,7 @@ import Main from "./pages/Main";
 import Kontaktua from "./pages/Kontaktua";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer";
+import Erregistroa from "./pages/Erregistroa";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         
         <Route path="/" element={<Main />} />
         <Route path="/kontaktua" element={<Kontaktua />} />
+        <Route path="/erregistroa" element={<Erregistroa />} />
       </Routes>
       
       <Footer />
