@@ -33,30 +33,60 @@ export default function Header() {
         <Navbar.Collapse id="main-navbar" className="justify-content-between">
           {/* Logos ligas */}
           <div className="w-100 d-flex justify-content-center my-2 flex-wrap">
-            {["/liga1.png", "/liga2.svg", "/liga3.png", "/liga4.png", "/liga5.png"].map(
-              (logo, i) => (
-                <button
-                  key={i}
-                  className="btn btn-light btn-outline-secondary rounded-3 p-2 mx-1 my-1"
-                  style={{
-                    width: "80px",
-                    height: "80px",
-                    transition: "all 0.2s ease",
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.transform = "scale(1.1)";
-                    e.currentTarget.style.backgroundColor = "#f0f0f0";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.transform = "scale(1)";
-                    e.currentTarget.style.backgroundColor = "white";
-                  }}
-                >
-                  <img src={logo} height="60" alt="liga" />
-                </button>
-              )
-            )}
-          </div>
+  {["/liga1.png", "/liga2.svg", "/liga3.png", "/liga4.png", "/liga5.png"].map(
+    (logo, i) => {
+      // Si es el primer logo, usamos Link hacia /laliga
+      if (i === 0) {
+        return (
+          <Link
+            key={i}
+            to="/laliga"
+            className="btn btn-light btn-outline-secondary rounded-3 p-2 mx-1 my-1 d-flex align-items-center justify-content-center"
+            style={{
+              width: "80px",
+              height: "80px",
+              transition: "all 0.2s ease",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = "scale(1.1)";
+              e.currentTarget.style.backgroundColor = "#f0f0f0";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = "scale(1)";
+              e.currentTarget.style.backgroundColor = "white";
+            }}
+          >
+            <img src={logo} height="60" alt="liga" />
+          </Link>
+        );
+      }
+
+      // Los demás logos siguen siendo botones
+      return (
+        <button
+          key={i}
+          className="btn btn-light btn-outline-secondary rounded-3 p-2 mx-1 my-1"
+          style={{
+            width: "80px",
+            height: "80px",
+            transition: "all 0.2s ease",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.transform = "scale(1.1)";
+            e.currentTarget.style.backgroundColor = "#f0f0f0";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = "scale(1)";
+            e.currentTarget.style.backgroundColor = "white";
+          }}
+        >
+          <img src={logo} height="60" alt="liga" />
+        </button>
+      );
+    }
+  )}
+</div>
+
 
           {/* Login */}
           <Nav className="ms-lg-auto">

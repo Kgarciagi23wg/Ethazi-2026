@@ -20,7 +20,7 @@ const taldeak = [
     { taldea: "Valencia C.F.", PJ: 16, V: 3, E: 6, D: 7, GF: 15, GC: 25, escudo: "/T.Laliga/valencia.png" },
     { taldea: "Girona", PJ: 16, V: 3, E: 6, D: 7, GF: 15, GC: 30, escudo: "/T.Laliga/girona.png" },
     { taldea: "Real Oviedo", PJ: 16, V: 2, E: 4, D: 10, GF: 7, GC: 26, escudo: "/T.Laliga/oviedo.png" },
-    { taldea: "Levanted", PJ: 15, V: 2, E: 3, D: 10, GF: 16, GC: 28, escudo: "/T.Laliga/levanted.png" },
+    { taldea: "Levante", PJ: 15, V: 2, E: 3, D: 10, GF: 16, GC: 28, escudo: "/T.Laliga/levanted.png" },
 
 ];
 
@@ -36,13 +36,14 @@ const taldeakConDatos = taldeak.map((t) => ({
 
 const Klasifikazioa = () => {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 ">
+
       <div className="table-responsive">
-        <table className="table table-dark table-hover text-center align-middle">
+        <table className="table table-dark table-hover text-center align-middle rounded-3 overflow-hidden">
           <thead className="table-secondary text-dark">
             <tr>
-              <th scope="col">#</th>
-              <th scope="col">Taldea</th>
+              <th scope="col" className="rounded-start">#</th>
+              <th scope="col">{/* Taldea */}Taldea</th>
               <th scope="col">PJ</th>
               <th scope="col">V</th>
               <th scope="col">E</th>
@@ -50,7 +51,7 @@ const Klasifikazioa = () => {
               <th scope="col">GF</th>
               <th scope="col">GC</th>
               <th scope="col">DG</th>
-              <th scope="col">Pts</th>
+              <th scope="col" className="rounded-end">Pts</th>
             </tr>
           </thead>
           <tbody>
@@ -58,7 +59,7 @@ const Klasifikazioa = () => {
               <tr key={t.taldea}>
                 <th scope="row">{index + 1}</th>
                 <td className="d-flex align-items-center gap-2">
-                  <img src={t.escudo} alt={t.taldea} width="35" height="35" />
+                  <img src={t.escudo} alt={t.taldea} width="35" height="35" className="rounded-circle" />
                   {t.taldea}
                 </td>
                 <td>{t.PJ}</td>
@@ -77,5 +78,6 @@ const Klasifikazioa = () => {
     </div>
   );
 };
+
 
 export default Klasifikazioa;
