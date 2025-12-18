@@ -5,6 +5,7 @@ import Main from "./pages/Main";
 import Kontaktua from "./pages/Kontaktua";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer";
+import Laliga from "./pages/Laliga";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         
         <Route path="/" element={<Main />} />
         <Route path="/kontaktua" element={<Kontaktua />} />
+        <Route path="/laliga" element={<Laliga />} />
       </Routes>
       
       <Footer />
