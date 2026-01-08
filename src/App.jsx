@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Laliga from "./pages/Laliga";
 import Premier from "./pages/Premier";
 import Bundesliga from "./pages/Bundesliga.jsx";
+import SerieA from "./pages/SerieA.jsx";
 import Erregistroa from "./pages/Erregistroa";
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/laliga" element={<Laliga />} />
         <Route path="/premier" element={<Premier />} />
         <Route path="/bundesliga" element={<Bundesliga />} />
+        <Route path="/serieA" element={<SerieA />} />
         <Route path="/erregistroa" element={<Erregistroa />} />
       </Routes>
       

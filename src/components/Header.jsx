@@ -8,7 +8,7 @@ export default function Header() {
     { img: "/liga1.png", to: "/laliga" },
     { img: "/liga2.svg", to: "/ligue1"},
     { img: "/liga3.png", to: "/premier" },
-    { img: "/liga4.png", to: "/seriaA" },
+    { img: "/liga4.png", to: "/serieA" },
     { img: "/liga5.png", to: "/bundesliga" },
   ];
 
