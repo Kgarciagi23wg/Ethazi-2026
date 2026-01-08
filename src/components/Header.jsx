@@ -3,14 +3,23 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export default function Header() {
+  // Array de logos y rutas
+  const ligas = [
+    { img: "/liga1.png", to: "/laliga" },
+    { img: "/liga2.svg", to: "/ligue1"},
+    { img: "/liga3.png", to: "/premier" },
+    { img: "/liga4.png", to: "/seriaA" },
+    { img: "/liga5.png", to: "/bundesliga" },
+  ];
+
   return (
     <Navbar
       expand="lg"
-      variant="dark" // 👈 IMPORTANTE: icono hamburguesa blanco
+      variant="dark"
       className="py-3 border-bottom border-secondary bg-dark"
     >
       <Container>
-        {/* Logo */}
+        {/* Logo principal */}
         <Navbar.Brand className="d-flex align-items-center gap-2">
           <Link to="/">
             <img
@@ -33,60 +42,56 @@ export default function Header() {
         <Navbar.Collapse id="main-navbar" className="justify-content-between">
           {/* Logos ligas */}
           <div className="w-100 d-flex justify-content-center my-2 flex-wrap">
-  {["/liga1.png", "/liga2.svg", "/liga3.png", "/liga4.png", "/liga5.png"].map(
-    (logo, i) => {
-      // Si es el primer logo, usamos Link hacia /laliga
-      if (i === 0) {
-        return (
-          <Link
-            key={i}
-            to="/laliga"
-            className="btn btn-light btn-outline-secondary rounded-3 p-2 mx-1 my-1 d-flex align-items-center justify-content-center"
-            style={{
-              width: "80px",
-              height: "80px",
-              transition: "all 0.2s ease",
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.transform = "scale(1.1)";
-              e.currentTarget.style.backgroundColor = "#f0f0f0";
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.transform = "scale(1)";
-              e.currentTarget.style.backgroundColor = "white";
-            }}
-          >
-            <img src={logo} height="60" alt="liga" />
-          </Link>
-        );
-      }
+            {ligas.map((liga, i) => {
+              const LogoContent = (
+                <img src={liga.img} height="60" alt="liga" />
+              );
 
-      // Los demás logos siguen siendo botones
-      return (
-        <button
-          key={i}
-          className="btn btn-light btn-outline-secondary rounded-3 p-2 mx-1 my-1"
-          style={{
-            width: "80px",
-            height: "80px",
-            transition: "all 0.2s ease",
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.transform = "scale(1.1)";
-            e.currentTarget.style.backgroundColor = "#f0f0f0";
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.transform = "scale(1)";
-            e.currentTarget.style.backgroundColor = "white";
-          }}
-        >
-          <img src={logo} height="60" alt="liga" />
-        </button>
-      );
-    }
-  )}
-</div>
+              const estiloBtn = {
+                width: "80px",
+                height: "80px",
+                transition: "all 0.2s ease",
+              };
 
+              const eventosHover = {
+                onMouseEnter: (e) => {
+                  e.currentTarget.style.transform = "scale(1.1)";
+                  e.currentTarget.style.backgroundColor = "#f0f0f0";
+                },
+                onMouseLeave: (e) => {
+                  e.currentTarget.style.transform = "scale(1)";
+                  e.currentTarget.style.backgroundColor = "white";
+                },
+              };
+
+              // Si tiene enlace, usamos Link
+              if (liga.to) {
+                return (
+                  <Link
+                    key={i}
+                    to={liga.to}
+                    className="btn btn-light btn-outline-secondary rounded-3 p-2 mx-1 my-1 d-flex align-items-center justify-content-center"
+                    style={estiloBtn}
+                    {...eventosHover}
+                  >
+                    {LogoContent}
+                  </Link>
+                );
+              }
+
+              // Si no tiene enlace, dejamos como botón
+              return (
+                <button
+                  key={i}
+                  className="btn btn-light btn-outline-secondary rounded-3 p-2 mx-1 my-1"
+                  style={estiloBtn}
+                  {...eventosHover}
+                >
+                  {LogoContent}
+                </button>
+              );
+            })}
+          </div>
 
           {/* Login */}
           <Nav className="ms-lg-auto">
