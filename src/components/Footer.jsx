@@ -39,28 +39,35 @@ export default function Footer() {
           <div className="col-12 col-md-3">
             <h5 className="fw-bold mb-3">Europear Ligak</h5>
             <ul className="list-unstyled">
-              {["La Liga", "Premier League", "Serie A", "Bundesliga", "Ligue 1"].map((liga, i) => (
+              {[
+                { name: "La Liga", link: "/laliga" },
+                { name: "Premier League", link: "/premier" },
+                { name: "Serie A", link: "/serieA" },
+                { name: "Bundesliga", link: "/bundesliga" },
+                { name: "Ligue 1", link: "/ligue1" },
+                { name: "Predikzioa", link: "/predikzioa" },
+              ].map((liga, i) => (
                 <li key={i} className="my-1">
                   <a
-                    href="#"
+                    href={liga.link}
                     className="text-decoration-none"
                     style={{ color: "white", transition: "all 0.2s" }}
-                    onMouseEnter={e => {
+                    onMouseEnter={(e) => {
                       e.currentTarget.style.transform = "scale(1.05)";
-                      e.currentTarget.style.color = "#0dcaf0"; 
+                      e.currentTarget.style.color = "#0dcaf0";
                     }}
-                    onMouseLeave={e => {
+                    onMouseLeave={(e) => {
                       e.currentTarget.style.transform = "scale(1)";
-                      e.currentTarget.style.color = "white";   
+                      e.currentTarget.style.color = "white";
                     }}
                   >
-                    {liga}
+                    {liga.name}
                   </a>
-
                 </li>
               ))}
             </ul>
           </div>
+
 
           {/* Kontaktua*/}
           <div className="col-12 col-md-3">

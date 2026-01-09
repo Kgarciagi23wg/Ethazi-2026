@@ -9,6 +9,7 @@ import Premier from "./pages/Premier";
 import Bundesliga from "./pages/Bundesliga.jsx";
 import SerieA from "./pages/SerieA.jsx";
 import Ligue1 from "./pages/Ligue1.jsx";
+import Predikzioa from "./pages/Predikzioa.jsx";
 import Erregistroa from "./pages/Erregistroa";
 
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/serieA" element={<SerieA />} />
         <Route path="/ligue1" element={<Ligue1 />} />
         <Route path="/erregistroa" element={<Erregistroa />} />
+        <Route path="/predikzioa" element={<Predikzioa />} />
       </Routes>
       
       <Footer />
