@@ -51,12 +51,12 @@ const formaciones = {
     { top: "25%", left: "40%" },
     { top: "25%", left: "60%" },
     { top: "25%", left: "80%" },
-    { top: "50%", left: "35%" },
-    { top: "50%", left: "65%" },
-    { top: "70%", left: "25%" },
-    { top: "70%", left: "50%" },
-    { top: "70%", left: "75%" },
-    { top: "85%", left: "50%" }
+    { top: "45%", left: "35%" },
+    { top: "45%", left: "65%" },
+    { top: "65%", left: "25%" },
+    { top: "65%", left: "50%" },
+    { top: "65%", left: "75%" },
+    { top: "80%", left: "50%" }
   ],
   "4-4-2": [
     { top: "10%", left: "50%" },
