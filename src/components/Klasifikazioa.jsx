@@ -33,24 +33,29 @@ const Klasifikazioa = ({ equipos }) => {
             </tr>
           </thead>
           <tbody>
-            {equiposConDatos.map((t, index) => (
-              <tr key={t.taldea}>
-                <th scope="row">{index + 1}</th>
-                <td className="d-flex align-items-center gap-2">
-                  <img src={t.escudo} alt={t.taldea} width="35" height="35" className="rounded-circle" />
-                  {t.taldea}
-                </td>
-                <td>{t.PJ}</td>
-                <td className="text-success">{t.V}</td>
-                <td className="text-danger">{t.E}</td>
-                <td className="fw-bold">{t.D}</td>
-                <td>{t.GF}</td>
-                <td>{t.GC}</td>
-                <td>{t.DG}</td>
-                <td className="fw-bold">{t.Pts}</td>
-              </tr>
-            ))}
-          </tbody>
+  {equiposConDatos.map((t, index) => (
+    <tr key={t.taldea}>
+      <th scope="row">{index + 1}</th>
+
+      <td>
+        <div className="d-flex align-items-center gap-2">
+          <img src={t.escudo} alt={t.taldea} width="35" height="35" />
+          <span>{t.taldea}</span>
+        </div>
+      </td>
+
+      <td>{t.PJ}</td>
+      <td className="text-success">{t.V}</td>
+      <td className="text-danger">{t.E}</td>
+      <td className="fw-bold">{t.D}</td>
+      <td>{t.GF}</td>
+      <td>{t.GC}</td>
+      <td>{t.DG}</td>
+      <td className="fw-bold">{t.Pts}</td>
+    </tr>
+  ))}
+</tbody>
+
         </table>
       </div>
     </div>
