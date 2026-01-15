@@ -8,20 +8,12 @@ export default function Header() {
   const { idioma, setIdioma } = useContext(LanguageContext);
   const { user, logout } = useAuth();
 
-  // Textos dinámicos del Header
   const textos = {
-    eu: {
-      login: "Saioa Hasi",
-    },
-    es: {
-      login: "Iniciar sesión",
-    },
-    en: {
-      login: "Login",
-    },
+    eu: { login: "Saioa Hasi" },
+    es: { login: "Iniciar sesión" },
+    en: { login: "Login" },
   };
 
-  // Array de logos y rutas
   const ligas = [
     { img: "/liga1.png", to: "/laliga" },
     { img: "/liga2.svg", to: "/ligue1" },
@@ -48,13 +40,11 @@ export default function Header() {
               className="rounded"
             />
           </Link>
-
           <span className="h3 m-0 text-white">
             365 <span className="text-info">SCORE</span>
           </span>
         </Navbar.Brand>
 
-        {/* Botón menú hamburguesa */}
         <Navbar.Toggle aria-controls="main-navbar" />
 
         <Navbar.Collapse id="main-navbar" className="justify-content-between">
@@ -106,43 +96,56 @@ export default function Header() {
               );
             })}
           </div>
-            <Nav className="ms-lg-auto align-items-center gap-3"> {user ? ( <> <Nav.Link as={Link} to="/perfil" className="text-white fw-bold" > 👤 {user.izena || user.email} </Nav.Link> <Nav.Link onClick={logout} className="text-danger fw-semibold" style={{ cursor: "pointer" }} > Irten </Nav.Link> </> ) : ( <Link to="/erregistroa" className="btn px-4" style={{ backgroundColor: "white", color: "#0d3b66", border: "1px solid #0d3b66", textDecoration: "none", }} > Saioa hasi </Link> )} </Nav>
-          {/* Login y selector de idioma */}
+
+          {/* Zona derecha: login/usuario, Berriak, idioma */}
           <Nav className="ms-lg-auto d-flex align-items-center gap-3">
-            {/* Botón Login */}
-            <Link
-              to="/erregistroa"
-              className="btn px-4"
-              style={{
-                backgroundColor: "white",
-                color: "#0d3b66",
-                border: "1px solid #0d3b66",
-                transition: "transform 0.2s ease",
-                textDecoration: "none",
-                display: "inline-block",
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = "scale(1.05)";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = "scale(1)";
-              }}
-            >
-              {textos[idioma].login}
-            </Link>
+            {user ? (
+              <>
+                <Nav.Link
+                  as={Link}
+                  to="/perfil"
+                  className="text-white fw-bold"
+                >
+                  👤 {user.izena || user.email}
+                </Nav.Link>
+                <Nav.Link
+                  onClick={logout}
+                  className="text-danger fw-semibold"
+                  style={{ cursor: "pointer" }}
+                >
+                  Irten
+                </Nav.Link>
+              </>
+            ) : (
+              <Link
+                to="/erregistroa"
+                className="btn px-4"
+                style={{
+                  backgroundColor: "white",
+                  color: "#0d3b66",
+                  border: "1px solid #0d3b66",
+                  textDecoration: "none",
+                  transition: "transform 0.2s ease",
+                  display: "inline-block",
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = "scale(1.05)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = "scale(1)";
+                }}
+              >
+                {textos[idioma].login}
+              </Link>
+            )}
+
+            {/* Berriak */}
             <Link
               to="/berriak"
               className="btn btn-outline-info mx-2"
-              style={{
-                transition: "transform 0.2s ease",
-                display: "inline-block",
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = "scale(1.05)";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = "scale(1)";
-              }}
+              style={{ transition: "transform 0.2s ease", display: "inline-block" }}
+              onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
+              onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
             >
               Berriak
             </Link>
@@ -159,7 +162,6 @@ export default function Header() {
               <option value="en">EN</option>
             </select>
           </Nav>
-          
         </Navbar.Collapse>
       </Container>
     </Navbar>

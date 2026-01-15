@@ -17,6 +17,7 @@ import Predikzioa from "./pages/Predikzioa.jsx";
 import Erregistroa from "./pages/Erregistroa.jsx";
 import Berriak from "./pages/Berriak.jsx";
 import PartiduakLaLiga from "./pages/PartiduakLaLiga.jsx";
+import Perfil from "./pages/Perfil.jsx";
 
 // Components
 import Header from "./components/Header.jsx";
@@ -42,6 +43,8 @@ function AppContent() {
         <Route path="/predikzioa" element={<Predikzioa />} />
         <Route path="/berriak" element={<Berriak />} />
         <Route path="/partiduakLaliga" element={<PartiduakLaLiga />} />
+        <Route path="/perfil" element={<Perfil />} />
+
       </Routes>
       <Footer />
     </>
