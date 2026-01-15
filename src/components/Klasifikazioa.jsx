@@ -1,9 +1,49 @@
-import React from "react";
+import React, { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 
 // Función para calcular puntos
 const calcularPuntos = (equipo) => (equipo.V ?? 0) * 3 + (equipo.E ?? 0);
 
 const Klasifikazioa = ({ equipos }) => {
+  const { idioma } = useContext(LanguageContext);
+
+  // Textos de encabezados
+  const textos = {
+    eu: {
+      equipo: "Taldea",
+      PJ: "PJ",
+      V: "V",
+      E: "E",
+      D: "D",
+      GF: "GF",
+      GC: "GC",
+      DG: "DG",
+      Pts: "Pts",
+    },
+    es: {
+      equipo: "Equipo",
+      PJ: "PJ",
+      V: "G",
+      E: "E",
+      D: "P",
+      GF: "GF",
+      GC: "GC",
+      DG: "DG",
+      Pts: "Pts",
+    },
+    en: {
+      equipo: "Team",
+      PJ: "GP",
+      V: "W",
+      E: "D",
+      D: "L",
+      GF: "GF",
+      GC: "GA",
+      DG: "GD",
+      Pts: "Pts",
+    },
+  };
+
   // Agregar DG y Pts dinámicamente
   const equiposConDatos = equipos.map((t) => ({
     ...t,
@@ -21,41 +61,38 @@ const Klasifikazioa = ({ equipos }) => {
           <thead className="table-secondary text-dark">
             <tr>
               <th scope="col" className="rounded-start">#</th>
-              <th scope="col">Taldea</th>
-              <th scope="col">PJ</th>
-              <th scope="col">V</th>
-              <th scope="col">E</th>
-              <th scope="col">D</th>
-              <th scope="col">GF</th>
-              <th scope="col">GC</th>
-              <th scope="col">DG</th>
-              <th scope="col" className="rounded-end">Pts</th>
+              <th scope="col">{textos[idioma].equipo}</th>
+              <th scope="col">{textos[idioma].PJ}</th>
+              <th scope="col">{textos[idioma].V}</th>
+              <th scope="col">{textos[idioma].E}</th>
+              <th scope="col">{textos[idioma].D}</th>
+              <th scope="col">{textos[idioma].GF}</th>
+              <th scope="col">{textos[idioma].GC}</th>
+              <th scope="col">{textos[idioma].DG}</th>
+              <th scope="col" className="rounded-end">{textos[idioma].Pts}</th>
             </tr>
           </thead>
           <tbody>
-  {equiposConDatos.map((t, index) => (
-    <tr key={t.taldea}>
-      <th scope="row">{index + 1}</th>
-
-      <td>
-        <div className="d-flex align-items-center gap-2">
-          <img src={t.escudo} alt={t.taldea} width="35" height="35" />
-          <span>{t.taldea}</span>
-        </div>
-      </td>
-
-      <td>{t.PJ}</td>
-      <td className="text-success">{t.V}</td>
-      <td className="text-danger">{t.E}</td>
-      <td className="fw-bold">{t.D}</td>
-      <td>{t.GF}</td>
-      <td>{t.GC}</td>
-      <td>{t.DG}</td>
-      <td className="fw-bold">{t.Pts}</td>
-    </tr>
-  ))}
-</tbody>
-
+            {equiposConDatos.map((t, index) => (
+              <tr key={t.taldea}>
+                <th scope="row">{index + 1}</th>
+                <td>
+                  <div className="d-flex align-items-center gap-2">
+                    <img src={t.escudo} alt={t.taldea} width="35" height="35" />
+                    <span>{t.taldea}</span>
+                  </div>
+                </td>
+                <td>{t.PJ}</td>
+                <td className="text-success">{t.V}</td>
+                <td className="text-danger">{t.E}</td>
+                <td className="fw-bold">{t.D}</td>
+                <td>{t.GF}</td>
+                <td>{t.GC}</td>
+                <td>{t.DG}</td>
+                <td className="fw-bold">{t.Pts}</td>
+              </tr>
+            ))}
+          </tbody>
         </table>
       </div>
     </div>

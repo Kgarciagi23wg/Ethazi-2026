@@ -11,10 +11,12 @@ import SerieA from "./pages/SerieA.jsx";
 import Ligue1 from "./pages/Ligue1.jsx";
 import Predikzioa from "./pages/Predikzioa.jsx";
 import Erregistroa from "./pages/Erregistroa";
-
+import Berriak from "./pages/Berriak";
+import { LanguageProvider } from "./context/LanguageContext";
 
 function App() {
   return (
+    <LanguageProvider>
     <BrowserRouter>
     <Header/>
       <Routes>
@@ -28,10 +30,11 @@ function App() {
         <Route path="/ligue1" element={<Ligue1 />} />
         <Route path="/erregistroa" element={<Erregistroa />} />
         <Route path="/predikzioa" element={<Predikzioa />} />
+        <Route path="/berriak" element={<Berriak />} />
       </Routes>
-      
       <Footer />
     </BrowserRouter>
+    </LanguageProvider>
   );
 }
 

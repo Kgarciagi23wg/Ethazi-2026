@@ -1,12 +1,28 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { LanguageContext } from "../context/LanguageContext";
 
 export default function Header() {
+  const { idioma, setIdioma } = useContext(LanguageContext);
+
+  // Textos dinámicos del Header
+  const textos = {
+    eu: {
+      login: "Saioa Hasi",
+    },
+    es: {
+      login: "Iniciar sesión",
+    },
+    en: {
+      login: "Login",
+    },
+  };
+
   // Array de logos y rutas
   const ligas = [
     { img: "/liga1.png", to: "/laliga" },
-    { img: "/liga2.svg", to: "/ligue1"},
+    { img: "/liga2.svg", to: "/ligue1" },
     { img: "/liga3.png", to: "/premier" },
     { img: "/liga4.png", to: "/serieA" },
     { img: "/liga5.png", to: "/bundesliga" },
@@ -43,9 +59,7 @@ export default function Header() {
           {/* Logos ligas */}
           <div className="w-100 d-flex justify-content-center my-2 flex-wrap">
             {ligas.map((liga, i) => {
-              const LogoContent = (
-                <img src={liga.img} height="60" alt="liga" />
-              );
+              const LogoContent = <img src={liga.img} height="60" alt="liga" />;
 
               const estiloBtn = {
                 width: "80px",
@@ -64,7 +78,6 @@ export default function Header() {
                 },
               };
 
-              // Si tiene enlace, usamos Link
               if (liga.to) {
                 return (
                   <Link
@@ -79,7 +92,6 @@ export default function Header() {
                 );
               }
 
-              // Si no tiene enlace, dejamos como botón
               return (
                 <button
                   key={i}
@@ -93,8 +105,9 @@ export default function Header() {
             })}
           </div>
 
-          {/* Login */}
-          <Nav className="ms-lg-auto">
+          {/* Login y selector de idioma */}
+          <Nav className="ms-lg-auto d-flex align-items-center gap-3">
+            {/* Botón Login */}
             <Link
               to="/erregistroa"
               className="btn px-4"
@@ -113,8 +126,36 @@ export default function Header() {
                 e.currentTarget.style.transform = "scale(1)";
               }}
             >
-              Saioa Hasi
+              {textos[idioma].login}
             </Link>
+            <Link
+              to="/berriak"
+              className="btn btn-outline-info mx-2"
+              style={{
+                transition: "transform 0.2s ease",
+                display: "inline-block",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "scale(1.05)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "scale(1)";
+              }}
+            >
+              Berriak
+            </Link>
+
+            {/* Selector de idioma */}
+            <select
+              value={idioma}
+              onChange={(e) => setIdioma(e.target.value)}
+              className="form-select form-select-sm"
+              style={{ width: "110px", cursor: "pointer" }}
+            >
+              <option value="es">ES</option>
+              <option value="eu">EU</option>
+              <option value="en">EN</option>
+            </select>
           </Nav>
         </Navbar.Collapse>
       </Container>
