@@ -2,9 +2,11 @@ import React, { useContext } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { LanguageContext } from "../context/LanguageContext";
+import { useAuth } from "../context/AuthContext";
 
 export default function Header() {
   const { idioma, setIdioma } = useContext(LanguageContext);
+  const { user, logout } = useAuth();
 
   // Textos dinámicos del Header
   const textos = {
@@ -104,7 +106,7 @@ export default function Header() {
               );
             })}
           </div>
-
+            <Nav className="ms-lg-auto align-items-center gap-3"> {user ? ( <> <Nav.Link as={Link} to="/perfil" className="text-white fw-bold" > 👤 {user.izena || user.email} </Nav.Link> <Nav.Link onClick={logout} className="text-danger fw-semibold" style={{ cursor: "pointer" }} > Irten </Nav.Link> </> ) : ( <Link to="/erregistroa" className="btn px-4" style={{ backgroundColor: "white", color: "#0d3b66", border: "1px solid #0d3b66", textDecoration: "none", }} > Saioa hasi </Link> )} </Nav>
           {/* Login y selector de idioma */}
           <Nav className="ms-lg-auto d-flex align-items-center gap-3">
             {/* Botón Login */}
@@ -157,6 +159,7 @@ export default function Header() {
               <option value="en">EN</option>
             </select>
           </Nav>
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>

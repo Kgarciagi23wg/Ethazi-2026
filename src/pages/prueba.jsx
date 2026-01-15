@@ -1,67 +1,41 @@
-const formaciones = {
-  "4-3-3": [
-    { top: "10%", left: "50%" },
-    { top: "25%", left: "20%" },
-    { top: "25%", left: "40%" },
-    { top: "25%", left: "60%" },
-    { top: "25%", left: "80%" },
-    { top: "50%", left: "25%" },
-    { top: "50%", left: "50%" },
-    { top: "50%", left: "75%" },
-    { top: "75%", left: "25%" },
-    { top: "75%", left: "50%" },
-    { top: "75%", left: "75%" }
-  ],
-  "4-2-3-1": [
-    { top: "10%", left: "50%" },
-    { top: "25%", left: "20%" },
-    { top: "25%", left: "40%" },
-    { top: "25%", left: "60%" },
-    { top: "25%", left: "80%" },
-    { top: "45%", left: "35%" },
-    { top: "45%", left: "65%" },
-    { top: "65%", left: "25%" },
-    { top: "65%", left: "50%" },
-    { top: "65%", left: "75%" },
-    { top: "80%", left: "50%" }
-  ],
-  "4-4-2": [
-    { top: "10%", left: "50%" },
-    { top: "25%", left: "20%" },
-    { top: "25%", left: "40%" },
-    { top: "25%", left: "60%" },
-    { top: "25%", left: "80%" },
-    { top: "50%", left: "20%" },
-    { top: "50%", left: "40%" },
-    { top: "50%", left: "60%" },
-    { top: "50%", left: "80%" },
-    { top: "75%", left: "40%" },
-    { top: "75%", left: "60%" }
-  ],
-  "5-3-2": [
-    { top: "10%", left: "50%" },
-    { top: "25%", left: "10%" },
-    { top: "25%", left: "30%" },
-    { top: "25%", left: "50%" },
-    { top: "25%", left: "70%" },
-    { top: "25%", left: "90%" },
-    { top: "50%", left: "25%" },
-    { top: "50%", left: "50%" },
-    { top: "50%", left: "75%" },
-    { top: "75%", left: "40%" },
-    { top: "75%", left: "60%" }
-  ],
-  "5-4-1": [
-    { top: "10%", left: "50%" },
-    { top: "25%", left: "10%" },
-    { top: "25%", left: "30%" },
-    { top: "25%", left: "50%" },
-    { top: "25%", left: "70%" },
-    { top: "25%", left: "90%" },
-    { top: "50%", left: "20%" },
-    { top: "50%", left: "40%" },
-    { top: "50%", left: "60%" },
-    { top: "50%", left: "80%" },
-    { top: "75%", left: "50%" }
-  ]
-};
+ "./pages/Berriak";
+
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer";
+import NavbarSecondary from "./components/Navbar.jsx";
+
+import { useAuth } from "./context/AuthContext";
+import { LanguageProvider } from "./context/LanguageContext";
+
+function App() {
+  const { user } = useAuth();
+
+  return (
+    <LanguageProvider>
+      <BrowserRouter>
+        <Header />
+
+        {/* Mostrar navbar solo si hay sesión */}
+        {user && <NavbarSecondary />}
+
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/kontaktua" element={<Kontaktua />} />
+          <Route path="/laliga" element={<Laliga />} />
+          <Route path="/premier" element={<Premier />} />
+          <Route path="/bundesliga" element={<Bundesliga />} />
+          <Route path="/serieA" element={<SerieA />} />
+          <Route path="/ligue1" element={<Ligue1 />} />
+          <Route path="/erregistroa" element={<Erregistroa />} />
+          <Route path="/perfil" element={<Perfil />} />
+          <Route path="/predikzioa" element={<Predikzioa />} />
+          <Route path="/berriak" element={<Berriak />} />
+        </Routes>
+
+        <Footer />
+      </BrowserRouter>
+    </LanguageProvider>
+  );
+}
+
+export default App;

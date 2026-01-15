@@ -8,8 +8,6 @@ function App() {
   return (
     <div className="d-flex flex-column min-vh-100">
 
-      <NavbarSecondary />
-
       <main className="flex-grow-1">
         <Home />
       </main>
