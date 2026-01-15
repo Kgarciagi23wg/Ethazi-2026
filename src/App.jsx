@@ -12,6 +12,7 @@ import Ligue1 from "./pages/Ligue1.jsx";
 import Predikzioa from "./pages/Predikzioa.jsx";
 import Erregistroa from "./pages/Erregistroa";
 import Berriak from "./pages/Berriak";
+import PartiduakLaLiga from "./pages/PartiduakLaLiga.jsx";
 import { LanguageProvider } from "./context/LanguageContext";
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
         <Route path="/erregistroa" element={<Erregistroa />} />
         <Route path="/predikzioa" element={<Predikzioa />} />
         <Route path="/berriak" element={<Berriak />} />
+        <Route path="/partiduakLaliga" element={<PartiduakLaLiga />} />
+       
       </Routes>
       <Footer />
     </BrowserRouter>

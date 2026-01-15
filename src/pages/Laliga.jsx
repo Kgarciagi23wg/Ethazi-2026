@@ -30,12 +30,24 @@ function Laliga() {
     <div className="bg-black container-fluid p-0">
       <h1 className="container pt-5">
         <img src="/public/liga1.png" alt="La Liga" width="100" height="100" />
+         <button
+          className=" font-bold py-2 px-4 rounded ml-4"
+          onClick={() => (window.location.href = "/partiduakLaliga")}
+        >
+          Partiduak
+        </button>
       </h1>
+
+      {/* Botón que lleva a /partiduakLaliga */}
+      <div className="container pt-3 pb-3">
+       
+      </div>
 
       {/* Pasamos los equipos a Klasifikazioa */}
       <Klasifikazioa equipos={taldeak} />
     </div>
   );
 }
+
 
 export default Laliga;
