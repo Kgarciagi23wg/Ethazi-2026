@@ -11,10 +11,10 @@ export default function NavbarSecondary() {
           <Nav.Link as={Link} to="/" className="text-white">
             Hasiera
           </Nav.Link>
-          <Nav.Link as={Link} to="/laliga" className="text-white">
+          <Nav.Link as={Link} to="/predikzioa" className="text-white">
             Predikzioak
           </Nav.Link>
-          <Nav.Link as={Link} to="/kontaktua" className="text-white">
+          <Nav.Link as={Link} to="/berriak" className="text-white">
             Berriak
           </Nav.Link>
         </Nav>

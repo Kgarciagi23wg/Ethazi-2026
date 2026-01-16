@@ -15,6 +15,12 @@ const noticiasMock = [
     descripcion: { eu: "Taldeak jokalari berriak gehitu ditu...", es: "El equipo ha añadido nuevos jugadores...", en: "The team has added new players..." },
     fecha: "2026-01-13"
   },
+  {
+    id: 3,
+    titulo: { eu: "Xabi Alonso Madriletik Kampo", es: "Xabi Alonso Fuera del Madrid", en: "Xabi Alonso Leaves Madrid" },
+    descripcion: { eu: "Xabi Alonso Florentinokin itzegin du eta ...", es: "Xabi Alonso habla con Florentino y ...", en: "Xabi Alonso talks to Florentino and ..." },
+    fecha: "2026-01-16"
+  },
 ];
 
 export default function Berriak() {
