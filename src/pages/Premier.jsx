@@ -30,7 +30,7 @@ function Premier() {
   return (
     <div className="bg-black container-fluid p-0">
       <h1 className="container pt-5">
-        <img src="/public/liga3.png" alt="Premier League" width="100" height="100" />
+        <img src="/liga3.png" alt="Premier League" width="100" height="100" />
       </h1>
 
       {/* Pasamos los equipos a Klasifikazioa */}

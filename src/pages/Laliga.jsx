@@ -29,7 +29,7 @@ function Laliga() {
   return (
     <div className="bg-black container-fluid p-0">
       <h1 className="container pt-5">
-        <img src="/public/liga1.png" alt="La Liga" width="100" height="100" />
+        <img src="/liga1.png" alt="La Liga" width="100" height="100" />
          <button
           className=" font-bold py-2 px-4 rounded ml-4"
           onClick={() => (window.location.href = "/partiduakLaliga")}

@@ -28,7 +28,7 @@ function Bundesliga() {
   return (
     <div className="bg-black container-fluid p-0">
       <h1 className="container pt-5">
-        <img src="/public/liga5.png" alt="Bundesliga" width="100" height="100" />
+        <img src="/liga5.png" alt="Bundesliga" width="100" height="100" />
       </h1>
 
       {/* Pasamos los equipos a Klasifikazioa */}
