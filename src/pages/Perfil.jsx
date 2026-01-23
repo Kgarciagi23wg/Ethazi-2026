@@ -5,7 +5,7 @@ const ligas = [
   {
     id: "laliga",
     nombre: "LaLiga",
-    logo: "https://upload.wikimedia.org/wikipedia/en/7/7f/LaLiga_Santander.svg",
+    logo: "/liga1.png",
     equipos: [
       "Real Madrid",
       "FC Barcelona",
@@ -20,7 +20,7 @@ const ligas = [
   {
     id: "premier",
     nombre: "Premier League",
-    logo: "https://upload.wikimedia.org/wikipedia/en/f/f2/Premier_League_Logo.svg",
+    logo: "/liga3.png",
     equipos: [
       "Manchester City",
       "Manchester United",
@@ -33,7 +33,7 @@ const ligas = [
   {
     id: "serieA",
     nombre: "Serie A",
-    logo: "https://upload.wikimedia.org/wikipedia/en/e/e1/Serie_A_logo_%282019%29.svg",
+    logo: "/liga4.png",
     equipos: [
       "Juventus",
       "Inter",
@@ -46,7 +46,7 @@ const ligas = [
   {
     id: "bundesliga",
     nombre: "Bundesliga",
-    logo: "https://upload.wikimedia.org/wikipedia/en/d/df/Bundesliga_logo_%282017%29.svg",
+    logo: "/liga5.png",
     equipos: [
       "Bayern München",
       "Borussia Dortmund",
@@ -57,7 +57,7 @@ const ligas = [
   {
     id: "ligue1",
     nombre: "Ligue 1",
-    logo: "https://upload.wikimedia.org/wikipedia/en/b/ba/Ligue_1_Uber_Eats_logo.svg",
+    logo: "/liga2.svg",
     equipos: [
       "PSG",
       "Marseille",
@@ -70,7 +70,6 @@ const ligas = [
 
 export default function Perfil() {
   const [perfil, setPerfil] = useState({
-    jugadorFavorito: "",
     laliga: "",
     premier: "",
     serieA: "",
@@ -107,24 +106,7 @@ export default function Perfil() {
                 ⚽ Perfil del Usuario
               </h2>
 
-              {/* JUGADOR FAVORITO */}
-              <Card className="mb-4 bg-light border-0">
-                <Card.Body>
-                  <h6 className="fw-bold">Jugador favorito</h6>
-
-                  {modoEdicion ? (
-                    <Form.Control
-                      type="text"
-                      name="jugadorFavorito"
-                      placeholder="Ej: Messi, Mbappé..."
-                      value={perfil.jugadorFavorito}
-                      onChange={handleChange}
-                    />
-                  ) : (
-                    <p className="mb-0">{perfil.jugadorFavorito || "No definido"}</p>
-                  )}
-                </Card.Body>
-              </Card>
+              
 
               {/* LIGAS */}
               {ligas.map((liga) => (
