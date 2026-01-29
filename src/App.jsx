@@ -24,6 +24,7 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import NavbarSecondary from "./components/Navbar.jsx";
 
+
 function AppContent() {
   const { user } = useAuth(); // Ahora seguro que el hook funciona
 
