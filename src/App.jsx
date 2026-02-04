@@ -16,22 +16,31 @@ import Ligue1 from "./pages/Ligue1.jsx";
 import Predikzioa from "./pages/Predikzioa.jsx";
 import Erregistroa from "./pages/Erregistroa.jsx";
 import Berriak from "./pages/Berriak.jsx";
+import Panela from "./pages/Panela.jsx";
 import PartiduakLaLiga from "./pages/PartiduakLaLiga.jsx";
 import Perfil from "./pages/Perfil.jsx";
+import AdminPanel from "./pages/AdminPanel.jsx";
 
 // Components
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import NavbarSecondary from "./components/Navbar.jsx";
-
+import NavbarAdmin from "./components/NavbarAdmin.jsx";
 
 function AppContent() {
-  const { user } = useAuth(); // Ahora seguro que el hook funciona
+  const { user } = useAuth();
 
   return (
     <>
       <Header />
-      {user && <NavbarSecondary />}
+
+      {/* NAVBAR SEGÚN ROL */}
+      {user && (
+        user.rol === "admin"
+          ? <NavbarAdmin />
+          : <NavbarSecondary />
+      )}
+
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/kontaktua" element={<Kontaktua />} />
@@ -43,10 +52,14 @@ function AppContent() {
         <Route path="/erregistroa" element={<Erregistroa />} />
         <Route path="/predikzioa" element={<Predikzioa />} />
         <Route path="/berriak" element={<Berriak />} />
+        <Route path="/panela" element={<Panela />} />
         <Route path="/partiduakLaliga" element={<PartiduakLaLiga />} />
         <Route path="/perfil" element={<Perfil />} />
 
+        {/* PANEL ADMIN */}
+        <Route path="/admin" element={<AdminPanel />} />
       </Routes>
+
       <Footer />
     </>
   );

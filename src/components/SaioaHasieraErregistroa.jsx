@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import LoginForm from "./LoginForm";
 import RegisterForm from "./RegisterForm"; 
 import "../styles/saioa.css";
+
 const SaioaHasieraErregistroa = () => {
 
   const [saioArrakasta, setSaioArrakasta] = useState('');
@@ -90,9 +91,14 @@ const SaioaHasieraErregistroa = () => {
         if (loginData.pasahitza.length < 6) {
           setSaioAkatsa('Kredentzial okerrak. Mesedez, saiatu berriro.');
         } else {
+
+          // ASIGNAR ROL
+          const rol = loginData.email === "admin@admin.com" ? "admin" : "user";
+
           login({
             email: loginData.email,
-            izena: loginData.email.split("@")[0]
+            izena: loginData.email.split("@")[0],
+            rol: rol
           });
 
           setSaioArrakasta(`Saioa arrakastaz hasi da! Ongi etorri, ${loginData.email}`);
@@ -159,7 +165,6 @@ const SaioaHasieraErregistroa = () => {
           <div className="shadow-lg rounded-4 overflow-hidden">
             <div className="p-4 p-md-5 formularioa-sekzioa">
 
-              {/* Título */}
               <div className="mb-4">
                 <h2 className="h1 fw-bold mb-3">
                   <i className={`bi ${erregistroaErakutsi ? 'bi-person-plus-fill' : 'bi-box-arrow-in-right'} text-primary me-2`}></i>
@@ -172,7 +177,6 @@ const SaioaHasieraErregistroa = () => {
                 </p>
               </div>
 
-              {/* Alertas */}
               {saioAkatsa && (
                 <div className="alert alert-danger alert-dismissible fade show shadow-sm mb-4 animate-fade-in" role="alert">
                   <div className="d-flex align-items-center">
@@ -230,7 +234,6 @@ const SaioaHasieraErregistroa = () => {
                 </div>
               )}
 
-              {/* Formularios */}
               {!erregistroaErakutsi ? (
                 <LoginForm
                   loginData={loginData}
@@ -249,7 +252,6 @@ const SaioaHasieraErregistroa = () => {
                 />
               )}
 
-              {/* Toggle */}
               <div className="text-center mt-4 pt-3 border-top">
                 <p className="mb-0 text-muted">
                   {erregistroaErakutsi ? 'Dagoeneko kontua duzu?' : 'Ez duzu konturik?'}
@@ -263,7 +265,6 @@ const SaioaHasieraErregistroa = () => {
                 </p>
               </div>
 
-              {/* Info */}
               <div className="mt-4 pt-2 text-center">
                 <div className="d-flex align-items-center justify-content-center text-muted small mb-2">
                   <i className="bi bi-headset me-2"></i>
