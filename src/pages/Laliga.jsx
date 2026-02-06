@@ -8,7 +8,7 @@ function Ligue1() {
     fetch("http://127.0.0.1:8000/sailkapena/laliga")
       .then((res) => res.json())
       .then((data) => setTaldeak(data))
-      .catch((err) => console.error("Error cargando la Ligue 1:", err));
+      .catch((err) => console.error("Error cargando laLiga:", err));
   }, []);
 
   return (
