@@ -1,14 +1,43 @@
 import React, { useState, useEffect } from "react";
 import Klasifikazioa from "../components/Klasifikazioa.jsx";
 
-function Premier() {
+function Bundesliga() {
   const [taldeak, setTaldeak] = useState([]);
+
+  // Mapping Bundesliga: taldea_id → nombre
+  const nombresBundesliga = {
+    79: "Bayern Munich",
+    80: "Borussia Dortmund",
+    81: "Bayer Leverkusen",
+    82: "RB Leipzig",
+    83: "Hoffenheim",
+    84: "Stuttgart",
+    85: "Eintracht Frankfurt",
+    86: "Union Berlin",
+    87: "Friburgo",
+    88: "Werder Bremen",
+    89: "Köln",
+    90: "Borussia M'gladbach",
+    91: "Hamburgo",
+    92: "Wolfsburg",
+    93: "Augsburg",
+    94: "St. Pauli",
+    95: "Heidenheim",
+    96: "Mainz",
+  };
 
   useEffect(() => {
     fetch("http://10.14.1.26:8000/sailkapena/bundesliga")
       .then((res) => res.json())
-      .then((data) => setTaldeak(data))
-      .catch((err) => console.error("Error cargando la liga:", err));
+      .then((data) => {
+        // Agregamos el nombre de cada equipo según taldea_id
+        const equiposConNombres = data.map((t) => ({
+          ...t,
+          taldea: nombresBundesliga[t.talde_id] || "Desconocido",
+        }));
+        setTaldeak(equiposConNombres);
+      })
+      .catch((err) => console.error("Error cargando Bundesliga:", err));
   }, []);
 
   return (
@@ -31,4 +60,4 @@ function Premier() {
   );
 }
 
-export default Premier;
+export default Bundesliga;

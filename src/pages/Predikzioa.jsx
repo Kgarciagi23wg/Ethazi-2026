@@ -128,7 +128,7 @@ export default function Predikzioa() {
             }}
           >
             <img
-              src="/campo2.jpg"
+              src="/campo3.png"
               alt="Campo"
               style={{
                 width: "100%",
