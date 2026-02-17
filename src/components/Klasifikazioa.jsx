@@ -74,7 +74,7 @@ const Klasifikazioa = ({ equipos }) => {
           </thead>
           <tbody>
             {equiposConDatos.map((t, index) => (
-              <tr key={t.taldea}>
+              <tr key={t.id}>
                 <th scope="row">{index + 1}</th>
                 <td>
                   <div className="d-flex align-items-center gap-2">
