@@ -5,7 +5,7 @@ function Ligue1() {
   const [taldeak, setTaldeak] = useState([]);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/sailkapena/laliga")
+    fetch("http://10.14.1.26:8000/sailkapena/laliga")
       .then((res) => res.json())
       .then((data) => setTaldeak(data))
       .catch((err) => console.error("Error cargando laLiga:", err));
