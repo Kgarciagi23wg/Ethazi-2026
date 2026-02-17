@@ -5,7 +5,7 @@ function Premier() {
   const [taldeak, setTaldeak] = useState([]);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/sailkapena/ligue1")
+    fetch("http://10.14.1.26:8000/sailkapena/ligue1")
       .then((res) => res.json())
       .then((data) => setTaldeak(data))
       .catch((err) => console.error("Error cargando la liga:", err));

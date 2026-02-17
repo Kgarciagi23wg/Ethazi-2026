@@ -18,6 +18,10 @@ import Erregistroa from "./pages/Erregistroa.jsx";
 import Berriak from "./pages/Berriak.jsx";
 import Panela from "./pages/Panela.jsx";
 import PartiduakLaLiga from "./pages/PartiduakLaLiga.jsx";
+import PartiduakLigue1 from "./pages/PartiduakLigue1.jsx";
+import PartiduakPremier from "./pages/PartiduakPremier.jsx"; 
+import PartiduakBundesliga from "./pages/PartiduakBundesliga.jsx";  
+import PartiduakSerieA from "./pages/PartiduakSerieA.jsx"; 
 import Perfil from "./pages/Perfil.jsx";
 import AdminPanel from "./pages/AdminPanel.jsx";
 import EstadisticasPartido from "./pages/EstadisticasPartido.jsx";
@@ -54,6 +58,11 @@ function AppContent() {
         <Route path="/berriak" element={<Berriak />} />
         <Route path="/panela" element={<Panela />} />
         <Route path="/partiduakLaliga" element={<PartiduakLaLiga />} />
+        <Route path="/partiduakLigue1" element={<PartiduakLigue1 />} /> 
+        <Route path="/partiduakPremier" element={<PartiduakPremier />} />
+        <Route path="/partiduakBundesliga" element={<PartiduakBundesliga />} />
+        <Route path="/partiduakSerieA" element={<PartiduakSerieA />} />
+         
         <Route path="/perfil" element={<Perfil />} />
 
         <Route path="/admin" element={<AdminPanel />} />

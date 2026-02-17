@@ -1,55 +1,107 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import laliga from "../Data/json/laliga.json";
 
-const partidosJ17 = [
-  { local: "Valencia", visitante: "Mallorca", resultado: "1 - 1", fecha: "2026-01-19" },
-  { local: "Oviedo", visitante: "Celta", resultado: "0 - 0", fecha: "2026-01-20" },
-  { local: "Levante", visitante: "Real Sociedad", resultado: "1 - 1", fecha: "2026-01-21" },
-  { local: "Osasuna", visitante: "Alavés", resultado: "3 - 0", fecha: "2026-01-22" },
-  { local: "Real Madrid", visitante: "Sevilla", resultado: "2 - 0", fecha: "2026-01-23" },
-  { local: "Girona", visitante: "Atlético Madrid", resultado: "", fecha: "2026-01-24" },
-  { local: "Villarreal", visitante: "Barcelona", resultado: "", fecha: "2026-01-25" },
-  { local: "Elche", visitante: "Rayo Vallecano", resultado: "", fecha: "2026-01-26" },
-  { local: "Real Betis", visitante: "Getafe", resultado: "", fecha: "2026-01-27" },
-  { local: "Athletic Club", visitante: "Espanyol", resultado: "", fecha: "2026-01-28" }
-];
+const logos = {
+  "Alavés": "/T.Laliga/alaves.png",
+  "Athletic Club": "/T.Laliga/athleticClub.png",
+  "Atlético Madrid": "/T.Laliga/atleticoMadrid.png",
+  "Barcelona": "/T.Laliga/barcelona.png",
+  "Real Betis": "/T.Laliga/betis.png",
+  "Celta de Vigo": "/T.Laliga/celtadevigo.png",
+  "Elche": "/T.Laliga/elche.png",
+  "Espanyol": "/T.Laliga/espayol.png",
+  "Getafe": "/T.Laliga/getafe.png",
+  "Girona": "/T.Laliga/girona.png",
+  "Levante": "/T.Laliga/levanted.png",
+  "Real Madrid": "/T.Laliga/madrid.png",
+  "Mallorca": "/T.Laliga/mallorca.png",
+  "Osasuna": "/T.Laliga/osasuna.png",
+  "Oviedo": "/T.Laliga/oviedo.png",
+  "Rayo Vallecano": "/T.Laliga/rayoVallecano.png",
+  "Real Sociedad": "/T.Laliga/realSociedad.png",
+  "Sevilla": "/T.Laliga/sevilla.png",
+  "Valencia": "/T.Laliga/valencia.png",
+  "Villarreal": "/T.Laliga/villareal.png"
+};
+
+const getLogo = (team) => logos[team] || "/default.png";
 
 export default function PartiduakLaLiga() {
-  const columna1 = partidosJ17.slice(0, 5);
-  const columna2 = partidosJ17.slice(5);
+  const [jornadaActual, setJornadaActual] = useState(20);
 
-  const formatFecha = (fechaStr) => {
-    const fecha = new Date(fechaStr);
-    return fecha.toLocaleDateString("eu-ES", {
-      weekday: "long",
-      day: "numeric",
-      month: "long"
-    });
-  };
+  // Buscar jornada jugada
+  const jornadaPasada = laliga.jornadas.find(j => j.jornada === jornadaActual);
+
+  // Buscar jornada futura
+  const jornadaFutura = laliga.calendario_proximo.find(j => j.ronda === jornadaActual);
+
+  // Elegir cuál usar
+  const jornada = jornadaPasada || jornadaFutura;
+
+  const partidos = jornada.partidos;
+  const columna1 = partidos.slice(0, 5);
+  const columna2 = partidos.slice(5);
 
   const renderCard = (p, i) => (
-    <Link
-      key={i}
-      to={`/partida/${p.local}/${p.visitante}`}
-      className="text-decoration-none text-dark"
-    >
-      <div className="card mb-3 rounded shadow-sm">
-        <div className="card-body">
-          <div className="text-muted fst-italic">{formatFecha(p.fecha)}</div>
-          <div className="d-flex justify-content-between align-items-center mb-2">
-            <span className="fw-bold">{p.local}</span>
-            <span className="text-muted">vs</span>
-            <span className="fw-bold">{p.visitante}</span>
-            <span className="fw-bold text-primary">{p.resultado || "Jokatzeke"}</span>
-          </div>
+    <div key={i} className="card mb-3 rounded shadow-sm">
+      <div className="card-body">
+
+        <div className="text-muted fst-italic">
+          {p.fecha} {p.hora ? `· ${p.hora}` : ""}
         </div>
+
+        <div className="d-flex justify-content-between align-items-center mb-2">
+
+          <div className="d-flex align-items-center gap-2">
+            <img src={getLogo(p.local)} alt={p.local} style={{ width: "32px", height: "32px" }} />
+            <span className="fw-bold">{p.local}</span>
+          </div>
+
+          <span className="text-muted">vs</span>
+
+          <div className="d-flex align-items-center gap-2">
+            <span className="fw-bold">{p.visitante}</span>
+            <img src={getLogo(p.visitante)} alt={p.visitante} style={{ width: "32px", height: "32px" }} />
+          </div>
+
+          <span className="fw-bold text-primary">
+            {p.resultado || "—"}
+          </span>
+        </div>
+
+        {p.incidencias && (
+          <div className="text-danger small fst-italic">
+            {p.incidencias}
+          </div>
+        )}
+
       </div>
-    </Link>
+    </div>
   );
 
   return (
     <div className="container py-5" style={{ backgroundColor: "#f8f9fa", minHeight: "100vh" }}>
-      <h2 className="text-center mb-5 text-dark">🏆 LaLiga – 17. Jardunaldia</h2>
+
+      <div className="d-flex justify-content-between align-items-center mb-4">
+        <button
+          className="btn btn-outline-primary"
+          onClick={() => setJornadaActual(j => Math.max(1, j - 1))}
+        >
+          ← Anterior
+        </button>
+
+        <h2 className="text-center text-dark">
+          🏆 LaLiga – Jornada {jornadaActual}
+        </h2>
+
+        <button
+          className="btn btn-outline-primary"
+          onClick={() => setJornadaActual(j => j + 1)}
+        >
+          Siguiente →
+        </button>
+      </div>
 
       <div className="row">
         <div className="col-md-6 mb-4">{columna1.map(renderCard)}</div>
