@@ -1,93 +1,61 @@
 import React, { useState, useEffect, useContext } from "react";
-import { Container, Card, Row, Col, Modal, Button } from "react-bootstrap";
+import { Container, Card, Row, Col, Modal, Button, Image } from "react-bootstrap";
 import { LanguageContext } from "../context/LanguageContext";
 
 const noticiasMock = [
   {
     id: 1,
-    titulo: {
-      eu: "Partida garrantzitsua irabazi dugu",
-      es: "Ganamos un partido importante",
-      en: "We won an important match"
-    },
-    descripcion: {
-      eu: "Azken partidaren laburpena...",
-      es: "Resumen del último partido...",
-      en: "Summary of the last match..."
+    titulo: { eu: "Partida garrantzitsua irabazi dugu", es: "Ganamos un partido importante", en: "We won an important match" },
+    descripcionCorta: { eu: "Azken partidaren laburpena...", es: "Resumen del último partido...", en: "Summary of the last match..." },
+    contenido: [
+      { texto: { eu: "Lehen zatian taldeak nagusitasuna erakutsi zuen eta bi gol sartu zituen.", es: "En la primera parte el equipo mostró superioridad y anotó dos goles.", en: "In the first half the team showed dominance and scored two goals." } },
+      { texto: { eu: "Bigarren zatian emaitza kontrolatzea lortu zen.", es: "En la segunda parte se controló el resultado.", en: "In the second half the result was controlled." } }
+    ],
+    imagenFinal: {
+      src: "/liga1.png",
+      alt: { eu: "Ligako partida", es: "Partido de liga", en: "League match" }
     },
     fecha: "2026-01-14"
-  }, 
-  
-  {
-    id: 2,
-    titulo: {
-      eu: "Transferentzia berriak iritsi dira",
-      es: "Llegan nuevos fichajes",
-      en: "New transfers have arrived"
-    },
-    descripcion: {
-      eu: "Taldeak jokalari berriak gehitu ditu...",
-      es: "El equipo ha añadido nuevos jugadores...",
-      en: "The team has added new players..."
-    },
-    fecha: "2026-01-13"
   },
-  {
-    id: 3,
+
+  ...Array.from({ length: 14 }, (_, i) => ({
+    id: i + 2,
     titulo: {
-      eu: "Entrenamendu saio berezia",
-      es: "Sesión especial de entrenamiento",
-      en: "Special training session"
+      eu: `Albistea ${i + 2}`,
+      es: `Noticia ${i + 2}`,
+      en: `News ${i + 2}`
     },
-    descripcion: {
-      eu: "Entrenatzaileak lan saio intentsiboa antolatu du...",
-      es: "El entrenador organizó una sesión intensa...",
-      en: "The coach organized an intense training session..."
+    descripcionCorta: {
+      eu: "Albiste honen laburpena...",
+      es: "Resumen de esta noticia...",
+      en: "Short summary of this news..."
     },
-    fecha: "2026-01-12"
-  },
-  {
-    id: 4,
-    titulo: {
-      eu: "Gazteek aukera izan dute",
-      es: "Oportunidad para los jóvenes",
-      en: "Opportunity for young players"
+    contenido: [
+      {
+        texto: {
+          eu: "Albiste honen eduki nagusia hemen azaltzen da.",
+          es: "Aquí se explica el contenido principal de la noticia.",
+          en: "Here the main content of the news is explained."
+        }
+      },
+      {
+        texto: {
+          eu: "Xehetasun gehiago bigarren paragrafoan.",
+          es: "Más detalles en el segundo párrafo.",
+          en: "More details in the second paragraph."
+        }
+      }
+    ],
+    imagenFinal: {
+      src: "/liga1.png",
+      alt: {
+        eu: "Ligako irudia",
+        es: "Imagen de liga",
+        en: "League image"
+      }
     },
-    descripcion: {
-      eu: "Harrobiko jokalariek lehen taldearekin jokatu dute...",
-      es: "Los jugadores de la cantera jugaron con el primer equipo...",
-      en: "Academy players trained with the first team..."
-    },
-    fecha: "2026-01-11"
-  },
-  {
-    id: 5,
-    titulo: {
-      eu: "Hurrengo partidaren aurkezpena",
-      es: "Previa del próximo partido",
-      en: "Preview of the next match"
-    },
-    descripcion: {
-      eu: "Datorren aurkariaren analisia egin dugu...",
-      es: "Analizamos al próximo rival...",
-      en: "We analyze the next opponent..."
-    },
-    fecha: "2026-01-10"
-  },
-  {
-    id: 6,
-    titulo: {
-      eu: "Zaleen babesa funtsezkoa",
-      es: "El apoyo de la afición es clave",
-      en: "Fans’ support is crucial"
-    },
-    descripcion: {
-      eu: "Zaleek taldeari indarra eman diote...",
-      es: "La afición dio un gran impulso al equipo...",
-      en: "Fans gave the team a huge boost..."
-    },
-    fecha: "2026-01-09"
-  }
+    fecha: `2026-01-${String(13 - i).padStart(2, "0")}`
+  }))
 ];
 
 export default function Berriak() {
@@ -97,60 +65,104 @@ export default function Berriak() {
   const [show, setShow] = useState(false);
   const [noticiaSeleccionada, setNoticiaSeleccionada] = useState(null);
 
+  const noticiasPorPagina = 9;
+  const [paginaActual, setPaginaActual] = useState(1);
+
   useEffect(() => {
     setNoticias(noticiasMock);
   }, []);
 
-  const handleClose = () => setShow(false);
-
-  const handleShow = (noticia) => {
-    setNoticiaSeleccionada(noticia);
-    setShow(true);
-  };
+  const indiceUltima = paginaActual * noticiasPorPagina;
+  const indicePrimera = indiceUltima - noticiasPorPagina;
+  const noticiasVisibles = noticias.slice(indicePrimera, indiceUltima);
+  const totalPaginas = Math.ceil(noticias.length / noticiasPorPagina);
 
   return (
     <Container className="mt-5 mb-5">
-      <h1 className="mb-4 text-center">
+      <h1 className="mb-5 text-center">
         {idioma === "eu" ? "Berriak" : idioma === "es" ? "Noticias" : "News"}
       </h1>
 
-      <Row xs={1} md={2} lg={3} className="g-4">
-        {noticias.map((n) => (
-          <Col key={n.id}>
-            <Card
-              className="h-100 shadow-sm"
-              style={{ cursor: "pointer" }}
-              onClick={() => handleShow(n)}
-            >
-              <Card.Body>
-                <Card.Title>{n.titulo[idioma]}</Card.Title>
-                <Card.Text>{n.descripcion[idioma]}</Card.Text>
-              </Card.Body>
-              <Card.Footer className="text-muted">
-                {n.fecha}
-              </Card.Footer>
-            </Card>
-          </Col>
-        ))}
-      </Row>
- 
+      {/* Altura fija para evitar saltos */}
+      <div style={{ minHeight: "600px" }}>
+        <Row xs={1} md={2} lg={3} className="g-4">
+          {noticiasVisibles.map((n) => (
+            <Col key={n.id}>
+              <Card
+                className="h-100 shadow-sm"
+                style={{ cursor: "pointer" }}
+                onClick={() => {
+                  setNoticiaSeleccionada(n);
+                  setShow(true);
+                }}
+              >
+                <Card.Body>
+                  <Card.Title>{n.titulo[idioma]}</Card.Title>
+                  <Card.Text>{n.descripcionCorta[idioma]}</Card.Text>
+                </Card.Body>
+                <Card.Footer className="text-muted">{n.fecha}</Card.Footer>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </div>
 
-      <Modal show={show} onHide={handleClose} centered>
+      {/* Paginación */}
+      {totalPaginas > 1 && (
+        <div className="d-flex justify-content-center gap-3 mt-4">
+          <Button
+            variant="outline-primary"
+            disabled={paginaActual === 1}
+            onClick={() => setPaginaActual(paginaActual - 1)}
+          >
+            ← Anterior
+          </Button>
+
+          <span className="align-self-center">
+            {paginaActual} / {totalPaginas}
+          </span>
+
+          <Button
+            variant="outline-primary"
+            disabled={paginaActual === totalPaginas}
+            onClick={() => setPaginaActual(paginaActual + 1)}
+          >
+            Siguiente →
+          </Button>
+        </div>
+      )}
+
+      {/* Modal noticia completa */}
+      <Modal show={show} onHide={() => setShow(false)} centered size="lg">
         <Modal.Header closeButton>
-          <Modal.Title>
-            {noticiaSeleccionada?.titulo[idioma]}
-          </Modal.Title>
+          <Modal.Title>{noticiaSeleccionada?.titulo[idioma]}</Modal.Title>
         </Modal.Header>
 
         <Modal.Body>
-          <p>{noticiaSeleccionada?.descripcion[idioma]}</p>
-          <small className="text-muted">
+          {noticiaSeleccionada?.contenido.map((p, index) => (
+            <p key={index} style={{ lineHeight: "1.7" }}>
+              {p.texto[idioma]}
+            </p>
+          ))}
+
+          {noticiaSeleccionada?.imagenFinal && (
+            <div className="text-center mt-4">
+              <Image
+                src={noticiaSeleccionada.imagenFinal.src}
+                alt={noticiaSeleccionada.imagenFinal.alt[idioma]}
+                style={{ maxWidth: "300px" }}
+                className="img-fluid rounded shadow-sm"
+              />
+            </div>
+          )}
+
+          <small className="text-muted d-block mt-3">
             {noticiaSeleccionada?.fecha}
           </small>
         </Modal.Body>
 
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="secondary" onClick={() => setShow(false)}>
             Cerrar
           </Button>
         </Modal.Footer>

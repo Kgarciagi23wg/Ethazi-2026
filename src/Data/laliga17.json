@@ -1,0 +1,305 @@
+{
+  "Valencia-Mallorca": {
+    "estadio": "Mestalla",
+    "arbitro": "Juan Martínez Munuera",
+    "posesion": { "local": 54, "visitante": 46 },
+    "tiros": { "local": 12, "visitante": 8 },
+    "tirosPuerta": { "local": 5, "visitante": 3 },
+    "faltas": { "local": 14, "visitante": 11 },
+    "corners": { "local": 6, "visitante": 4 },
+    "tarjetas": {
+      "amarillasLocal": 2,
+      "amarillasVisitante": 3,
+      "rojasLocal": 0,
+      "rojasVisitante": 0
+    },
+    "goles": [
+      { "minuto": 22, "equipo": "Valencia", "jugador": "Hugo Duro" },
+      { "minuto": 67, "equipo": "Mallorca", "jugador": "Muriqi" }
+    ],
+    "alineacionLocal": ["Mamardashvili", "Thierry Correia", "Mosquera", "Diakhaby", "Gayà", "Pepelu", "Javi Guerra", "Fran Pérez", "André Almeida", "Diego López", "Hugo Duro"],
+    "alineacionVisitante": ["Rajkovic", "Maffeo", "Valjent", "Raíllo", "Jaume Costa", "Mascarell", "Antonio Sánchez", "Darder", "Larin", "Muriqi", "Prats"],
+    "suplentesLocal": ["Domenech", "Yaremchuk", "Amallah"],
+    "suplentesVisitante": ["Greif", "Morlanes", "Ndiaye"],
+    "minutoMinuto": [
+      "10' → Aukera ona Mallorcarentzat",
+      "22' → GOL! Hugo Duro (Valencia)",
+      "45' → Atsedenaldia",
+      "67' → GOL! Muriqi (Mallorca)",
+      "90' → Amaiera"
+    ]
+  },
+
+  "Oviedo-Celta": {
+    "estadio": "Carlos Tartiere",
+    "arbitro": "Del Cerro Grande",
+    "posesion": { "local": 48, "visitante": 52 },
+    "tiros": { "local": 9, "visitante": 10 },
+    "tirosPuerta": { "local": 3, "visitante": 4 },
+    "faltas": { "local": 16, "visitante": 12 },
+    "corners": { "local": 5, "visitante": 6 },
+    "tarjetas": {
+      "amarillasLocal": 1,
+      "amarillasVisitante": 2,
+      "rojasLocal": 0,
+      "rojasVisitante": 0
+    },
+    "goles": [],
+    "alineacionLocal": ["Leo Román", "Abel Bretones", "Costas", "Oier", "Viti", "Luismi", "Jimmy", "Seoane", "Borja", "Masca", "Alemão"],
+    "alineacionVisitante": ["Guaita", "Hugo Álvarez", "Starfelt", "Carlos Domínguez", "Manu Sánchez", "Fran Beltrán", "Dotor", "Bamba", "Larsen", "Swedberg", "Aspas"],
+    "suplentesLocal": ["Paulino", "Camello", "Santi Cazorla"],
+    "suplentesVisitante": ["Mingueza", "Tapia", "Douvikas"],
+    "minutoMinuto": [
+      "12' → Larsen-en jaurtiketa kanpora",
+      "33' → Aukera ona Oviedorentzat",
+      "45' → Atsedenaldia",
+      "78' → Aspasen jaurtiketa geldiketa bikaina",
+      "90' → Amaiera, golik gabe"
+    ]
+  },
+
+  "Levante-Real Sociedad": {
+    "estadio": "Ciutat de València",
+    "arbitro": "Mateu Lahoz",
+    "posesion": { "local": 42, "visitante": 58 },
+    "tiros": { "local": 7, "visitante": 14 },
+    "tirosPuerta": { "local": 2, "visitante": 6 },
+    "faltas": { "local": 18, "visitante": 10 },
+    "corners": { "local": 3, "visitante": 7 },
+    "tarjetas": {
+      "amarillasLocal": 3,
+      "amarillasVisitante": 1,
+      "rojasLocal": 0,
+      "rojasVisitante": 0
+    },
+    "goles": [
+      { "minuto": 15, "equipo": "Levante", "jugador": "Bouldini" },
+      { "minuto": 61, "equipo": "Real Sociedad", "jugador": "Oyarzabal" }
+    ],
+    "alineacionLocal": ["Femenías", "Postigo", "Vezo", "Maras", "Son", "Pepelu", "Radoja", "De Frutos", "Montiel", "Cantero", "Bouldini"],
+    "alineacionVisitante": ["Remiro", "Hamari Traoré", "Le Normand", "Zubeldia", "Tierney", "Merino", "Zubimendi", "Barrenetxea", "Kubo", "Oyarzabal", "Sadiq"],
+    "suplentesLocal": ["Brugui", "Soldado", "Iborra"],
+    "suplentesVisitante": ["Silva", "Cho", "Pacheco"],
+    "minutoMinuto": [
+      "15' → GOL! Bouldini (Levante)",
+      "45' → Atsedenaldia",
+      "61' → GOL! Oyarzabal (Real Sociedad)",
+      "88' → Kubo-ren aukera ona",
+      "90' → Amaiera"
+    ]
+  },
+
+  "Osasuna-Alavés": {
+    "estadio": "El Sadar",
+    "arbitro": "Gil Manzano",
+    "posesion": { "local": 51, "visitante": 49 },
+    "tiros": { "local": 13, "visitante": 7 },
+    "tirosPuerta": { "local": 7, "visitante": 2 },
+    "faltas": { "local": 15, "visitante": 17 },
+    "corners": { "local": 5, "visitante": 3 },
+    "tarjetas": {
+      "amarillasLocal": 2,
+      "amarillasVisitante": 4,
+      "rojasLocal": 0,
+      "rojasVisitante": 0
+    },
+    "goles": [
+      { "minuto": 9, "equipo": "Osasuna", "jugador": "Budimir" },
+      { "minuto": 54, "equipo": "Osasuna", "jugador": "Moi Gómez" },
+      { "minuto": 79, "equipo": "Osasuna", "jugador": "Rubén García" }
+    ],
+    "alineacionLocal": ["Sergio Herrera", "Moncayola", "Catena", "David García", "Juan Cruz", "Torro", "Aimar Oroz", "Moi Gómez", "Rubén García", "Barja", "Budimir"],
+    "alineacionVisitante": ["Sivera", "Gorosabel", "Abqar", "Duarte", "Javi López", "Guevara", "Benavídez", "Luis Rioja", "Hagi", "Omorodion", "Kike García"],
+    "suplentesLocal": ["Areso", "Ibáñez", "Raúl García"],
+    "suplentesVisitante": ["Tenaglia", "Blanco", "Villalibre"],
+    "minutoMinuto": [
+      "9' → GOL! Budimir (Osasuna)",
+      "30' → Alavésen aukera, geldiketa ona",
+      "54' → GOL! Moi Gómez (Osasuna)",
+      "79' → GOL! Rubén García (Osasuna)",
+      "90' → Amaiera, garaipen argia Osasunarentzat"
+    ]
+  },
+
+  "Real Madrid-Sevilla": {
+    "estadio": "Santiago Bernabéu",
+    "arbitro": "Sánchez Martínez",
+    "posesion": { "local": 60, "visitante": 40 },
+    "tiros": { "local": 16, "visitante": 6 },
+    "tirosPuerta": { "local": 7, "visitante": 2 },
+    "faltas": { "local": 10, "visitante": 14 },
+    "corners": { "local": 8, "visitante": 2 },
+    "tarjetas": {
+      "amarillasLocal": 1,
+      "amarillasVisitante": 3,
+      "rojasLocal": 0,
+      "rojasVisitante": 0
+    },
+    "goles": [
+      { "minuto": 34, "equipo": "Real Madrid", "jugador": "Vinícius" },
+      { "minuto": 72, "equipo": "Real Madrid", "jugador": "Bellingham" }
+    ],
+    "alineacionLocal": ["Courtois", "Carvajal", "Rüdiger", "Alaba", "Mendy", "Tchouaméni", "Kroos", "Valverde", "Bellingham", "Rodrygo", "Vinícius"],
+    "alineacionVisitante": ["Dmitrovic", "Navas", "Sergio Ramos", "Badé", "Acuña", "Fernando", "Sow", "Rakitic", "Ocampos", "En-Nesyri", "Lamela"],
+    "suplentesLocal": ["Lunin", "Camavinga", "Joselu"],
+    "suplentesVisitante": ["Nyland", "Suso", "Óliver Torres"],
+    "minutoMinuto": [
+      "12' → Viníciusen jaurtiketa langara",
+      "34' → GOL! Vinícius (Real Madrid)",
+      "45' → Atsedenaldia",
+      "72' → GOL! Bellingham (Real Madrid)",
+      "90' → Amaiera, garaipena Real Madridentzat"
+    ]
+  },
+
+  "Girona-Atlético Madrid": {
+    "estadio": "Montilivi",
+    "arbitro": "Cuadra Fernández",
+    "posesion": { "local": 53, "visitante": 47 },
+    "tiros": { "local": 11, "visitante": 12 },
+    "tirosPuerta": { "local": 4, "visitante": 5 },
+    "faltas": { "local": 13, "visitante": 18 },
+    "corners": { "local": 4, "visitante": 5 },
+    "tarjetas": {
+      "amarillasLocal": 2,
+      "amarillasVisitante": 4,
+      "rojasLocal": 0,
+      "rojasVisitante": 0
+    },
+    "goles": [],
+    "alineacionLocal": ["Gazzaniga", "Yan Couto", "David López", "Blind", "Miguel Gutiérrez", "Aleix García", "Iván Martín", "Sávio", "Portu", "Tsygankov", "Dovbyk"],
+    "alineacionVisitante": ["Oblak", "Molina", "Giménez", "Witsel", "Hermoso", "Llorente", "De Paul", "Koke", "Saúl", "Griezmann", "Morata"],
+    "suplentesLocal": ["Stuani", "Pablo Torre", "Solís"],
+    "suplentesVisitante": ["Correa", "Memphis", "Riquelme"],
+    "minutoMinuto": [
+      "8' → Griezmannen jaurtiketa kanpora",
+      "27' → Dovbyken burukada, geldiketa Oblakek",
+      "45' → Atsedenaldia",
+      "70' → Morataren aukera ona",
+      "90' → Amaiera, berdinketa"
+    ]
+  },
+
+  "Villarreal-Barcelona": {
+    "estadio": "La Cerámica",
+    "arbitro": "Muniz Ruiz",
+    "posesion": { "local": 46, "visitante": 54 },
+    "tiros": { "local": 10, "visitante": 15 },
+    "tirosPuerta": { "local": 4, "visitante": 7 },
+    "faltas": { "local": 12, "visitante": 10 },
+    "corners": { "local": 3, "visitante": 6 },
+    "tarjetas": {
+      "amarillasLocal": 3,
+      "amarillasVisitante": 2,
+      "rojasLocal": 0,
+      "rojasVisitante": 0
+    },
+    "goles": [
+      { "minuto": 19, "equipo": "Barcelona", "jugador": "Lewandowski" },
+      { "minuto": 51, "equipo": "Barcelona", "jugador": "Pedri" }
+    ],
+    "alineacionLocal": ["Jörgensen", "Foyth", "Albiol", "Pau Torres", "Alberto Moreno", "Capoue", "Parejo", "Baena", "Chukwueze", "Gerard Moreno", "Jackson"],
+    "alineacionVisitante": ["Ter Stegen", "Koundé", "Araújo", "Christensen", "Balde", "De Jong", "Gündogan", "Pedri", "Raphinha", "Lewandowski", "João Félix"],
+    "suplentesLocal": ["Reina", "Trigueros", "Yeremy Pino"],
+    "suplentesVisitante": ["Ferran Torres", "Lamine Yamal", "Romeu"],
+    "minutoMinuto": [
+      "19' → GOL! Lewandowski (Barcelona)",
+      "38' → Gerard Morenoren jaurtiketa, langara",
+      "51' → GOL! Pedri (Barcelona)",
+      "75' → Villarrealen aukera, Ter Stegenen geldiketa",
+      "90' → Amaiera"
+    ]
+  },
+
+  "Elche-Rayo Vallecano": {
+    "estadio": "Martínez Valero",
+    "arbitro": "Ortiz Arias",
+    "posesion": { "local": 45, "visitante": 55 },
+    "tiros": { "local": 8, "visitante": 13 },
+    "tirosPuerta": { "local": 3, "visitante": 5 },
+    "faltas": { "local": 17, "visitante": 15 },
+    "corners": { "local": 4, "visitante": 5 },
+    "tarjetas": {
+      "amarillasLocal": 4,
+      "amarillasVisitante": 3,
+      "rojasLocal": 0,
+      "rojasVisitante": 0
+    },
+    "goles": [],
+    "alineacionLocal": ["Badía", "Palacios", "Bigas", "Roco", "Clerc", "Mascarell", "Gumbau", "Tete Morente", "Fidel", "Boyé", "Ponce"],
+    "alineacionVisitante": ["Dimitrievski", "Balliu", "Lejeune", "Catena", "Fran García", "Óscar Valentín", "Comesaña", "Isi", "Trejo", "Álvaro García", "Camello"],
+    "suplentesLocal": ["Verdú", "Josan", "Ezequiel Ponce"],
+    "suplentesVisitante": ["Falcao", "Nteka", "Chavarría"],
+    "minutoMinuto": [
+      "20' → Isi-ren jaurtiketa kanpora",
+      "39' → Boyéren burukada, Dimitrievskiren geldiketa",
+      "45' → Atsedenaldia",
+      "68' → Falcao zelairatu da",
+      "90' → Amaiera, golik gabe"
+    ]
+  },
+
+  "Real Betis-Getafe": {
+    "estadio": "Benito Villamarín",
+    "arbitro": "Hernández Hernández",
+    "posesion": { "local": 57, "visitante": 43 },
+    "tiros": { "local": 13, "visitante": 9 },
+    "tirosPuerta": { "local": 6, "visitante": 3 },
+    "faltas": { "local": 11, "visitante": 19 },
+    "corners": { "local": 7, "visitante": 3 },
+    "tarjetas": {
+      "amarillasLocal": 2,
+      "amarillasVisitante": 5,
+      "rojasLocal": 0,
+      "rojasVisitante": 1
+    },
+    "goles": [
+      { "minuto": 28, "equipo": "Real Betis", "jugador": "Isco" },
+      { "minuto": 64, "equipo": "Real Betis", "jugador": "Willian José" }
+    ],
+    "alineacionLocal": ["Rui Silva", "Bellerín", "Pezzella", "Bartra", "Miranda", "Guido Rodríguez", "Guardado", "Isco", "Ayoze", "Rodri", "Willian José"],
+    "alineacionVisitante": ["Soria", "Damián Suárez", "Djené", "Mitrovic", "Gastón", "Maksimovic", "Arambarri", "Greenwood", "Aleñá", "Latasa", "Mayoral"],
+    "suplentesLocal": ["Bravo", "Fekir", "Abde"],
+    "suplentesVisitante": ["Óscar", "Mata", "Iglesias"],
+    "minutoMinuto": [
+      "18' → Greenwooden jaurtiketa kanpora",
+      "28' → GOL! Isco (Real Betis)",
+      "45' → Atsedenaldia",
+      "64' → GOL! Willian José (Real Betis)",
+      "82' → Getafeko jokalari bat kanporatua",
+      "90' → Amaiera"
+    ]
+  },
+
+  "Athletic Club-Espanyol": {
+    "estadio": "San Mamés",
+    "arbitro": "De Burgos Bengoetxea",
+    "posesion": { "local": 58, "visitante": 42 },
+    "tiros": { "local": 14, "visitante": 7 },
+    "tirosPuerta": { "local": 6, "visitante": 2 },
+    "faltas": { "local": 13, "visitante": 16 },
+    "corners": { "local": 8, "visitante": 2 },
+    "tarjetas": {
+      "amarillasLocal": 2,
+      "amarillasVisitante": 3,
+      "rojasLocal": 0,
+      "rojasVisitante": 0
+    },
+    "goles": [
+      { "minuto": 11, "equipo": "Athletic Club", "jugador": "Iñaki Williams" },
+      { "minuto": 59, "equipo": "Athletic Club", "jugador": "Sancet" }
+    ],
+    "alineacionLocal": ["Unai Simón", "De Marcos", "Vivian", "Iñigo Martínez", "Yuri", "Vesga", "Dani García", "Nico Williams", "Sancet", "Muniain", "Iñaki Williams"],
+    "alineacionVisitante": ["Pacheco", "Óscar Gil", "Cabrera", "Sergi Gómez", "Brian Oliván", "Darder", "Expósito", "Melamed", "Puado", "Braithwaite", "Joselu"],
+    "suplentesLocal": ["Guruzeta", "Berenguer", "Raúl García"],
+    "suplentesVisitante": ["Calero", "Nico Melamed", "Lazo"],
+    "minutoMinuto": [
+      "11' → GOL! Iñaki Williams (Athletic Club)",
+      "33' → Joseluren burukada, kanpora",
+      "45' → Atsedenaldia",
+      "59' → GOL! Sancet (Athletic Club)",
+      "85' → Braithwaiteren aukera, Unai Simónen geldiketa",
+      "90' → Amaiera, garaipena Athleticentzat"
+    ]
+  }
+}
