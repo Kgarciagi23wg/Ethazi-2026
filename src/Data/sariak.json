@@ -264,46 +264,6 @@
       "ekipoa": "Inter/AC Milan"
     },
     {
-      "id": 30,
-      "izena": "Jokalariarekin bazkaria - Erretiroa hartutako legenda",
-      "deskribapena": "Bazkari pribatua futbol legenda batekin (Carles Puyol, Iker Casillas, edo antzekoa)",
-      "puntuak": 8000,
-      "kategoria": "vip",
-      "irudia": "https://i.imgur.com/legend-dinner.jpg",
-      "stock": 2,
-      "ekipoa": "Hainbat"
-    },
-    {
-      "id": 31,
-      "izena": "Jokalariarekin bideo-deia",
-      "deskribapena": "30 minutuko bideo-deia futbol jokalari profesional batekin",
-      "puntuak": 2500,
-      "kategoria": "vip",
-      "irudia": "https://i.imgur.com/videocall.jpg",
-      "stock": 10,
-      "ekipoa": "Hainbat"
-    },
-    {
-      "id": 32,
-      "izena": "Kamiseta sinatua - Lionel Messi",
-      "deskribapena": "Argentinako selekzioko kamiseta ofiziala Lionel Messik sinatua",
-      "puntuak": 4500,
-      "kategoria": "oroigarriak",
-      "irudia": "https://i.imgur.com/messi-shirt.jpg",
-      "stock": 2,
-      "ekipoa": "Argentina/Barça"
-    },
-    {
-      "id": 33,
-      "izena": "Kamiseta sinatua - Cristiano Ronaldo",
-      "deskribapena": "Portugaleko selekzioko kamiseta ofiziala Cristiano Ronaldek sinatua",
-      "puntuak": 4500,
-      "kategoria": "oroigarriak",
-      "irudia": "https://i.imgur.com/cr7-shirt.jpg",
-      "stock": 2,
-      "ekipoa": "Portugal"
-    },
-    {
       "id": 34,
       "izena": "Baloi ofiziala - Champions League",
       "deskribapena": "UEFA Champions League-eko baloi ofiziala, denboraldi honetakoa",
@@ -355,7 +315,7 @@
     },
     {
       "id": 39,
-      "izena": "Futbol mahai jokoa - FIFA 24",
+      "izena": "Futbol mahai jokoa - Fc26",
       "deskribapena": "FIFA 24 bideojokoa, PlayStation 5 edo Xbox-erako",
       "puntuak": 600,
       "kategoria": "jokoak",
@@ -372,26 +332,6 @@
       "irudia": "https://i.imgur.com/fm24.jpg",
       "stock": 15,
       "ekipoa": "Sports Interactive"
-    },
-    {
-      "id": 41,
-      "izena": "Futbol 7 txapelketa pribatua",
-      "deskribapena": "Antolatu zure futbol 7 txapelketa zure lagunekin, arbitro profesional eta kamiseta berdinekin",
-      "puntuak": 2500,
-      "kategoria": "esperientziak",
-      "irudia": "https://i.imgur.com/futbol7.jpg",
-      "stock": 5,
-      "ekipoa": "Hainbat"
-    },
-    {
-      "id": 42,
-      "izena": "Partida baterako maskota izatea",
-      "deskribapena": "Zure seme/alaba partida ofizial batean maskota izatea, jokalariarekin eskuan sartuz",
-      "puntuak": 3000,
-      "kategoria": "esperientziak",
-      "irudia": "https://i.imgur.com/mascot.jpg",
-      "stock": 3,
-      "ekipoa": "Hainbat"
     },
     {
       "id": 43,
@@ -412,46 +352,6 @@
       "irudia": "https://i.imgur.com/team-photo.jpg",
       "stock": 6,
       "ekipoa": "Hainbat"
-    },
-    {
-      "id": 45,
-      "izena": "Futbol arbitro izateko ikastaroa",
-      "deskribapena": "Futbol arbitro izateko ikastaro ofiziala, tituluarekin",
-      "puntuak": 1500,
-      "kategoria": "ikasketak",
-      "irudia": "https://i.imgur.com/referee-course.jpg",
-      "stock": 8,
-      "ekipoa": "Federazioa"
-    },
-    {
-      "id": 46,
-      "izena": "Futbol entrenatzaile izateko ikastaroa",
-      "deskribapena": "Futbol entrenatzaile izateko ikastaro ofiziala, UEFAren tituluarekin",
-      "puntuak": 2000,
-      "kategoria": "ikasketak",
-      "irudia": "https://i.imgur.com/coach-course.jpg",
-      "stock": 6,
-      "ekipoa": "UEFA"
-    },
-    {
-      "id": 47,
-      "izena": "Urteko sasoiko bazkidetza - Real Madril",
-      "deskribapena": "Real Madrilen bazkidetza urtebetez, partida guztietarako lehentasunezko sarbidea",
-      "puntuak": 3500,
-      "kategoria": "bazkidetza",
-      "irudia": "https://i.imgur.com/realmadrid-membership.jpg",
-      "stock": 5,
-      "ekipoa": "Real Madrid"
-    },
-    {
-      "id": 48,
-      "izena": "Urteko sasoiko bazkidetza - FC Barcelona",
-      "deskribapena": "FC Barcelonaren bazkidetza urtebetez, partida guztietarako lehentasunezko sarbidea",
-      "puntuak": 3500,
-      "kategoria": "bazkidetza",
-      "irudia": "https://i.imgur.com/barca-membership.jpg",
-      "stock": 5,
-      "ekipoa": "FC Barcelona"
     }
   ]
 }
