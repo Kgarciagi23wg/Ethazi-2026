@@ -6,7 +6,7 @@
       "deskribapena": "Real Madrilen kamiseta ofiziala, zuria eta urre koloreko detaileekin",
       "puntuak": 500,
       "kategoria": "kamiseta",
-      "irudia": "https://i.imgur.com/real-madrid-shirt.jpg",
+      "irudia": "./public/Sariak/MadridKamiseta.jpeg",
       "stock": 10,
       "ekipoa": "Real Madril"
     },
@@ -16,7 +16,7 @@
       "deskribapena": "FC Barcelonaren kamiseta ofiziala, blaugrana kolorekoa",
       "puntuak": 500,
       "kategoria": "kamiseta",
-      "irudia": "https://i.imgur.com/barca-shirt.jpg",
+      "irudia": "./public/Sariak/BarcaKamiseta.jpeg",
       "stock": 8,
       "ekipoa": "FC Barcelona"
     },
@@ -26,7 +26,7 @@
       "deskribapena": "Manchester Cityren kamiseta ofiziala, urdin zerua kolorekoa",
       "puntuak": 500,
       "kategoria": "kamiseta",
-      "irudia": "https://i.imgur.com/mcity-shirt.jpg",
+      "irudia": "./public/Sariak/City.jpeg",
       "stock": 12,
       "ekipoa": "Manchester City"
     },
@@ -36,7 +36,7 @@
       "deskribapena": "Liverpool FCren kamiseta ofiziala, gorri bizia",
       "puntuak": 500,
       "kategoria": "kamiseta",
-      "irudia": "https://i.imgur.com/liverpool-shirt.jpg",
+      "irudia": "./public/Sariak/liver.jpeg",
       "stock": 7,
       "ekipoa": "Liverpool"
     },
@@ -46,7 +46,7 @@
       "deskribapena": "Bayern Munichen kamiseta ofiziala, gorria",
       "puntuak": 500,
       "kategoria": "kamiseta",
-      "irudia": "https://i.imgur.com/bayern-shirt.jpg",
+      "irudia": "./public/Sariak/bayer.jpeg",
       "stock": 9,
       "ekipoa": "Bayern Munich"
     },
@@ -56,7 +56,7 @@
       "deskribapena": "PSGren kamiseta ofiziala, urdina",
       "puntuak": 500,
       "kategoria": "kamiseta",
-      "irudia": "https://i.imgur.com/psg-shirt.jpg",
+      "irudia": "./public/Sariak/paris.jpeg",
       "stock": 11,
       "ekipoa": "PSG"
     },
@@ -66,7 +66,7 @@
       "deskribapena": "Inter Milango kamiseta ofiziala, urdin eta beltza",
       "puntuak": 500,
       "kategoria": "kamiseta",
-      "irudia": "https://i.imgur.com/inter-shirt.jpg",
+      "irudia": "./public/Sariak/inter.jpeg",
       "stock": 6,
       "ekipoa": "Inter Milan"
     },
@@ -76,7 +76,7 @@
       "deskribapena": "AC Milango kamiseta ofiziala, gorri eta beltza",
       "puntuak": 500,
       "kategoria": "kamiseta",
-      "irudia": "https://i.imgur.com/acmilan-shirt.jpg",
+      "irudia": "./public/Sariak/milan.jpeg",
       "stock": 8,
       "ekipoa": "AC Milan"
     },
@@ -86,7 +86,7 @@
       "deskribapena": "Arsenal FCren kamiseta ofiziala, gorria",
       "puntuak": 500,
       "kategoria": "kamiseta",
-      "irudia": "https://i.imgur.com/arsenal-shirt.jpg",
+      "irudia": "./public/Sariak/ar.jpeg",
       "stock": 10,
       "ekipoa": "Arsenal"
     },
@@ -97,7 +97,7 @@
       "deskribapena": "Borussia Dortmund-en kamiseta ofiziala, hori eta beltza",
       "puntuak": 500,
       "kategoria": "kamiseta",
-      "irudia": "https://i.imgur.com/dortmund-shirt.jpg",
+      "irudia": "./public/Sariak/borusia.jpeg",
       "stock": 8,
       "ekipoa": "Borussia Dortmund"
     },
@@ -109,7 +109,7 @@
       "deskribapena": "Juventusen kamiseta ofiziala, zuri eta beltza",
       "puntuak": 500,
       "kategoria": "kamiseta",
-      "irudia": "https://i.imgur.com/juventus-shirt.jpg",
+      "irudia": "./public/Sariak/juve.jpeg",
       "stock": 10,
       "ekipoa": "Juventus"
     },
@@ -119,7 +119,7 @@
       "deskribapena": "Bidaia Londresera, 3 gau hotelarekin eta Arsenal partida bat ikusteko sarrerak",
       "puntuak": 5000,
       "kategoria": "bidaiak",
-      "irudia": "https://i.imgur.com/london-trip.jpg",
+      "irudia": "./public/Sariak/arsenalviaje.png",
       "stock": 3,
       "ekipoa": "Arsenal"
     },
@@ -129,7 +129,7 @@
       "deskribapena": "Bidaia Munichera, 3 gau hotelarekin eta Bayern Munich partida bat ikusteko sarrerak",
       "puntuak": 4800,
       "kategoria": "bidaiak",
-      "irudia": "https://i.imgur.com/munich-trip.jpg",
+      "irudia": "./public/Sariak/bayernExperience.png",
       "stock": 4,
       "ekipoa": "Bayern Munich"
     },
@@ -139,7 +139,7 @@
       "deskribapena": "Bidaia Milanera, 3 gau hotelarekin eta Milaneko derbia ikusteko sarrerak (Inter vs AC Milan)",
       "puntuak": 5500,
       "kategoria": "bidaiak",
-      "irudia": "https://i.imgur.com/milan-trip.jpg",
+      "irudia": "./public/Sariak/derbiItalia.png",
       "stock": 2,
       "ekipoa": "Inter/AC Milan"
     },
@@ -149,7 +149,7 @@
       "deskribapena": "Bidaia Manchesterrera, 3 gau hotelarekin eta Manchester United edo City partida bat ikusteko sarrerak",
       "puntuak": 4900,
       "kategoria": "bidaiak",
-      "irudia": "https://i.imgur.com/manchester-trip.jpg",
+      "irudia": "./public/Sariak/UnitedCity.png",
       "stock": 3,
       "ekipoa": "Manchester"
     },
@@ -159,7 +159,7 @@
       "deskribapena": "Bidaia Parisera, 3 gau hotelarekin eta PSG partida bat ikusteko sarrerak",
       "puntuak": 5200,
       "kategoria": "bidaiak",
-      "irudia": "https://i.imgur.com/paris-trip.jpg",
+      "irudia": "./public/Sariak/viajeParis.png",
       "stock": 3,
       "ekipoa": "PSG"
     },
@@ -169,7 +169,7 @@
       "deskribapena": "Bi sarrera Champions League Finalerako + hegaldia eta hotela",
       "puntuak": 10000,
       "kategoria": "bidaiak",
-      "irudia": "https://i.imgur.com/ucl-final.jpg",
+      "irudia": "./public/Sariak/entradaChampions.png",
       "stock": 1,
       "ekipoa": "Finalista"
     },
@@ -179,7 +179,7 @@
       "deskribapena": "Bi sarrera El Clasico ikusteko Santiago Bernabeun edo Camp Noun",
       "puntuak": 3500,
       "kategoria": "sarrerak",
-      "irudia": "https://i.imgur.com/elclasico.jpg",
+      "irudia": "./public/Sariak/clasico.png",
       "stock": 5,
       "ekipoa": "Real Madrid/Barça"
     },
@@ -189,27 +189,18 @@
       "deskribapena": "Bi sarrera Manchester derbyrako (United vs City)",
       "puntuak": 3000,
       "kategoria": "sarrerak",
-      "irudia": "https://i.imgur.com/manderby.jpg",
+      "irudia": "./public/Sariak/DerbiIng.png",
       "stock": 4,
       "ekipoa": "Manchester"
     },
-    {
-      "id": 23,
-      "izena": "San Mames bisita gidatua",
-      "deskribapena": "Bisita gidatua San Mames estadiora, Athletic Cluben museoa barne",
-      "puntuak": 800,
-      "kategoria": "tourra",
-      "irudia": "https://i.imgur.com/sanmames.jpg",
-      "stock": 15,
-      "ekipoa": "Athletic Club"
-    },
+   
     {
       "id": 24,
       "izena": "Camp Nou bisita gidatua",
       "deskribapena": "Bisita gidatua Camp Noura, FC Barcelonaren museoa eta jokalarien aldageletara sarbidea",
       "puntuak": 1200,
       "kategoria": "tourra",
-      "irudia": "https://i.imgur.com/campnou.jpg",
+      "irudia": "./public/Sariak/visitaCampNou.png",
       "stock": 10,
       "ekipoa": "FC Barcelona"
     },
@@ -219,7 +210,7 @@
       "deskribapena": "Bisita gidatua Santiago Bernabeura, Real Madrilen museoa eta trofeo gela",
       "puntuak": 1200,
       "kategoria": "tourra",
-      "irudia": "https://i.imgur.com/bernabeu.jpg",
+      "irudia": "./public/Sariak/santiagoBisita.png",
       "stock": 10,
       "ekipoa": "Real Madrid"
     },
@@ -229,7 +220,7 @@
       "deskribapena": "Bisita gidatua Anfield-era, Liverpooleko museoa eta 'This is Anford' esperientzia",
       "puntuak": 1100,
       "kategoria": "tourra",
-      "irudia": "https://i.imgur.com/anfield.jpg",
+      "irudia": "./public/Sariak/anfield.png",  
       "stock": 8,
       "ekipoa": "Liverpool"
     },
