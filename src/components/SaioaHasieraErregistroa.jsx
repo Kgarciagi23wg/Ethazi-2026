@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { useAuth } from "../context/AuthContext";
@@ -31,6 +31,17 @@ const SaioaHasieraErregistroa = () => {
   const [akatsak, setAkatsak] = useState({});
   const [saioAkatsa, setSaioAkatsa] = useState('');
   const [erregistroArrakasta, setErregistroArrakasta] = useState('');
+
+  // 🔥 REDIRECCIÓN AUTOMÁTICA TRAS LOGIN EXITOSO
+  useEffect(() => {
+    if (saioArrakasta) {
+      const timer = setTimeout(() => {
+        navigate('/');
+      }, 2000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [saioArrakasta, navigate]);
 
   const balidatuSaioa = () => {
     const akatsBerriak = {};
@@ -92,7 +103,6 @@ const SaioaHasieraErregistroa = () => {
           setSaioAkatsa('Kredentzial okerrak. Mesedez, saiatu berriro.');
         } else {
 
-          // ASIGNAR ROL
           const rol = loginData.email === "admin@admin.com" ? "admin" : "user";
 
           login({

@@ -5,81 +5,1888 @@
     {
       "jornada": 20,
       "partidos": [
-        { "fecha": "16/01/26", "local": "Espanyol", "visitante": "Girona", "resultado": "0-2" },
-        { "fecha": "17/01/26", "local": "Real Madrid", "visitante": "Levante", "resultado": "2-0" },
-        { "fecha": "17/01/26", "local": "Mallorca", "visitante": "Athletic Club", "resultado": "3-2" },
-        { "fecha": "17/01/26", "local": "Osasuna", "visitante": "Oviedo", "resultado": "3-2"},
-        { "fecha": "17/01/26", "local": "Real Betis", "visitante": "Villarreal", "resultado": "2-0"},
-        { "fecha": "18/01/26", "local": "Getafe", "visitante": "Valencia", "resultado": "0-1" },
-        { "fecha": "18/01/26", "local": "Atlético Madrid", "visitante": "Alavés", "resultado": "1-0" },
-        { "fecha": "18/01/26", "local": "Celta de Vigo", "visitante": "Rayo Vallecano", "resultado": "3-0" },
-        { "fecha": "18/01/26", "local": "Real Sociedad", "visitante": "Barcelona", "resultado": "2-1" },
-        { "fecha": "19/01/26", "local": "Elche", "visitante": "Sevilla", "resultado": "2-2" }
+        {
+          "fecha": "16/01/26",
+          "local": "Espanyol",
+          "visitante": "Girona",
+          "resultado": "0-2",
+          "estadio": "RCDE Stadium",
+          "asistencia": 24500,
+          "arbitro": "Jesús Gil Manzano",
+          "posesion": { "local": 43, "visitante": 57 },
+          "tiros": { "local": 8, "visitante": 15 },
+          "tiros_puerta": { "local": 2, "visitante": 7 },
+          "faltas": { "local": 14, "visitante": 9 },
+          "corners": { "local": 3, "visitante": 6 },
+          "tarjetas": {
+            "local": { "amarillas": 3, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 34, "equipo": "Girona", "jugador": "Viktor Tsygankov", "asistencia": "Miguel Gutiérrez" },
+            { "minuto": 78, "equipo": "Girona", "jugador": "Artem Dovbyk", "asistencia": "Iván Martín" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-4-2", "titulares": ["Pacheco", "Hernández", "Kumbulla", "Cabrera", "Olivan", "Bauza", "Lozano", "Aguado", "Tejero", "Puado", "Cheddira"] },
+            "visitante": { "formacion": "4-3-3", "titulares": ["Gazzaniga", "Martínez", "López", "Blind", "Gutiérrez", "Herrera", "Romeu", "Martín", "Tsygankov", "Dovbyk", "Portu"] }
+          },
+          "suplentes": {
+            "local": ["Fortuño", "Gómez", "Romero", "Sánchez", "Salvi", "Gragera", "Jofre", "Véliz", "Baldé"],
+            "visitante": ["Carlos", "Bernardo", "Juanpe", "Solís", "Torre", "Fernández", "Stuani", "Valery", "Artero"]
+          },
+          "minuto_a_minuto": [
+            "12' - Remate de Puado que despeja Gazzaniga.",
+            "34' - GOOOOL DE GIRONA! Centro de Gutiérrez desde la izquierda y Tsygankov, entrando desde atrás, bate a Pacheco. 0-1.",
+            "45' - Tarjeta amarilla para Cabrera por una falta sobre Dovbyk.",
+            "56' - Doble ocasión de Girona: primero Dovbyk remata al palo y luego el rechace lo tira fuera Portu.",
+            "67' - Cambio en Girona: entra Stuani por Portu.",
+            "78' - GOOOOL DE GIRONA! Contragolpe letal. Iván Martín conduce y asiste a Dovbyk que define cruzado. 0-2.",
+            "85' - Tarjeta amarilla para Herrera por perder tiempo.",
+            "90' - Final del partido. Victoria justa del Girona en Cornellà."
+          ]
+        },
+        {
+          "fecha": "17/01/26",
+          "local": "Real Madrid",
+          "visitante": "Levante",
+          "resultado": "2-0",
+          "estadio": "Santiago Bernabéu",
+          "asistencia": 71000,
+          "arbitro": "Alejandro Hernández Hernández",
+          "posesion": { "local": 68, "visitante": 32 },
+          "tiros": { "local": 22, "visitante": 3 },
+          "tiros_puerta": { "local": 9, "visitante": 1 },
+          "faltas": { "local": 7, "visitante": 13 },
+          "corners": { "local": 8, "visitante": 1 },
+          "tarjetas": {
+            "local": { "amarillas": 1, "rojas": 0 },
+            "visitante": { "amarillas": 4, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 43, "equipo": "Real Madrid", "jugador": "Kylian Mbappé", "asistencia": "Jude Bellingham" },
+            { "minuto": 67, "equipo": "Real Madrid", "jugador": "Vinícius Jr.", "asistencia": "Federico Valverde" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-3-3", "titulares": ["Courtois", "Vázquez", "Rüdiger", "Alaba", "Mendy", "Valverde", "Tchouaméni", "Bellingham", "Rodrygo", "Mbappé", "Vinícius Jr."] },
+            "visitante": { "formacion": "5-4-1", "titulares": ["Cárdenas", "Mujaid", "Postigo", "Vezo", "Cabello", "Pascanu", "Brugué", "Iborra", "Martínez", "Morales", "Cantero"] }
+          },
+          "suplentes": {
+            "local": ["Lunin", "Fran García", "Carvajal", "Militao", "Ceballos", "Modrić", "Güler", "Díaz", "Endrick"],
+            "visitante": ["Navarro", "Giménez", "P. Martínez", "Lozano", "Algobia", "Clemente", "Espí", "Álvarez", "Fabrício"]
+          },
+          "minuto_a_minuto": [
+            "22' - Remate de Bellingham que se estrella en el larguero.",
+            "35' - Tarjeta amarilla para Iborra por una dura entrada sobre Valverde.",
+            "43' - GOOOOL DEL REAL MADRID! Bellingham filtra un pase magistral para la carrera de Mbappé, que define por bajo. 1-0.",
+            "51' - Vinícius desborda y su disparo lo saca Cárdenas con el pie.",
+            "67' - GOOOOL DEL REAL MADRID! Valverde recupera, combina con Mbappé y asiste a Vinícius que marca a placer. 2-0.",
+            "75' - Tarjeta amarilla para Morales por protestar.",
+            "81' - Ocasión de Levante, disparo lejano de Cantero que se va cerca del poste.",
+            "90' - Triunfo cómodo del líder en el Bernabéu."
+          ]
+        },
+        {
+          "fecha": "17/01/26",
+          "local": "Mallorca",
+          "visitante": "Athletic Club",
+          "resultado": "3-2",
+          "estadio": "Son Moix",
+          "asistencia": 21000,
+          "arbitro": "Guillermo Cuadra Fernández",
+          "posesion": { "local": 41, "visitante": 59 },
+          "tiros": { "local": 12, "visitante": 18 },
+          "tiros_puerta": { "local": 6, "visitante": 7 },
+          "faltas": { "local": 12, "visitante": 10 },
+          "corners": { "local": 2, "visitante": 7 },
+          "tarjetas": {
+            "local": { "amarillas": 3, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 5, "equipo": "Athletic Club", "jugador": "Oihan Sancet", "asistencia": "Iñaki Williams" },
+            { "minuto": 23, "equipo": "Mallorca", "jugador": "Vedat Muriqi", "asistencia": "Dani Rodríguez" },
+            { "minuto": 45, "equipo": "Athletic Club", "jugador": "Gorka Guruzeta", "asistencia": "Álex Berenguer" },
+            { "minuto": 67, "equipo": "Mallorca", "jugador": "Sergi Darder", "asistencia": "Antonio Sánchez" },
+            { "minuto": 88, "equipo": "Mallorca", "jugador": "Cyle Larin", "asistencia": "Javi Llabrés" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "5-3-2", "titulares": ["Greif", "Maffeo", "Valjent", "Copete", "Raíllo", "Lato", "Sánchez", "Mascarell", "Darder", "Muriqi", "Larin"] },
+            "visitante": { "formacion": "4-2-3-1", "titulares": ["Agirrezabala", "De Marcos", "Yeray", "Vivian", "Yuri", "Vesga", "Prados", "I. Williams", "Sancet", "Berenguer", "Guruzeta"] }
+          },
+          "suplentes": {
+            "local": ["Cuéllar", "Morey", "Nastasić", "Gayá", "Morlanes", "Costas", "Rodríguez", "Llabrés", "Abdón"],
+            "visitante": ["Padilla", "Gorosabel", "Núñez", "Lekue", "Herrera", "Jauregizar", "Gómez", "N. Williams", "Villalibre"]
+          },
+          "minuto_a_minuto": [
+            "5' - GOOOOL DEL ATHLETIC! Iñaki gana la espalda y pone un centro raso que Sancet empuja a la red. 0-1.",
+            "23' - GOOOOL DEL MALLORCA! Córner botado por Darder y Muriqi, de cabeza, empata el partido. 1-1.",
+            "45' - GOOOOL DEL ATHLETIC! Guruzeta remata en el área pequeña un centro de Berenguer. 1-2. Así se llega al descanso.",
+            "55' - Ataja Greif! Remate de cabeza de Yeray a la salida de un córner.",
+            "67' - GOOOOL DEL MALLORCA! Darder controla en la frontal y suelta un disparo ajustado al palo. 2-2.",
+            "78' - Tarjeta amarilla para Maffeo por pérdida de tiempo.",
+            "88' - GOOOOL DEL MALLORCA! Larin remacha un centro de Llabrés. Remontada en Son Moix! 3-2.",
+            "90+4' - Final del partido. Partidazo y remontada del Mallorca."
+          ]
+        },
+        {
+          "fecha": "17/01/26",
+          "local": "Osasuna",
+          "visitante": "Oviedo",
+          "resultado": "3-2",
+          "estadio": "El Sadar",
+          "asistencia": 20500,
+          "arbitro": "Francisco José Hernández Maeso",
+          "posesion": { "local": 52, "visitante": 48 },
+          "tiros": { "local": 16, "visitante": 11 },
+          "tiros_puerta": { "local": 7, "visitante": 4 },
+          "faltas": { "local": 11, "visitante": 15 },
+          "corners": { "local": 6, "visitante": 4 },
+          "tarjetas": {
+            "local": { "amarillas": 2, "rojas": 0 },
+            "visitante": { "amarillas": 4, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 14, "equipo": "Osasuna", "jugador": "Ante Budimir", "asistencia": "Rubén García" },
+            { "minuto": 33, "equipo": "Oviedo", "jugador": "Borja Bastón", "asistencia": "Santi Cazorla" },
+            { "minuto": 48, "equipo": "Oviedo", "jugador": "Borja Bastón", "asistencia": "Viti" },
+            { "minuto": 72, "equipo": "Osasuna", "jugador": "Aimar Oroz", "asistencia": "Moi Gómez" },
+            { "minuto": 89, "equipo": "Osasuna", "jugador": "Raúl García de Haro", "asistencia": "Rubén Peña" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-3-3", "titulares": ["Herrera", "Areso", "Catena", "Boyomo", "Cruz", "Moncayola", "Torró", "Oroz", "R. García", "Budimir", "M. Gómez"] },
+            "visitante": { "formacion": "4-2-3-1", "titulares": ["Braat", "Viti", "Costas", "Luengo", "Arana", "Jiménez", "Cazorla", "Seoane", "Masca", "Paulino", "Bastón"] }
+          },
+          "suplentes": {
+            "local": ["Fernández", "Peña", "Herrando", "Ibáñez", "Muñoz", "Arnáiz", "García", "Gómez", "García de Haro"],
+            "visitante": ["Álvarez", "Tarín", "Chaira", "Benítez", "Del Moral", "Portillo", "Hassan", "Moyano", "Álvarez"]
+          },
+          "minuto_a_minuto": [
+            "14' - GOOOOL DE OSASUNA! Centro de Rubén García y Budimir gana la espalda al central para marcar. 1-0.",
+            "33' - GOOOOL DEL OVIEDO! Cazorla pone un pase al hueco y Borja Bastón bate a Herrera. 1-1.",
+            "45' - Tarjeta amarilla para Costas.",
+            "48' - GOOOOL DEL OVIEDO! Viti se va de su par y centro para que Borja Bastón haga el doblete. 1-2.",
+            "60' - Budimir falla un gol cantado tras un centro de Areso.",
+            "72' - GOOOOL DE OSASUNA! Moi Gómez recupera, combina con Oroz y este define con clase. 2-2.",
+            "81' - Remate al larguero de Masca para el Oviedo.",
+            "89' - GOOOOL DE OSASUNA! Centro de Peña y Raúl García de Haro remata de cabeza. Remontada 'in extremis' en El Sadar. 3-2."
+          ]
+        },
+        {
+          "fecha": "17/01/26",
+          "local": "Real Betis",
+          "visitante": "Villarreal",
+          "resultado": "2-0",
+          "estadio": "Benito Villamarín",
+          "asistencia": 52000,
+          "arbitro": "César Soto Grado",
+          "posesion": { "local": 45, "visitante": 55 },
+          "tiros": { "local": 14, "visitante": 12 },
+          "tiros_puerta": { "local": 5, "visitante": 3 },
+          "faltas": { "local": 13, "visitante": 8 },
+          "corners": { "local": 5, "visitante": 4 },
+          "tarjetas": {
+            "local": { "amarillas": 2, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 41, "equipo": "Real Betis", "jugador": "Giovani Lo Celso", "asistencia": "Isco" },
+            { "minuto": 83, "equipo": "Real Betis", "jugador": "Ayoze Pérez", "asistencia": "Chimy Ávila" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-2-3-1", "titulares": ["Vieites", "Bellerín", "Llorente", "Natan", "Perraud", "Cardoso", "Altimira", "Fornals", "Isco", "Lo Celso", "Ayoze"] },
+            "visitante": { "formacion": "4-4-2", "titulares": ["Conde", "Femenía", "Albiol", "Costa", "Cardona", "Parejo", "Comesaña", "Baena", "Pino", "Barry", "Moreno"] }
+          },
+          "suplentes": {
+            "local": ["Silva", "Ruibal", "Mendy", "Rodríguez", "Collado", "Flores", "Juanmi", "Ávila", "Bakambu"],
+            "visitante": ["Júnior", "Kambwala", "Navarro", "Bernat", "Gueye", "Terrats", "Denis", "Yeremy", "García"]
+          },
+          "minuto_a_minuto": [
+            "20' - Remate de Ayoze que ataja Conde.",
+            "41' - GOOOOL DEL BETIS! Isco da un pase filtrado a Lo Celso, que con un recorte se libera y marca. 1-0.",
+            "45' - Tarjeta amarilla para Perraud.",
+            "60' - Albiol saca bajo palos un remate de Lo Celso.",
+            "75' - Tarjeta amarilla para Parejo.",
+            "83' - GOOOOL DEL BETIS! Contragolpe mortal. Chimy Ávila corre la banda y asiste a Ayoze, que define cruzado. 2-0.",
+            "90' - Victoria sólida del Betis en casa."
+          ]
+        },
+        {
+          "fecha": "18/01/26",
+          "local": "Getafe",
+          "visitante": "Valencia",
+          "resultado": "0-1",
+          "estadio": "Coliseum",
+          "asistencia": 12500,
+          "arbitro": "Javier Alberola Rojas",
+          "posesion": { "local": 38, "visitante": 62 },
+          "tiros": { "local": 6, "visitante": 13 },
+          "tiros_puerta": { "local": 1, "visitante": 4 },
+          "faltas": { "local": 18, "visitante": 12 },
+          "corners": { "local": 2, "visitante": 7 },
+          "tarjetas": {
+            "local": { "amarillas": 5, "rojas": 1 },
+            "visitante": { "amarillas": 3, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 74, "equipo": "Valencia", "jugador": "Hugo Duro", "asistencia": "Pepelu" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "5-3-2", "titulares": ["Soria", "Iglesias", "Djené", "Alderete", "Berrocal", "Rico", "Milla", "Arambarri", "Pérez", "Mayoral", "Uche"] },
+            "visitante": { "formacion": "4-4-2", "titulares": ["Mamardashvili", "Foulquier", "Mosquera", "Tárrega", "Vázquez", "Pepelu", "Guerra", "Almeida", "López", "Duro", "Mir"] }
+          },
+          "suplentes": {
+            "local": ["Letáček", "Nyom", "Duarte", "González", "Yıldırım", "Rey", "Keenan", "Rodríguez", "Fedor"],
+            "visitante": ["Dimitrievski", "Correia", "Diakhaby", "Gayà", "Barrenechea", "F. Pérez", "Tejón", "Canós", "Otorbi"]
+          },
+          "minuto_a_minuto": [
+            "27' - Tarjeta amarilla para Arambarri.",
+            "40' - Paradón de Soria a remate de Hugo Duro.",
+            "45' - Tarjeta amarilla para Djené.",
+            "60' - Tarjeta amarilla para Milla.",
+            "70' - Doble amarilla para Rico, que ve la roja. Getafe con 10.",
+            "74' - GOOOOL DEL VALENCIA! Pepelu saca una falta lateral, Hugo Duro se adelanta a su defensor y marca de cabeza. 0-1.",
+            "82' - Mamardashvili evita el empate de Mayoral.",
+            "90' - Sufrida victoria del Valencia en Getafe."
+          ]
+        },
+        {
+          "fecha": "18/01/26",
+          "local": "Atlético Madrid",
+          "visitante": "Alavés",
+          "resultado": "1-0",
+          "estadio": "Metropolitano",
+          "asistencia": 62000,
+          "arbitro": "José Luis Munuera Montero",
+          "posesion": { "local": 61, "visitante": 39 },
+          "tiros": { "local": 18, "visitante": 5 },
+          "tiros_puerta": { "local": 6, "visitante": 2 },
+          "faltas": { "local": 9, "visitante": 14 },
+          "corners": { "local": 9, "visitante": 2 },
+          "tarjetas": {
+            "local": { "amarillas": 2, "rojas": 0 },
+            "visitante": { "amarillas": 4, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 62, "equipo": "Atlético Madrid", "jugador": "Antoine Griezmann", "asistencia": "Marcos Llorente" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "5-3-2", "titulares": ["Oblak", "Molina", "Giménez", "Le Normand", "Lenglet", "Lino", "Llorente", "Barrios", "De Paul", "Griezmann", "Álvarez"] },
+            "visitante": { "formacion": "4-2-3-1", "titulares": ["Sivera", "Tenaglia", "Mouriño", "Diarra", "López", "Blanco", "Guevara", "Vicente", "Stoichkov", "Conceiçao", "Martínez"] }
+          },
+          "suplentes": {
+            "local": ["Gomis", "Azpilicueta", "Witsel", "Gallagher", "Koke", "Lemar", "Riquelme", "Correa", "Sorloth"],
+            "visitante": ["Owono", "Sánchez", "García", "Pica", "Martín", "Jordán", "Hagi", "Villalibre", "Kike"]
+          },
+          "minuto_a_minuto": [
+            "30' - Griezmann estrella su disparo en el poste.",
+            "42' - Tarjeta amarilla para Guevara.",
+            "55' - Sivera detiene un mano a mano a Sorloth, que había entrado por Álvarez.",
+            "62' - GOOOOL DEL ATLÉTI! Llorente centra raso y Griezmann, en boca de gol, empuja el balón. 1-0.",
+            "75' - Tarjeta amarilla para Lino.",
+            "80' - Oblak despeja un córner peligroso.",
+            "90' - El Atlético suma tres puntos sufriendo."
+          ]
+        },
+        {
+          "fecha": "18/01/26",
+          "local": "Celta de Vigo",
+          "visitante": "Rayo Vallecano",
+          "resultado": "3-0",
+          "estadio": "Balaídos",
+          "asistencia": 18500,
+          "arbitro": "Miguel Ángel Ortiz Arias",
+          "posesion": { "local": 57, "visitante": 43 },
+          "tiros": { "local": 16, "visitante": 8 },
+          "tiros_puerta": { "local": 8, "visitante": 2 },
+          "faltas": { "local": 10, "visitante": 16 },
+          "corners": { "local": 5, "visitante": 4 },
+          "tarjetas": {
+            "local": { "amarillas": 2, "rojas": 0 },
+            "visitante": { "amarillas": 4, "rojas": 1 }
+          },
+          "goles": [
+            { "minuto": 20, "equipo": "Celta de Vigo", "jugador": "Iago Aspas", "asistencia": "Óscar Mingueza" },
+            { "minuto": 55, "equipo": "Celta de Vigo", "jugador": "Jørgen Strand Larsen", "asistencia": "Fran Beltrán" },
+            { "minuto": 75, "equipo": "Celta de Vigo", "jugador": "Williot Swedberg", "asistencia": "Hugo Álvarez" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-1-3-2", "titulares": ["Villar", "Mingueza", "Starfelt", "Núñez", "Álvarez", "Beltrán", "Durán", "Moriba", "Swedberg", "Aspas", "Larsen"] },
+            "visitante": { "formacion": "4-4-2", "titulares": ["Cárdenas", "Balliu", "Aridane", "Mumin", "Pep Chavarría", "Palazón", "López", "Ciss", "Álvaro", "Camello", "Nteka"] }
+          },
+          "suplentes": {
+            "local": ["Rodríguez", "Manquillo", "Alonso", "Rodríguez", "Domínguez", "Damián", "Sotelo", "Iglesias", "Allende"],
+            "visitante": ["Batalla", "Ratiu", "Hernández", "Gumbau", "Díaz", "Valentín", "Embarba", "De Frutos", "Guardiola"]
+          },
+          "minuto_a_minuto": [
+            "10' - Tarjeta amarilla para Ciss.",
+            "20' - GOOOOL DEL CELTA! Jugada de Mingueza, centro al área y Aspas, de primeras, marca. 1-0.",
+            "44' - Expulsión de Mumin por doble amarilla. El Rayo se queda con 10.",
+            "55' - GOOOOL DEL CELTA! Beltrán roba, toca con Aspas y asiste a Larsen, que cruza el balón. 2-0.",
+            "63' - Aspas estrelló un balón al larguero.",
+            "75' - GOOOOL DEL CELTA! Hugo Álvarez conduce, se la deja a Swedberg que dispara ajustado. 3-0.",
+            "85' - Final: Goleada del Celta en casa."
+          ]
+        },
+        {
+          "fecha": "18/01/26",
+          "local": "Real Sociedad",
+          "visitante": "Barcelona",
+          "resultado": "2-1",
+          "estadio": "Reale Arena",
+          "asistencia": 38000,
+          "arbitro": "Ricardo de Burgos Bengoetxea",
+          "posesion": { "local": 39, "visitante": 61 },
+          "tiros": { "local": 10, "visitante": 17 },
+          "tiros_puerta": { "local": 5, "visitante": 6 },
+          "faltas": { "local": 14, "visitante": 9 },
+          "corners": { "local": 3, "visitante": 8 },
+          "tarjetas": {
+            "local": { "amarillas": 3, "rojas": 0 },
+            "visitante": { "amarillas": 1, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 15, "equipo": "Barcelona", "jugador": "Robert Lewandowski", "asistencia": "Lamine Yamal" },
+            { "minuto": 32, "equipo": "Real Sociedad", "jugador": "Mikel Oyarzabal", "asistencia": "Takefusa Kubo" },
+            { "minuto": 68, "equipo": "Real Sociedad", "jugador": "Martín Zubimendi", "asistencia": "Brais Méndez" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-3-3", "titulares": ["Remiro", "Aramburu", "Zubeldia", "Aguerd", "Muñoz", "Zubimendi", "Sucic", "Méndez", "Kubo", "Oyarzabal", "Bakker"] },
+            "visitante": { "formacion": "4-2-3-1", "titulares": ["Peña", "Koundé", "Cubarsí", "Iñigo", "Balde", "Casadó", "Pedri", "Yamal", "Gavi", "Raphinha", "Lewandowski"] }
+          },
+          "suplentes": {
+            "local": ["Fraga", "Odriozola", "Elustondo", "Pacheco", "Turrientes", "Marín", "Olasagasti", "Becker", "Barrenetxea"],
+            "visitante": ["Szczęsny", "Fort", "Domínguez", "Martín", "De Jong", "Torre", "Olmo", "Fermín", "Víctor"]
+          },
+          "minuto_a_minuto": [
+            "15' - GOOOOL DEL BARÇA! Lamine Yamal desborda y pone un pase de la muerte que Lewandowski empuja. 0-1.",
+            "25' - Remiro detiene un mano a mano a Lewandowski.",
+            "32' - GOOOOL DE LA REAL! Kubo se va de Balde y centra para que Oyarzabal, de chilena, empate. 1-1.",
+            "45' - Amarilla para Méndez.",
+            "55' - Disparo de Pedri que saca Remiro.",
+            "68' - GOOOOL DE LA REAL! Zubimendi remata un córner. Remontada en San Sebastián. 2-1.",
+            "79' - Iñigo Martínez evita el gol de Kubo bajo palos.",
+            "90+4' - La Real aguanta y vence al Barça."
+          ]
+        },
+        {
+          "fecha": "19/01/26",
+          "local": "Elche",
+          "visitante": "Sevilla",
+          "resultado": "2-2",
+          "estadio": "Martínez Valero",
+          "asistencia": 28000,
+          "arbitro": "Isidro Díaz de Mera Escuderos",
+          "posesion": { "local": 44, "visitante": 56 },
+          "tiros": { "local": 11, "visitante": 15 },
+          "tiros_puerta": { "local": 5, "visitante": 6 },
+          "faltas": { "local": 11, "visitante": 8 },
+          "corners": { "local": 4, "visitante": 5 },
+          "tarjetas": {
+            "local": { "amarillas": 2, "rojas": 0 },
+            "visitante": { "amarillas": 1, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 5, "equipo": "Sevilla", "jugador": "Dodi Lukébakio", "asistencia": "Jesús Navas" },
+            { "minuto": 42, "equipo": "Elche", "jugador": "Óscar Plano", "asistencia": "Nicolás Fernández" },
+            { "minuto": 57, "equipo": "Sevilla", "jugador": "Isaac Romero", "asistencia": "Lucien Agoumé" },
+            { "minuto": 89, "equipo": "Elche", "jugador": "Mourad El Ghezouani", "asistencia": "José Salinas" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-4-2", "titulares": ["Dituro", "Salinas", "Bigas", "Clerc", "Martín", "Castro", "Guti", "Febas", "Plano", "Fernández", "Mourad"] },
+            "visitante": { "formacion": "4-3-3", "titulares": ["Nyland", "Navas", "Bade", "Nianzou", "Pedrosa", "Agoumé", "Sow", "Lokonga", "Lukébakio", "Romero", "Ejuke"] }
+          },
+          "suplentes": {
+            "local": ["López", "Núñez", "Álvarez", "Hernández", "Mercau", "Cristian", "Ramos", "Apu", "Álvarez"],
+            "visitante": ["Flores", "Carmona", "Marcao", "Gudelj", "Bueno", "Montiel", "Collado", "Peque", "Idumbo"]
+          },
+          "minuto_a_minuto": [
+            "5' - GOOOOL DEL SEVILLA! Centro de Navas y Lukébakio, solo en el segundo palo, marca. 0-1.",
+            "30' - Elche lo intenta, pero Nyland detiene un tiro de Mourad.",
+            "42' - GOOOOL DEL ELCHE! Fernández se inventa una jugada y asiste a Plano, que bate a Nyland. 1-1.",
+            "57' - GOOOOL DEL SEVILLA! Agoumé recupera y da un pase a Isaac Romero, que define de vaselina. 1-2.",
+            "70' - Amarilla para Sow.",
+            "89' - GOOOOL DEL ELCHE! Córner botado por Salinas, Bigas peina y Mourad, en el segundo palo, empata. 2-2.",
+            "93' - Final. Reparto de puntos en Elche."
+          ]
+        }
       ]
     },
     {
       "jornada": 21,
       "partidos": [
-        { "fecha": "23/01/26", "local": "Levante", "visitante": "Elche", "resultado": "3-2" },
-        { "fecha": "24/01/26", "local": "Rayo Vallecano", "visitante": "Osasuna", "resultado": "1-3" },
-        { "fecha": "24/01/26", "local": "Valencia", "visitante": "Espanyol", "resultado": "3-2" },
-        { "fecha": "24/01/26", "local": "Sevilla", "visitante": "Athletic Club", "resultado": "2-1" },
-        { "fecha": "24/01/26", "local": "Villarreal", "visitante": "Real Madrid", "resultado": "0-2" },
-        { "fecha": "25/01/26", "local": "Atlético Madrid", "visitante": "Mallorca", "resultado": "3-0" },
-        { "fecha": "25/01/26", "local": "Barcelona", "visitante": "Oviedo", "resultado": "3-0" },
-        { "fecha": "25/01/26", "local": "Real Sociedad", "visitante": "Celta de Vigo", "resultado": "3-1" },
-        { "fecha": "25/01/26", "local": "Alavés", "visitante": "Real Betis", "resultado": "2-1" },
-        { "fecha": "26/01/26", "local": "Girona", "visitante": "Getafe", "resultado": "1-1" }
+        {
+          "fecha": "23/01/26",
+          "local": "Levante",
+          "visitante": "Elche",
+          "resultado": "3-2",
+          "estadio": "Ciutat de València",
+          "asistencia": 19000,
+          "arbitro": "Alejandro Quintero González",
+          "posesion": { "local": 55, "visitante": 45 },
+          "tiros": { "local": 14, "visitante": 12 },
+          "tiros_puerta": { "local": 7, "visitante": 5 },
+          "faltas": { "local": 10, "visitante": 15 },
+          "corners": { "local": 6, "visitante": 3 },
+          "tarjetas": {
+            "local": { "amarillas": 2, "rojas": 0 },
+            "visitante": { "amarillas": 4, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 11, "equipo": "Elche", "jugador": "Nicolás Fernández", "asistencia": "Cristian Gutiérrez" },
+            { "minuto": 32, "equipo": "Levante", "jugador": "José Luis Morales", "asistencia": "Álvaro Martínez" },
+            { "minuto": 45, "equipo": "Levante", "jugador": "Sergio Lozano", "asistencia": "Pablo Martínez" },
+            { "minuto": 67, "equipo": "Elche", "jugador": "Mourad El Ghezouani", "asistencia": "Óscar Plano" },
+            { "minuto": 88, "equipo": "Levante", "jugador": "Fábio Blanco", "asistencia": "Carlos Álvarez" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-2-3-1", "titulares": ["Cárdenas", "Mujaid", "Postigo", "Vezo", "Cabello", "Iborra", "Martínez", "Brugué", "Lozano", "Morales", "Álvarez"] },
+            "visitante": { "formacion": "4-4-2", "titulares": ["Dituro", "Salinas", "Bigas", "Clerc", "Martín", "Febas", "Guti", "Castro", "Plano", "Fernández", "Mourad"] }
+          },
+          "suplentes": {
+            "local": ["Navarro", "Giménez", "Pascanu", "Clemente", "Algobia", "Espí", "Fabrício", "Cantero", "García"],
+            "visitante": ["López", "Núñez", "Álvarez", "Hernández", "Mercau", "Cristian", "Ramos", "Apu", "Álvarez"]
+          },
+          "minuto_a_minuto": [
+            "11' - GOOOOL DEL ELCHE! Centro de Guti que remata Fernández de cabeza. 0-1.",
+            "32' - GOOOOL DEL LEVANTE! Pase filtrado de Álvaro Martínez y Morales define con calidad. 1-1.",
+            "45' - GOOOOL DEL LEVANTE! Lozano remata un centro de Pablo Martínez. 2-1.",
+            "55' - Amarilla para Iborra.",
+            "67' - GOOOOL DEL ELCHE! Plano asiste a Mourad que bate a Cárdenas. 2-2.",
+            "82' - Paradón de Cárdenas a remate de Fernández.",
+            "88' - GOOOOL DEL LEVANTE! Jugada personal de Álvarez que asiste a Blanco para hacer el 3-2 definitivo."
+          ]
+        },
+        {
+          "fecha": "24/01/26",
+          "local": "Rayo Vallecano",
+          "visitante": "Osasuna",
+          "resultado": "1-3",
+          "estadio": "Vallecas",
+          "asistencia": 13000,
+          "arbitro": "Víctor García Verdura",
+          "posesion": { "local": 53, "visitante": 47 },
+          "tiros": { "local": 10, "visitante": 13 },
+          "tiros_puerta": { "local": 4, "visitante": 6 },
+          "faltas": { "local": 12, "visitante": 14 },
+          "corners": { "local": 5, "visitante": 5 },
+          "tarjetas": {
+            "local": { "amarillas": 3, "rojas": 1 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 8, "equipo": "Osasuna", "jugador": "Ante Budimir", "asistencia": "Rubén García" },
+            { "minuto": 40, "equipo": "Rayo Vallecano", "jugador": "Isi Palazón", "asistencia": "Jorge de Frutos" },
+            { "minuto": 65, "equipo": "Osasuna", "jugador": "Aimar Oroz", "asistencia": "Bryan Zaragoza" },
+            { "minuto": 82, "equipo": "Osasuna", "jugador": "Raúl García de Haro", "asistencia": "Jesús Areso" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-2-3-1", "titulares": ["Cárdenas", "Balliu", "Mumin", "Aridane", "Chavarría", "López", "Ciss", "Palazón", "Álvaro", "De Frutos", "Camello"] },
+            "visitante": { "formacion": "4-3-3", "titulares": ["Herrera", "Areso", "Catena", "Boyomo", "Cruz", "Moncayola", "Torró", "Oroz", "R. García", "Budimir", "Zaragoza"] }
+          },
+          "suplentes": {
+            "local": ["Batalla", "Ratiu", "Hernández", "Gumbau", "Díaz", "Valentín", "Embarba", "Nteka", "Guardiola"],
+            "visitante": ["Fernández", "Peña", "Herrando", "Ibáñez", "Muñoz", "Arnáiz", "García", "Gómez", "García de Haro"]
+          },
+          "minuto_a_minuto": [
+            "8' - GOOOOL DE OSASUNA! Centro de Rubén García y Budimir adelanta a los visitantes. 0-1.",
+            "26' - Amarilla para Mumin.",
+            "40' - GOOOOL DEL RAYO! Palazón empata tras una asistencia de De Frutos. 1-1.",
+            "45' - Expulsión de Aridane por roja directa. El Rayo con 10.",
+            "65' - GOOOOL DE OSASUNA! Zaragoza desborda y asiste a Oroz, que marca. 1-2.",
+            "82' - GOOOOL DE OSASUNA! Córner botado por Areso y García de Haro sella la victoria. 1-3."
+          ]
+        },
+        {
+          "fecha": "24/01/26",
+          "local": "Valencia",
+          "visitante": "Espanyol",
+          "resultado": "3-2",
+          "estadio": "Mestalla",
+          "asistencia": 42000,
+          "arbitro": "Adrián Cordero Vega",
+          "posesion": { "local": 58, "visitante": 42 },
+          "tiros": { "local": 17, "visitante": 9 },
+          "tiros_puerta": { "local": 8, "visitante": 4 },
+          "faltas": { "local": 10, "visitante": 13 },
+          "corners": { "local": 7, "visitante": 3 },
+          "tarjetas": {
+            "local": { "amarillas": 2, "rojas": 0 },
+            "visitante": { "amarillas": 3, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 14, "equipo": "Espanyol", "jugador": "Javi Puado", "asistencia": "Álvaro Aguado" },
+            { "minuto": 30, "equipo": "Valencia", "jugador": "Hugo Duro", "asistencia": "André Almeida" },
+            { "minuto": 45, "equipo": "Valencia", "jugador": "Rafa Mir", "asistencia": "José Gayà" },
+            { "minuto": 65, "equipo": "Espanyol", "jugador": "Walid Cheddira", "asistencia": "Brian Oliván" },
+            { "minuto": 85, "equipo": "Valencia", "jugador": "Pepelu", "asistencia": "Fran Pérez" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-4-2", "titulares": ["Mamardashvili", "Foulquier", "Mosquera", "Tárrega", "Gayà", "Pepelu", "Guerra", "Almeida", "López", "Duro", "Mir"] },
+            "visitante": { "formacion": "4-4-2", "titulares": ["Pacheco", "Hernández", "Kumbulla", "Cabrera", "Olivan", "Bauza", "Lozano", "Aguado", "Tejero", "Puado", "Cheddira"] }
+          },
+          "suplentes": {
+            "local": ["Dimitrievski", "Correia", "Diakhaby", "Vázquez", "Barrenechea", "F. Pérez", "Tejón", "Canós", "Otorbi"],
+            "visitante": ["Fortuño", "Gómez", "Romero", "Sánchez", "Salvi", "Gragera", "Jofre", "Véliz", "Baldé"]
+          },
+          "minuto_a_minuto": [
+            "14' - GOOOOL DEL ESPANYOL! Puado remata un centro de Aguado. 0-1.",
+            "30' - GOOOOL DEL VALENCIA! Almeida asiste a Duro, que empata. 1-1.",
+            "45' - GOOOOL DEL VALENCIA! Centro de Gayà y Mir de cabeza da la vuelta. 2-1.",
+            "60' - Amarilla para Cabrera.",
+            "65' - GOOOOL DEL ESPANYOL! Cheddira empata con un remate de Oliván. 2-2.",
+            "85' - GOOOOL DEL VALENCIA! Pepelu, de falta directa, da la victoria. 3-2."
+          ]
+        },
+        {
+          "fecha": "24/01/26",
+          "local": "Sevilla",
+          "visitante": "Athletic Club",
+          "resultado": "2-1",
+          "estadio": "Ramón Sánchez-Pizjuán",
+          "asistencia": 38000,
+          "arbitro": "Juan Martínez Munuera",
+          "posesion": { "local": 48, "visitante": 52 },
+          "tiros": { "local": 12, "visitante": 14 },
+          "tiros_puerta": { "local": 5, "visitante": 5 },
+          "faltas": { "local": 12, "visitante": 11 },
+          "corners": { "local": 4, "visitante": 6 },
+          "tarjetas": {
+            "local": { "amarillas": 3, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 20, "equipo": "Sevilla", "jugador": "Isaac Romero", "asistencia": "Jesús Navas" },
+            { "minuto": 55, "equipo": "Athletic Club", "jugador": "Iñaki Williams", "asistencia": "Oihan Sancet" },
+            { "minuto": 78, "equipo": "Sevilla", "jugador": "Dodi Lukébakio", "asistencia": "Adrià Pedrosa" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-3-3", "titulares": ["Nyland", "Navas", "Bade", "Nianzou", "Pedrosa", "Agoumé", "Sow", "Lokonga", "Lukébakio", "Romero", "Ejuke"] },
+            "visitante": { "formacion": "4-2-3-1", "titulares": ["Agirrezabala", "De Marcos", "Yeray", "Vivian", "Yuri", "Vesga", "Prados", "I. Williams", "Sancet", "Berenguer", "Guruzeta"] }
+          },
+          "suplentes": {
+            "local": ["Flores", "Carmona", "Marcao", "Gudelj", "Bueno", "Montiel", "Collado", "Peque", "Idumbo"],
+            "visitante": ["Padilla", "Gorosabel", "Núñez", "Lekue", "Herrera", "Jauregizar", "Gómez", "N. Williams", "Villalibre"]
+          },
+          "minuto_a_minuto": [
+            "20' - GOOOOL DEL SEVILLA! Centro de Navas y Romero marca de cabeza. 1-0.",
+            "42' - Amarilla para Nianzou.",
+            "55' - GOOOOL DEL ATHLETIC! Sancet asiste a Iñaki Williams, que define cruzado. 1-1.",
+            "70' - Paradón de Nyland a Guruzeta.",
+            "78' - GOOOOL DEL SEVILLA! Pedrosa centra y Lukébakio empuja. 2-1."
+          ]
+        },
+        {
+          "fecha": "24/01/26",
+          "local": "Villarreal",
+          "visitante": "Real Madrid",
+          "resultado": "0-2",
+          "estadio": "La Cerámica",
+          "asistencia": 22000,
+          "arbitro": "Jesús Gil Manzano",
+          "posesion": { "local": 51, "visitante": 49 },
+          "tiros": { "local": 12, "visitante": 15 },
+          "tiros_puerta": { "local": 3, "visitante": 7 },
+          "faltas": { "local": 11, "visitante": 9 },
+          "corners": { "local": 5, "visitante": 6 },
+          "tarjetas": {
+            "local": { "amarillas": 2, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 32, "equipo": "Real Madrid", "jugador": "Kylian Mbappé", "asistencia": "Eduardo Camavinga" },
+            { "minuto": 71, "equipo": "Real Madrid", "jugador": "Vinicius Jr.", "asistencia": "Jude Bellingham" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-4-2", "titulares": ["Conde", "Femenía", "Albiol", "Costa", "Cardona", "Parejo", "Comesaña", "Baena", "Pino", "Barry", "Moreno"] },
+            "visitante": { "formacion": "4-3-3", "titulares": ["Courtois", "Carvajal", "Rüdiger", "Alaba", "Mendy", "Valverde", "Tchouaméni", "Bellingham", "Rodrygo", "Mbappé", "Vinícius Jr."] }
+          },
+          "suplentes": {
+            "local": ["Júnior", "Kambwala", "Navarro", "Bernat", "Gueye", "Terrats", "Denis", "Yeremy", "García"],
+            "visitante": ["Lunin", "Vázquez", "Militao", "Fran García", "Ceballos", "Modrić", "Güler", "Díaz", "Endrick"]
+          },
+          "minuto_a_minuto": [
+            "32' - GOOOOL DEL REAL MADRID! Camavinga roba y asiste a Mbappé, que define. 0-1.",
+            "45' - Amarilla para Parejo.",
+            "55' - Conde evita el segundo de Rodrygo.",
+            "71' - GOOOOL DEL REAL MADRID! Vinícius remata un centro de Bellingham. 0-2.",
+            "85' - Victoria madridista en La Cerámica."
+          ]
+        },
+        {
+          "fecha": "25/01/26",
+          "local": "Atlético Madrid",
+          "visitante": "Mallorca",
+          "resultado": "3-0",
+          "estadio": "Metropolitano",
+          "asistencia": 60000,
+          "arbitro": "Alejandro Hernández Hernández",
+          "posesion": { "local": 63, "visitante": 37 },
+          "tiros": { "local": 20, "visitante": 5 },
+          "tiros_puerta": { "local": 9, "visitante": 1 },
+          "faltas": { "local": 8, "visitante": 14 },
+          "corners": { "local": 8, "visitante": 2 },
+          "tarjetas": {
+            "local": { "amarillas": 1, "rojas": 0 },
+            "visitante": { "amarillas": 3, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 15, "equipo": "Atlético Madrid", "jugador": "Antoine Griezmann", "asistencia": "Julián Álvarez" },
+            { "minuto": 48, "equipo": "Atlético Madrid", "jugador": "Alexander Sorloth", "asistencia": "Samuel Lino" },
+            { "minuto": 72, "equipo": "Atlético Madrid", "jugador": "Ángel Correa", "asistencia": "Rodrigo De Paul" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "5-3-2", "titulares": ["Oblak", "Molina", "Giménez", "Le Normand", "Lenglet", "Lino", "Llorente", "Barrios", "De Paul", "Griezmann", "Álvarez"] },
+            "visitante": { "formacion": "5-3-2", "titulares": ["Greif", "Maffeo", "Valjent", "Copete", "Raíllo", "Lato", "Sánchez", "Mascarell", "Darder", "Muriqi", "Larin"] }
+          },
+          "suplentes": {
+            "local": ["Gomis", "Azpilicueta", "Witsel", "Gallagher", "Koke", "Lemar", "Riquelme", "Correa", "Sorloth"],
+            "visitante": ["Cuéllar", "Morey", "Nastasić", "Gayá", "Morlanes", "Costas", "Rodríguez", "Llabrés", "Abdón"]
+          },
+          "minuto_a_minuto": [
+            "15' - GOOOOL DEL ATLÉTI! Jugada de Álvarez y Griezmann marca. 1-0.",
+            "48' - GOOOOL DEL ATLÉTI! Lino centra y Sorloth remata de cabeza. 2-0.",
+            "60' - Amarilla para Raíllo.",
+            "72' - GOOOOL DEL ATLÉTI! Correa define tras un pase de De Paul. 3-0."
+          ]
+        },
+        {
+          "fecha": "25/01/26",
+          "local": "Barcelona",
+          "visitante": "Oviedo",
+          "resultado": "3-0",
+          "estadio": "Olímpic Lluís Companys",
+          "asistencia": 72000,
+          "arbitro": "Guillermo Cuadra Fernández",
+          "posesion": { "local": 71, "visitante": 29 },
+          "tiros": { "local": 24, "visitante": 2 },
+          "tiros_puerta": { "local": 11, "visitante": 0 },
+          "faltas": { "local": 6, "visitante": 12 },
+          "corners": { "local": 10, "visitante": 1 },
+          "tarjetas": {
+            "local": { "amarillas": 0, "rojas": 0 },
+            "visitante": { "amarillas": 3, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 23, "equipo": "Barcelona", "jugador": "Robert Lewandowski", "asistencia": "Lamine Yamal" },
+            { "minuto": 52, "equipo": "Barcelona", "jugador": "Raphinha", "asistencia": "Pedri" },
+            { "minuto": 78, "equipo": "Barcelona", "jugador": "Dani Olmo", "asistencia": "Gavi" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-2-3-1", "titulares": ["Peña", "Koundé", "Cubarsí", "Iñigo", "Balde", "Casadó", "Pedri", "Yamal", "Gavi", "Raphinha", "Lewandowski"] },
+            "visitante": { "formacion": "4-2-3-1", "titulares": ["Braat", "Viti", "Costas", "Luengo", "Arana", "Jiménez", "Cazorla", "Seoane", "Masca", "Paulino", "Bastón"] }
+          },
+          "suplentes": {
+            "local": ["Szczęsny", "Fort", "Domínguez", "Martín", "De Jong", "Torre", "Olmo", "Fermín", "Víctor"],
+            "visitante": ["Álvarez", "Tarín", "Chaira", "Benítez", "Del Moral", "Portillo", "Hassan", "Moyano", "Álvarez"]
+          },
+          "minuto_a_minuto": [
+            "23' - GOOOOL DEL BARÇA! Yamal asiste a Lewandowski. 1-0.",
+            "45' - Poco puede hacer el Oviedo.",
+            "52' - GOOOOL DEL BARÇA! Raphinha remata un centro de Pedri. 2-0.",
+            "78' - GOOOOL DEL BARÇA! Olmo marca su primer gol. 3-0."
+          ]
+        },
+        {
+          "fecha": "25/01/26",
+          "local": "Real Sociedad",
+          "visitante": "Celta de Vigo",
+          "resultado": "3-1",
+          "estadio": "Reale Arena",
+          "asistencia": 32000,
+          "arbitro": "José Luis Munuera Montero",
+          "posesion": { "local": 55, "visitante": 45 },
+          "tiros": { "local": 14, "visitante": 9 },
+          "tiros_puerta": { "local": 7, "visitante": 3 },
+          "faltas": { "local": 9, "visitante": 12 },
+          "corners": { "local": 5, "visitante": 3 },
+          "tarjetas": {
+            "local": { "amarillas": 1, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 18, "equipo": "Celta de Vigo", "jugador": "Iago Aspas", "asistencia": "Óscar Mingueza" },
+            { "minuto": 33, "equipo": "Real Sociedad", "jugador": "Mikel Oyarzabal", "asistencia": "Brais Méndez" },
+            { "minuto": 58, "equipo": "Real Sociedad", "jugador": "Takefusa Kubo", "asistencia": "Martín Zubimendi" },
+            { "minuto": 85, "equipo": "Real Sociedad", "jugador": "Ander Barrenetxea", "asistencia": "Aihen Muñoz" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-3-3", "titulares": ["Remiro", "Aramburu", "Zubeldia", "Aguerd", "Muñoz", "Zubimendi", "Sucic", "Méndez", "Kubo", "Oyarzabal", "Bakker"] },
+            "visitante": { "formacion": "4-1-3-2", "titulares": ["Villar", "Mingueza", "Starfelt", "Núñez", "Álvarez", "Beltrán", "Durán", "Moriba", "Swedberg", "Aspas", "Larsen"] }
+          },
+          "suplentes": {
+            "local": ["Fraga", "Odriozola", "Elustondo", "Pacheco", "Turrientes", "Marín", "Olasagasti", "Becker", "Barrenetxea"],
+            "visitante": ["Rodríguez", "Manquillo", "Alonso", "Rodríguez", "Domínguez", "Damián", "Sotelo", "Iglesias", "Allende"]
+          },
+          "minuto_a_minuto": [
+            "18' - GOOOOL DEL CELTA! Aspas abre la lata. 0-1.",
+            "33' - GOOOOL DE LA REAL! Oyarzabal empata. 1-1.",
+            "58' - GOOOOL DE LA REAL! Kubo remata de volea. 2-1.",
+            "85' - GOOOOL DE LA REAL! Barrenetxea sentencia. 3-1."
+          ]
+        },
+        {
+          "fecha": "25/01/26",
+          "local": "Alavés",
+          "visitante": "Real Betis",
+          "resultado": "2-1",
+          "estadio": "Mendizorroza",
+          "asistencia": 17000,
+          "arbitro": "Francisco José Hernández Maeso",
+          "posesion": { "local": 42, "visitante": 58 },
+          "tiros": { "local": 11, "visitante": 15 },
+          "tiros_puerta": { "local": 5, "visitante": 6 },
+          "faltas": { "local": 16, "visitante": 9 },
+          "corners": { "local": 4, "visitante": 7 },
+          "tarjetas": {
+            "local": { "amarillas": 4, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 12, "equipo": "Real Betis", "jugador": "Ayoze Pérez", "asistencia": "Isco" },
+            { "minuto": 47, "equipo": "Alavés", "jugador": "Toni Martínez", "asistencia": "Carlos Vicente" },
+            { "minuto": 89, "equipo": "Alavés", "jugador": "Kike García", "asistencia": "Abdel Abqar" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-2-3-1", "titulares": ["Sivera", "Tenaglia", "Mouriño", "Diarra", "López", "Blanco", "Guevara", "Vicente", "Stoichkov", "Conceiçao", "Martínez"] },
+            "visitante": { "formacion": "4-2-3-1", "titulares": ["Vieites", "Bellerín", "Llorente", "Natan", "Perraud", "Cardoso", "Altimira", "Fornals", "Isco", "Lo Celso", "Ayoze"] }
+          },
+          "suplentes": {
+            "local": ["Owono", "Sánchez", "García", "Pica", "Martín", "Jordán", "Hagi", "Villalibre", "Kike"],
+            "visitante": ["Silva", "Ruibal", "Mendy", "Rodríguez", "Collado", "Flores", "Juanmi", "Ávila", "Bakambu"]
+          },
+          "minuto_a_minuto": [
+            "12' - GOOOOL DEL BETIS! Ayoze marca. 0-1.",
+            "47' - GOOOOL DEL ALAVÉS! Martínez empata. 1-1.",
+            "70' - Amarilla para Guevara.",
+            "89' - GOOOOL DEL ALAVÉS! Kike García remata de cabeza. Remontada. 2-1."
+          ]
+        },
+        {
+          "fecha": "26/01/26",
+          "local": "Girona",
+          "visitante": "Getafe",
+          "resultado": "1-1",
+          "estadio": "Montilivi",
+          "asistencia": 12000,
+          "arbitro": "Miguel Ángel Ortiz Arias",
+          "posesion": { "local": 64, "visitante": 36 },
+          "tiros": { "local": 16, "visitante": 6 },
+          "tiros_puerta": { "local": 5, "visitante": 2 },
+          "faltas": { "local": 11, "visitante": 19 },
+          "corners": { "local": 7, "visitante": 3 },
+          "tarjetas": {
+            "local": { "amarillas": 2, "rojas": 0 },
+            "visitante": { "amarillas": 5, "rojas": 1 }
+          },
+          "goles": [
+            { "minuto": 32, "equipo": "Getafe", "jugador": "Borja Mayoral", "asistencia": "Luis Milla" },
+            { "minuto": 75, "equipo": "Girona", "jugador": "Cristhian Stuani", "asistencia": "Iván Martín" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-3-3", "titulares": ["Gazzaniga", "Martínez", "López", "Blind", "Gutiérrez", "Herrera", "Romeu", "Martín", "Tsygankov", "Dovbyk", "Portu"] },
+            "visitante": { "formacion": "5-3-2", "titulares": ["Soria", "Iglesias", "Djené", "Alderete", "Berrocal", "Rico", "Milla", "Arambarri", "Pérez", "Mayoral", "Uche"] }
+          },
+          "suplentes": {
+            "local": ["Carlos", "Bernardo", "Juanpe", "Solís", "Torre", "Fernández", "Stuani", "Valery", "Artero"],
+            "visitante": ["Letáček", "Nyom", "Duarte", "González", "Yıldırım", "Rey", "Keenan", "Rodríguez", "Fedor"]
+          },
+          "minuto_a_minuto": [
+            "32' - GOOOOL DEL GETAFE! Mayoral marca. 0-1.",
+            "45' - Expulsión de Arambarri por doble amarilla.",
+            "60' - Stuani falla un penalti (fuera).",
+            "75' - GOOOOL DEL GIRONA! Stuani remata un centro de Iván Martín. 1-1."
+          ]
+        }
       ]
     },
     {
       "jornada": 22,
       "partidos": [
-        { "fecha": "30/01/26", "local": "Espanyol", "visitante": "Alavés", "resultado": "1-2" },
-        { "fecha": "31/01/26", "local": "Oviedo", "visitante": "Girona", "resultado": "1-0" },
-        { "fecha": "31/01/26", "local": "Osasuna", "visitante": "Villarreal", "resultado": "2-2" },
-        { "fecha": "31/01/26", "local": "Levante", "visitante": "Atlético Madrid", "resultado": "0-0" },
-        { "fecha": "31/01/26", "local": "Elche", "visitante": "Barcelona", "resultado": "1-3" },
-        { "fecha": "01/02/26", "local": "Real Madrid", "visitante": "Rayo Vallecano", "resultado": "2-1" },
-        { "fecha": "01/02/26", "local": "Real Betis", "visitante": "Valencia", "resultado": "2-1" },
-        { "fecha": "01/02/26", "local": "Getafe", "visitante": "Celta de Vigo", "resultado": "0-0" },
-        { "fecha": "01/02/26", "local": "Athletic Club", "visitante": "Real Sociedad", "resultado": "1-1" },
-        { "fecha": "02/02/26", "local": "Mallorca", "visitante": "Sevilla", "resultado": "4-1" }
+        {
+          "fecha": "30/01/26",
+          "local": "Espanyol",
+          "visitante": "Alavés",
+          "resultado": "1-2",
+          "estadio": "RCDE Stadium",
+          "asistencia": 20000,
+          "arbitro": "César Soto Grado",
+          "posesion": { "local": 54, "visitante": 46 },
+          "tiros": { "local": 12, "visitante": 10 },
+          "tiros_puerta": { "local": 4, "visitante": 5 },
+          "faltas": { "local": 13, "visitante": 14 },
+          "corners": { "local": 5, "visitante": 3 },
+          "tarjetas": {
+            "local": { "amarillas": 3, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 18, "equipo": "Alavés", "jugador": "Toni Martínez", "asistencia": "Carlos Vicente" },
+            { "minuto": 57, "equipo": "Espanyol", "jugador": "Javi Puado", "asistencia": "Brian Oliván" },
+            { "minuto": 83, "equipo": "Alavés", "jugador": "Kike García", "asistencia": "Abdel Abqar" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-4-2", "titulares": ["Pacheco", "Hernández", "Kumbulla", "Cabrera", "Olivan", "Bauza", "Lozano", "Aguado", "Tejero", "Puado", "Cheddira"] },
+            "visitante": { "formacion": "4-2-3-1", "titulares": ["Sivera", "Tenaglia", "Mouriño", "Diarra", "López", "Blanco", "Guevara", "Vicente", "Stoichkov", "Conceiçao", "Martínez"] }
+          },
+          "suplentes": {
+            "local": ["Fortuño", "Gómez", "Romero", "Sánchez", "Salvi", "Gragera", "Jofre", "Véliz", "Baldé"],
+            "visitante": ["Owono", "Sánchez", "García", "Pica", "Martín", "Jordán", "Hagi", "Villalibre", "Kike"]
+          },
+          "minuto_a_minuto": [
+            "18' - GOOOOL DEL ALAVÉS! Martínez adelanta a los visitantes. 0-1.",
+            "45' - Amarilla para Diarra.",
+            "57' - GOOOOL DEL ESPANYOL! Puado empata. 1-1.",
+            "83' - GOOOOL DEL ALAVÉS! Kike García da la victoria. 1-2."
+          ]
+        },
+        {
+          "fecha": "31/01/26",
+          "local": "Oviedo",
+          "visitante": "Girona",
+          "resultado": "1-0",
+          "estadio": "Carlos Tartiere",
+          "asistencia": 25000,
+          "arbitro": "Javier Alberola Rojas",
+          "posesion": { "local": 41, "visitante": 59 },
+          "tiros": { "local": 8, "visitante": 14 },
+          "tiros_puerta": { "local": 3, "visitante": 5 },
+          "faltas": { "local": 16, "visitante": 10 },
+          "corners": { "local": 2, "visitante": 7 },
+          "tarjetas": {
+            "local": { "amarillas": 4, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 67, "equipo": "Oviedo", "jugador": "Borja Bastón", "asistencia": "Santi Cazorla" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-2-3-1", "titulares": ["Braat", "Viti", "Costas", "Luengo", "Arana", "Jiménez", "Cazorla", "Seoane", "Masca", "Paulino", "Bastón"] },
+            "visitante": { "formacion": "4-3-3", "titulares": ["Gazzaniga", "Martínez", "López", "Blind", "Gutiérrez", "Herrera", "Romeu", "Martín", "Tsygankov", "Dovbyk", "Portu"] }
+          },
+          "suplentes": {
+            "local": ["Álvarez", "Tarín", "Chaira", "Benítez", "Del Moral", "Portillo", "Hassan", "Moyano", "Álvarez"],
+            "visitante": ["Carlos", "Bernardo", "Juanpe", "Solís", "Torre", "Fernández", "Stuani", "Valery", "Artero"]
+          },
+          "minuto_a_minuto": [
+            "15' - Gazzaniga salva el gol de Bastón.",
+            "45' - El Girona domina pero no marca.",
+            "67' - GOOOOL DEL OVIEDO! Cazorla asiste a Bastón, que define. 1-0.",
+            "85' - Remato de Stuani al palo."
+          ]
+        },
+        {
+          "fecha": "31/01/26",
+          "local": "Osasuna",
+          "visitante": "Villarreal",
+          "resultado": "2-2",
+          "estadio": "El Sadar",
+          "asistencia": 19500,
+          "arbitro": "Ricardo de Burgos Bengoetxea",
+          "posesion": { "local": 47, "visitante": 53 },
+          "tiros": { "local": 11, "visitante": 14 },
+          "tiros_puerta": { "local": 5, "visitante": 6 },
+          "faltas": { "local": 12, "visitante": 9 },
+          "corners": { "local": 4, "visitante": 5 },
+          "tarjetas": {
+            "local": { "amarillas": 3, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 9, "equipo": "Villarreal", "jugador": "Gerard Moreno", "asistencia": "Álex Baena" },
+            { "minuto": 28, "equipo": "Osasuna", "jugador": "Ante Budimir", "asistencia": "Rubén García" },
+            { "minuto": 55, "equipo": "Villarreal", "jugador": "Yeremy Pino", "asistencia": "Parejo" },
+            { "minuto": 79, "equipo": "Osasuna", "jugador": "Aimar Oroz", "asistencia": "Bryan Zaragoza" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-3-3", "titulares": ["Herrera", "Areso", "Catena", "Boyomo", "Cruz", "Moncayola", "Torró", "Oroz", "R. García", "Budimir", "Zaragoza"] },
+            "visitante": { "formacion": "4-4-2", "titulares": ["Conde", "Femenía", "Albiol", "Costa", "Cardona", "Parejo", "Comesaña", "Baena", "Pino", "Barry", "Moreno"] }
+          },
+          "suplentes": {
+            "local": ["Fernández", "Peña", "Herrando", "Ibáñez", "Muñoz", "Arnáiz", "García", "Gómez", "García de Haro"],
+            "visitante": ["Júnior", "Kambwala", "Navarro", "Bernat", "Gueye", "Terrats", "Denis", "Yeremy", "García"]
+          },
+          "minuto_a_minuto": [
+            "9' - GOOOOL DEL VILLARREAL! Moreno abre el marcador. 0-1.",
+            "28' - GOOOOL DE OSASUNA! Budimir empata. 1-1.",
+            "55' - GOOOOL DEL VILLARREAL! Pino adelanta al submarino. 1-2.",
+            "79' - GOOOOL DE OSASUNA! Oroz salva un punto. 2-2."
+          ]
+        },
+        {
+          "fecha": "31/01/26",
+          "local": "Levante",
+          "visitante": "Atlético Madrid",
+          "resultado": "0-0",
+          "estadio": "Ciutat de València",
+          "asistencia": 21000,
+          "arbitro": "Isidro Díaz de Mera Escuderos",
+          "posesion": { "local": 33, "visitante": 67 },
+          "tiros": { "local": 4, "visitante": 18 },
+          "tiros_puerta": { "local": 1, "visitante": 5 },
+          "faltas": { "local": 18, "visitante": 10 },
+          "corners": { "local": 1, "visitante": 9 },
+          "tarjetas": {
+            "local": { "amarillas": 5, "rojas": 1 },
+            "visitante": { "amarillas": 1, "rojas": 0 }
+          },
+          "goles": [],
+          "alineaciones": {
+            "local": { "formacion": "5-4-1", "titulares": ["Cárdenas", "Mujaid", "Postigo", "Vezo", "Cabello", "Pascanu", "Iborra", "Martínez", "Brugué", "Lozano", "Morales"] },
+            "visitante": { "formacion": "5-3-2", "titulares": ["Oblak", "Molina", "Giménez", "Le Normand", "Lenglet", "Lino", "Llorente", "Barrios", "De Paul", "Griezmann", "Álvarez"] }
+          },
+          "suplentes": {
+            "local": ["Navarro", "Giménez", "Clemente", "Algobia", "Espí", "Fabrício", "Cantero", "Blanco", "García"],
+            "visitante": ["Gomis", "Azpilicueta", "Witsel", "Gallagher", "Koke", "Lemar", "Riquelme", "Correa", "Sorloth"]
+          },
+          "minuto_a_minuto": [
+            "20' - Oblak detiene un mano a mano de Morales.",
+            "45' - El Atlético no acierta.",
+            "70' - Expulsión de Postigo por doble amarilla.",
+            "90' - Empate en Valencia."
+          ]
+        },
+        {
+          "fecha": "31/01/26",
+          "local": "Elche",
+          "visitante": "Barcelona",
+          "resultado": "1-3",
+          "estadio": "Martínez Valero",
+          "asistencia": 30000,
+          "arbitro": "Juan Martínez Munuera",
+          "posesion": { "local": 28, "visitante": 72 },
+          "tiros": { "local": 5, "visitante": 21 },
+          "tiros_puerta": { "local": 2, "visitante": 9 },
+          "faltas": { "local": 13, "visitante": 7 },
+          "corners": { "local": 2, "visitante": 8 },
+          "tarjetas": {
+            "local": { "amarillas": 3, "rojas": 0 },
+            "visitante": { "amarillas": 1, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 14, "equipo": "Barcelona", "jugador": "Robert Lewandowski", "asistencia": "Lamine Yamal" },
+            { "minuto": 48, "equipo": "Elche", "jugador": "Mourad El Ghezouani", "asistencia": "Nicolás Fernández" },
+            { "minuto": 62, "equipo": "Barcelona", "jugador": "Pedri", "asistencia": "Raphinha" },
+            { "minuto": 78, "equipo": "Barcelona", "jugador": "Dani Olmo", "asistencia": "Gavi" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-4-2", "titulares": ["Dituro", "Salinas", "Bigas", "Clerc", "Martín", "Febas", "Guti", "Castro", "Plano", "Fernández", "Mourad"] },
+            "visitante": { "formacion": "4-2-3-1", "titulares": ["Peña", "Koundé", "Cubarsí", "Iñigo", "Balde", "Casadó", "Pedri", "Yamal", "Gavi", "Raphinha", "Lewandowski"] }
+          },
+          "suplentes": {
+            "local": ["López", "Núñez", "Álvarez", "Hernández", "Mercau", "Cristian", "Ramos", "Apu", "Álvarez"],
+            "visitante": ["Szczęsny", "Fort", "Domínguez", "Martín", "De Jong", "Torre", "Olmo", "Fermín", "Víctor"]
+          },
+          "minuto_a_minuto": [
+            "14' - GOOOOL DEL BARÇA! Lewandowski. 0-1.",
+            "48' - GOOOOL DEL ELCHE! Mourad empata. 1-1.",
+            "62' - GOOOOL DEL BARÇA! Pedri. 1-2.",
+            "78' - GOOOOL DEL BARÇA! Olmo. 1-3."
+          ]
+        },
+        {
+          "fecha": "01/02/26",
+          "local": "Real Madrid",
+          "visitante": "Rayo Vallecano",
+          "resultado": "2-1",
+          "estadio": "Santiago Bernabéu",
+          "asistencia": 68000,
+          "arbitro": "Alejandro Quintero González",
+          "posesion": { "local": 63, "visitante": 37 },
+          "tiros": { "local": 18, "visitante": 7 },
+          "tiros_puerta": { "local": 7, "visitante": 3 },
+          "faltas": { "local": 8, "visitante": 15 },
+          "corners": { "local": 7, "visitante": 2 },
+          "tarjetas": {
+            "local": { "amarillas": 2, "rojas": 0 },
+            "visitante": { "amarillas": 4, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 23, "equipo": "Rayo Vallecano", "jugador": "Isi Palazón", "asistencia": "Álvaro García" },
+            { "minuto": 44, "equipo": "Real Madrid", "jugador": "Kylian Mbappé", "asistencia": "Jude Bellingham" },
+            { "minuto": 67, "equipo": "Real Madrid", "jugador": "Vinícius Jr.", "asistencia": "Federico Valverde" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-3-3", "titulares": ["Courtois", "Carvajal", "Rüdiger", "Alaba", "Mendy", "Valverde", "Tchouaméni", "Bellingham", "Rodrygo", "Mbappé", "Vinícius Jr."] },
+            "visitante": { "formacion": "4-2-3-1", "titulares": ["Cárdenas", "Balliu", "Mumin", "Aridane", "Chavarría", "López", "Ciss", "Palazón", "Álvaro", "De Frutos", "Camello"] }
+          },
+          "suplentes": {
+            "local": ["Lunin", "Vázquez", "Militao", "Fran García", "Ceballos", "Modrić", "Güler", "Díaz", "Endrick"],
+            "visitante": ["Batalla", "Ratiu", "Hernández", "Gumbau", "Díaz", "Valentín", "Embarba", "Nteka", "Guardiola"]
+          },
+          "minuto_a_minuto": [
+            "23' - GOOOOL DEL RAYO! Palazón sorprende. 0-1.",
+            "44' - GOOOOL DEL REAL MADRID! Mbappé empata. 1-1.",
+            "67' - GOOOOL DEL REAL MADRID! Vinícius remonta. 2-1."
+          ]
+        },
+        {
+          "fecha": "01/02/26",
+          "local": "Real Betis",
+          "visitante": "Valencia",
+          "resultado": "2-1",
+          "estadio": "Benito Villamarín",
+          "asistencia": 51000,
+          "arbitro": "Adrián Cordero Vega",
+          "posesion": { "local": 51, "visitante": 49 },
+          "tiros": { "local": 13, "visitante": 11 },
+          "tiros_puerta": { "local": 6, "visitante": 4 },
+          "faltas": { "local": 12, "visitante": 14 },
+          "corners": { "local": 5, "visitante": 4 },
+          "tarjetas": {
+            "local": { "amarillas": 2, "rojas": 0 },
+            "visitante": { "amarillas": 3, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 5, "equipo": "Valencia", "jugador": "Hugo Duro", "asistencia": "Pepelu" },
+            { "minuto": 40, "equipo": "Real Betis", "jugador": "Giovani Lo Celso", "asistencia": "Isco" },
+            { "minuto": 78, "equipo": "Real Betis", "jugador": "Chimy Ávila", "asistencia": "Ayoze Pérez" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-2-3-1", "titulares": ["Vieites", "Bellerín", "Llorente", "Natan", "Perraud", "Cardoso", "Altimira", "Fornals", "Isco", "Lo Celso", "Ayoze"] },
+            "visitante": { "formacion": "4-4-2", "titulares": ["Mamardashvili", "Foulquier", "Mosquera", "Tárrega", "Gayà", "Pepelu", "Guerra", "Almeida", "López", "Duro", "Mir"] }
+          },
+          "suplentes": {
+            "local": ["Silva", "Ruibal", "Mendy", "Rodríguez", "Collado", "Flores", "Juanmi", "Ávila", "Bakambu"],
+            "visitante": ["Dimitrievski", "Correia", "Diakhaby", "Vázquez", "Barrenechea", "F. Pérez", "Tejón", "Canós", "Otorbi"]
+          },
+          "minuto_a_minuto": [
+            "5' - GOOOOL DEL VALENCIA! Duro. 0-1.",
+            "40' - GOOOOL DEL BETIS! Lo Celso. 1-1.",
+            "78' - GOOOOL DEL BETIS! Ávila. 2-1."
+          ]
+        },
+        {
+          "fecha": "01/02/26",
+          "local": "Getafe",
+          "visitante": "Celta de Vigo",
+          "resultado": "0-0",
+          "estadio": "Coliseum",
+          "asistencia": 11000,
+          "arbitro": "Víctor García Verdura",
+          "posesion": { "local": 42, "visitante": 58 },
+          "tiros": { "local": 7, "visitante": 12 },
+          "tiros_puerta": { "local": 2, "visitante": 4 },
+          "faltas": { "local": 21, "visitante": 13 },
+          "corners": { "local": 2, "visitante": 6 },
+          "tarjetas": {
+            "local": { "amarillas": 5, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [],
+          "alineaciones": {
+            "local": { "formacion": "5-3-2", "titulares": ["Soria", "Iglesias", "Djené", "Alderete", "Berrocal", "Rico", "Milla", "Arambarri", "Pérez", "Mayoral", "Uche"] },
+            "visitante": { "formacion": "4-1-3-2", "titulares": ["Villar", "Mingueza", "Starfelt", "Núñez", "Álvarez", "Beltrán", "Durán", "Moriba", "Swedberg", "Aspas", "Larsen"] }
+          },
+          "suplentes": {
+            "local": ["Letáček", "Nyom", "Duarte", "González", "Yıldırım", "Rey", "Keenan", "Rodríguez", "Fedor"],
+            "visitante": ["Rodríguez", "Manquillo", "Alonso", "Rodríguez", "Domínguez", "Damián", "Sotelo", "Iglesias", "Allende"]
+          },
+          "minuto_a_minuto": [
+            "20' - Amarilla para Arambarri.",
+            "55' - Soria detiene un disparo de Aspas.",
+            "80' - Empate sin goles."
+          ]
+        },
+        {
+          "fecha": "01/02/26",
+          "local": "Athletic Club",
+          "visitante": "Real Sociedad",
+          "resultado": "1-1",
+          "estadio": "San Mamés",
+          "asistencia": 50000,
+          "arbitro": "José Luis Munuera Montero",
+          "posesion": { "local": 52, "visitante": 48 },
+          "tiros": { "local": 12, "visitante": 10 },
+          "tiros_puerta": { "local": 4, "visitante": 4 },
+          "faltas": { "local": 15, "visitante": 14 },
+          "corners": { "local": 5, "visitante": 3 },
+          "tarjetas": {
+            "local": { "amarillas": 3, "rojas": 0 },
+            "visitante": { "amarillas": 3, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 27, "equipo": "Athletic Club", "jugador": "Oihan Sancet", "asistencia": "Iñaki Williams" },
+            { "minuto": 68, "equipo": "Real Sociedad", "jugador": "Mikel Oyarzabal", "asistencia": "Take Kubo" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-2-3-1", "titulares": ["Agirrezabala", "De Marcos", "Yeray", "Vivian", "Yuri", "Vesga", "Prados", "I. Williams", "Sancet", "Berenguer", "Guruzeta"] },
+            "visitante": { "formacion": "4-3-3", "titulares": ["Remiro", "Aramburu", "Zubeldia", "Aguerd", "Muñoz", "Zubimendi", "Sucic", "Méndez", "Kubo", "Oyarzabal", "Bakker"] }
+          },
+          "suplentes": {
+            "local": ["Padilla", "Gorosabel", "Núñez", "Lekue", "Herrera", "Jauregizar", "Gómez", "N. Williams", "Villalibre"],
+            "visitante": ["Fraga", "Odriozola", "Elustondo", "Pacheco", "Turrientes", "Marín", "Olasagasti", "Becker", "Barrenetxea"]
+          },
+          "minuto_a_minuto": [
+            "27' - GOOOOL DEL ATHLETIC! Sancet. 1-0.",
+            "68' - GOOOOL DE LA REAL! Oyarzabal empata. 1-1.",
+            "85' - Empate en el derbi."
+          ]
+        },
+        {
+          "fecha": "02/02/26",
+          "local": "Mallorca",
+          "visitante": "Sevilla",
+          "resultado": "4-1",
+          "estadio": "Son Moix",
+          "asistencia": 18000,
+          "arbitro": "Francisco José Hernández Maeso",
+          "posesion": { "local": 44, "visitante": 56 },
+          "tiros": { "local": 15, "visitante": 11 },
+          "tiros_puerta": { "local": 8, "visitante": 4 },
+          "faltas": { "local": 11, "visitante": 10 },
+          "corners": { "local": 4, "visitante": 5 },
+          "tarjetas": {
+            "local": { "amarillas": 2, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 12, "equipo": "Mallorca", "jugador": "Vedat Muriqi", "asistencia": "Dani Rodríguez" },
+            { "minuto": 30, "equipo": "Sevilla", "jugador": "Isaac Romero", "asistencia": "Jesús Navas" },
+            { "minuto": 42, "equipo": "Mallorca", "jugador": "Sergi Darder", "asistencia": "Antonio Sánchez" },
+            { "minuto": 65, "equipo": "Mallorca", "jugador": "Cyle Larin", "asistencia": "Javi Llabrés" },
+            { "minuto": 80, "equipo": "Mallorca", "jugador": "Abdón Prats", "asistencia": "Maffeo" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "5-3-2", "titulares": ["Greif", "Maffeo", "Valjent", "Copete", "Raíllo", "Lato", "Sánchez", "Mascarell", "Darder", "Muriqi", "Larin"] },
+            "visitante": { "formacion": "4-3-3", "titulares": ["Nyland", "Navas", "Bade", "Nianzou", "Pedrosa", "Agoumé", "Sow", "Lokonga", "Lukébakio", "Romero", "Ejuke"] }
+          },
+          "suplentes": {
+            "local": ["Cuéllar", "Morey", "Nastasić", "Gayá", "Morlanes", "Costas", "Rodríguez", "Llabrés", "Abdón"],
+            "visitante": ["Flores", "Carmona", "Marcao", "Gudelj", "Bueno", "Montiel", "Collado", "Peque", "Idumbo"]
+          },
+          "minuto_a_minuto": [
+            "12' - GOOOOL DEL MALLORCA! Muriqi. 1-0.",
+            "30' - GOOOOL DEL SEVILLA! Romero empata. 1-1.",
+            "42' - GOOOOL DEL MALLORCA! Darder. 2-1.",
+            "65' - GOOOOL DEL MALLORCA! Larin. 3-1.",
+            "80' - GOOOOL DEL MALLORCA! Abdón sentencia. 4-1."
+          ]
+        }
       ]
     },
     {
       "jornada": 23,
       "partidos": [
-        { "fecha": "06/02/26", "local": "Celta de Vigo", "visitante": "Osasuna", "resultado": "1-2" },
-        { "fecha": "07/02/26", "local": "Barcelona", "visitante": "Mallorca", "resultado": "3-0" },
-        { "fecha": "07/02/26", "local": "Real Sociedad", "visitante": "Elche", "resultado": "3-1" },
-        { "fecha": "08/02/26", "local": "Alavés", "visitante": "Getafe", "resultado": "0-2" },
-        { "fecha": "08/02/26", "local": "Athletic Club", "visitante": "Levante", "resultado": "4-2" },
-        { "fecha": "08/02/26", "local": "Sevilla", "visitante": "Girona", "resultado": "1-1" },
-        { "fecha": "08/02/26", "local": "Atlético Madrid", "visitante": "Real Betis", "resultado": "0-1" },
-        { "fecha": "08/02/26", "local": "Valencia", "visitante": "Real Madrid", "resultado": "0-2" },
-        { "fecha": "09/02/26", "local": "Villarreal", "visitante": "Espanyol", "resultado": "4-1" },
-        { "fecha": "04/03/26", "local": "Rayo Vallecano", "visitante": "Oviedo", "resultado": "Pospuesto", "horario": "19:00" }
+        {
+          "fecha": "06/02/26",
+          "local": "Celta de Vigo",
+          "visitante": "Osasuna",
+          "resultado": "1-2",
+          "estadio": "Balaídos",
+          "asistencia": 17500,
+          "arbitro": "César Soto Grado",
+          "posesion": { "local": 58, "visitante": 42 },
+          "tiros": { "local": 15, "visitante": 9 },
+          "tiros_puerta": { "local": 5, "visitante": 4 },
+          "faltas": { "local": 10, "visitante": 15 },
+          "corners": { "local": 7, "visitante": 3 },
+          "tarjetas": {
+            "local": { "amarillas": 2, "rojas": 0 },
+            "visitante": { "amarillas": 3, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 23, "equipo": "Osasuna", "jugador": "Ante Budimir", "asistencia": "Rubén García" },
+            { "minuto": 50, "equipo": "Celta de Vigo", "jugador": "Iago Aspas", "asistencia": "Óscar Mingueza" },
+            { "minuto": 78, "equipo": "Osasuna", "jugador": "Raúl García de Haro", "asistencia": "Bryan Zaragoza" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-1-3-2", "titulares": ["Villar", "Mingueza", "Starfelt", "Núñez", "Álvarez", "Beltrán", "Durán", "Moriba", "Swedberg", "Aspas", "Larsen"] },
+            "visitante": { "formacion": "4-3-3", "titulares": ["Herrera", "Areso", "Catena", "Boyomo", "Cruz", "Moncayola", "Torró", "Oroz", "R. García", "Budimir", "Zaragoza"] }
+          },
+          "suplentes": {
+            "local": ["Rodríguez", "Manquillo", "Alonso", "Rodríguez", "Domínguez", "Damián", "Sotelo", "Iglesias", "Allende"],
+            "visitante": ["Fernández", "Peña", "Herrando", "Ibáñez", "Muñoz", "Arnáiz", "García", "Gómez", "García de Haro"]
+          },
+          "minuto_a_minuto": [
+            "23' - GOOOOL DE OSASUNA! Budimir. 0-1.",
+            "50' - GOOOOL DEL CELTA! Aspas empata. 1-1.",
+            "78' - GOOOOL DE OSASUNA! García de Haro da la victoria. 1-2."
+          ]
+        },
+        {
+          "fecha": "07/02/26",
+          "local": "Barcelona",
+          "visitante": "Mallorca",
+          "resultado": "3-0",
+          "estadio": "Olímpic Lluís Companys",
+          "asistencia": 68000,
+          "arbitro": "Javier Alberola Rojas",
+          "posesion": { "local": 69, "visitante": 31 },
+          "tiros": { "local": 22, "visitante": 4 },
+          "tiros_puerta": { "local": 10, "visitante": 1 },
+          "faltas": { "local": 7, "visitante": 12 },
+          "corners": { "local": 9, "visitante": 2 },
+          "tarjetas": {
+            "local": { "amarillas": 0, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 18, "equipo": "Barcelona", "jugador": "Robert Lewandowski", "asistencia": "Pedri" },
+            { "minuto": 52, "equipo": "Barcelona", "jugador": "Lamine Yamal", "asistencia": "Raphinha" },
+            { "minuto": 71, "equipo": "Barcelona", "jugador": "Fermín López", "asistencia": "Gavi" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-2-3-1", "titulares": ["Peña", "Koundé", "Cubarsí", "Iñigo", "Balde", "Casadó", "Pedri", "Yamal", "Gavi", "Raphinha", "Lewandowski"] },
+            "visitante": { "formacion": "5-3-2", "titulares": ["Greif", "Maffeo", "Valjent", "Copete", "Raíllo", "Lato", "Sánchez", "Mascarell", "Darder", "Muriqi", "Larin"] }
+          },
+          "suplentes": {
+            "local": ["Szczęsny", "Fort", "Domínguez", "Martín", "De Jong", "Torre", "Olmo", "Fermín", "Víctor"],
+            "visitante": ["Cuéllar", "Morey", "Nastasić", "Gayá", "Morlanes", "Costas", "Rodríguez", "Llabrés", "Abdón"]
+          },
+          "minuto_a_minuto": [
+            "18' - GOOOOL DEL BARÇA! Lewandowski. 1-0.",
+            "52' - GOOOOL DEL BARÇA! Yamal. 2-0.",
+            "71' - GOOOOL DEL BARÇA! Fermín. 3-0."
+          ]
+        },
+        {
+          "fecha": "07/02/26",
+          "local": "Real Sociedad",
+          "visitante": "Elche",
+          "resultado": "3-1",
+          "estadio": "Reale Arena",
+          "asistencia": 28000,
+          "arbitro": "Isidro Díaz de Mera Escuderos",
+          "posesion": { "local": 63, "visitante": 37 },
+          "tiros": { "local": 17, "visitante": 7 },
+          "tiros_puerta": { "local": 8, "visitante": 3 },
+          "faltas": { "local": 8, "visitante": 14 },
+          "corners": { "local": 6, "visitante": 2 },
+          "tarjetas": {
+            "local": { "amarillas": 1, "rojas": 0 },
+            "visitante": { "amarillas": 3, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 15, "equipo": "Real Sociedad", "jugador": "Mikel Oyarzabal", "asistencia": "Take Kubo" },
+            { "minuto": 32, "equipo": "Elche", "jugador": "Mourad El Ghezouani", "asistencia": "Óscar Plano" },
+            { "minuto": 58, "equipo": "Real Sociedad", "jugador": "Brais Méndez", "asistencia": "Martín Zubimendi" },
+            { "minuto": 82, "equipo": "Real Sociedad", "jugador": "Ander Barrenetxea", "asistencia": "Aihen Muñoz" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-3-3", "titulares": ["Remiro", "Aramburu", "Zubeldia", "Aguerd", "Muñoz", "Zubimendi", "Sucic", "Méndez", "Kubo", "Oyarzabal", "Bakker"] },
+            "visitante": { "formacion": "4-4-2", "titulares": ["Dituro", "Salinas", "Bigas", "Clerc", "Martín", "Febas", "Guti", "Castro", "Plano", "Fernández", "Mourad"] }
+          },
+          "suplentes": {
+            "local": ["Fraga", "Odriozola", "Elustondo", "Pacheco", "Turrientes", "Marín", "Olasagasti", "Becker", "Barrenetxea"],
+            "visitante": ["López", "Núñez", "Álvarez", "Hernández", "Mercau", "Cristian", "Ramos", "Apu", "Álvarez"]
+          },
+          "minuto_a_minuto": [
+            "15' - GOOOOL DE LA REAL! Oyarzabal. 1-0.",
+            "32' - GOOOOL DEL ELCHE! Mourad empata. 1-1.",
+            "58' - GOOOOL DE LA REAL! Méndez. 2-1.",
+            "82' - GOOOOL DE LA REAL! Barrenetxea. 3-1."
+          ]
+        },
+        {
+          "fecha": "08/02/26",
+          "local": "Alavés",
+          "visitante": "Getafe",
+          "resultado": "0-2",
+          "estadio": "Mendizorroza",
+          "asistencia": 15000,
+          "arbitro": "Víctor García Verdura",
+          "posesion": { "local": 49, "visitante": 51 },
+          "tiros": { "local": 8, "visitante": 11 },
+          "tiros_puerta": { "local": 2, "visitante": 5 },
+          "faltas": { "local": 17, "visitante": 22 },
+          "corners": { "local": 3, "visitante": 5 },
+          "tarjetas": {
+            "local": { "amarillas": 4, "rojas": 0 },
+            "visitante": { "amarillas": 6, "rojas": 1 }
+          },
+          "goles": [
+            { "minuto": 42, "equipo": "Getafe", "jugador": "Mauro Arambarri", "asistencia": "Luis Milla" },
+            { "minuto": 68, "equipo": "Getafe", "jugador": "Borja Mayoral", "asistencia": "Carles Pérez" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-2-3-1", "titulares": ["Sivera", "Tenaglia", "Mouriño", "Diarra", "López", "Blanco", "Guevara", "Vicente", "Stoichkov", "Conceiçao", "Martínez"] },
+            "visitante": { "formacion": "5-3-2", "titulares": ["Soria", "Iglesias", "Djené", "Alderete", "Berrocal", "Rico", "Milla", "Arambarri", "Pérez", "Mayoral", "Uche"] }
+          },
+          "suplentes": {
+            "local": ["Owono", "Sánchez", "García", "Pica", "Martín", "Jordán", "Hagi", "Villalibre", "Kike"],
+            "visitante": ["Letáček", "Nyom", "Duarte", "González", "Yıldırım", "Rey", "Keenan", "Rodríguez", "Fedor"]
+          },
+          "minuto_a_minuto": [
+            "42' - GOOOOL DEL GETAFE! Arambarri. 0-1.",
+            "55' - Expulsión de Rico en Getafe.",
+            "68' - GOOOOL DEL GETAFE! Mayoral. 0-2."
+          ]
+        },
+        {
+          "fecha": "08/02/26",
+          "local": "Athletic Club",
+          "visitante": "Levante",
+          "resultado": "4-2",
+          "estadio": "San Mamés",
+          "asistencia": 45000,
+          "arbitro": "Juan Martínez Munuera",
+          "posesion": { "local": 61, "visitante": 39 },
+          "tiros": { "local": 20, "visitante": 8 },
+          "tiros_puerta": { "local": 9, "visitante": 4 },
+          "faltas": { "local": 9, "visitante": 13 },
+          "corners": { "local": 8, "visitante": 2 },
+          "tarjetas": {
+            "local": { "amarillas": 2, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 8, "equipo": "Athletic Club", "jugador": "Iñaki Williams", "asistencia": "Oihan Sancet" },
+            { "minuto": 24, "equipo": "Levante", "jugador": "José Luis Morales", "asistencia": "Álvaro Martínez" },
+            { "minuto": 32, "equipo": "Athletic Club", "jugador": "Gorka Guruzeta", "asistencia": "Álex Berenguer" },
+            { "minuto": 48, "equipo": "Athletic Club", "jugador": "Oihan Sancet", "asistencia": "Iñaki Williams" },
+            { "minuto": 67, "equipo": "Levante", "jugador": "Fábio Blanco", "asistencia": "Carlos Álvarez" },
+            { "minuto": 82, "equipo": "Athletic Club", "jugador": "Nico Williams", "asistencia": "Yuri Berchiche" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-2-3-1", "titulares": ["Agirrezabala", "De Marcos", "Yeray", "Vivian", "Yuri", "Vesga", "Prados", "I. Williams", "Sancet", "Berenguer", "Guruzeta"] },
+            "visitante": { "formacion": "4-2-3-1", "titulares": ["Cárdenas", "Mujaid", "Postigo", "Vezo", "Cabello", "Iborra", "Martínez", "Brugué", "Lozano", "Morales", "Álvarez"] }
+          },
+          "suplentes": {
+            "local": ["Padilla", "Gorosabel", "Núñez", "Lekue", "Herrera", "Jauregizar", "Gómez", "N. Williams", "Villalibre"],
+            "visitante": ["Navarro", "Giménez", "Pascanu", "Clemente", "Algobia", "Espí", "Fabrício", "Cantero", "Blanco"]
+          },
+          "minuto_a_minuto": [
+            "8' - GOOOOL DEL ATHLETIC! Iñaki Williams. 1-0.",
+            "24' - GOOOOL DEL LEVANTE! Morales. 1-1.",
+            "32' - GOOOOL DEL ATHLETIC! Guruzeta. 2-1.",
+            "48' - GOOOOL DEL ATHLETIC! Sancet. 3-1.",
+            "67' - GOOOOL DEL LEVANTE! Blanco. 3-2.",
+            "82' - GOOOOL DEL ATHLETIC! Nico Williams. 4-2."
+          ]
+        },
+        {
+          "fecha": "08/02/26",
+          "local": "Sevilla",
+          "visitante": "Girona",
+          "resultado": "1-1",
+          "estadio": "Ramón Sánchez-Pizjuán",
+          "asistencia": 34000,
+          "arbitro": "Alejandro Quintero González",
+          "posesion": { "local": 53, "visitante": 47 },
+          "tiros": { "local": 13, "visitante": 10 },
+          "tiros_puerta": { "local": 5, "visitante": 4 },
+          "faltas": { "local": 12, "visitante": 11 },
+          "corners": { "local": 6, "visitante": 4 },
+          "tarjetas": {
+            "local": { "amarillas": 3, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 28, "equipo": "Girona", "jugador": "Viktor Tsygankov", "asistencia": "Miguel Gutiérrez" },
+            { "minuto": 65, "equipo": "Sevilla", "jugador": "Dodi Lukébakio", "asistencia": "Jesús Navas" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-3-3", "titulares": ["Nyland", "Navas", "Bade", "Nianzou", "Pedrosa", "Agoumé", "Sow", "Lokonga", "Lukébakio", "Romero", "Ejuke"] },
+            "visitante": { "formacion": "4-3-3", "titulares": ["Gazzaniga", "Martínez", "López", "Blind", "Gutiérrez", "Herrera", "Romeu", "Martín", "Tsygankov", "Dovbyk", "Portu"] }
+          },
+          "suplentes": {
+            "local": ["Flores", "Carmona", "Marcao", "Gudelj", "Bueno", "Montiel", "Collado", "Peque", "Idumbo"],
+            "visitante": ["Carlos", "Bernardo", "Juanpe", "Solís", "Torre", "Fernández", "Stuani", "Valery", "Artero"]
+          },
+          "minuto_a_minuto": [
+            "28' - GOOOOL DEL GIRONA! Tsygankov. 0-1.",
+            "65' - GOOOOL DEL SEVILLA! Lukébakio. 1-1.",
+            "85' - Empate en Nervión."
+          ]
+        },
+        {
+          "fecha": "08/02/26",
+          "local": "Atlético Madrid",
+          "visitante": "Real Betis",
+          "resultado": "0-1",
+          "estadio": "Metropolitano",
+          "asistencia": 63000,
+          "arbitro": "Alejandro Hernández Hernández",
+          "posesion": { "local": 60, "visitante": 40 },
+          "tiros": { "local": 16, "visitante": 7 },
+          "tiros_puerta": { "local": 4, "visitante": 3 },
+          "faltas": { "local": 11, "visitante": 17 },
+          "corners": { "local": 8, "visitante": 2 },
+          "tarjetas": {
+            "local": { "amarillas": 3, "rojas": 0 },
+            "visitante": { "amarillas": 5, "rojas": 1 }
+          },
+          "goles": [
+            { "minuto": 53, "equipo": "Real Betis", "jugador": "Chimy Ávila", "asistencia": "Ayoze Pérez" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "5-3-2", "titulares": ["Oblak", "Molina", "Giménez", "Le Normand", "Lenglet", "Lino", "Llorente", "Barrios", "De Paul", "Griezmann", "Álvarez"] },
+            "visitante": { "formacion": "4-2-3-1", "titulares": ["Vieites", "Bellerín", "Llorente", "Natan", "Perraud", "Cardoso", "Altimira", "Fornals", "Isco", "Lo Celso", "Ayoze"] }
+          },
+          "suplentes": {
+            "local": ["Gomis", "Azpilicueta", "Witsel", "Gallagher", "Koke", "Lemar", "Riquelme", "Correa", "Sorloth"],
+            "visitante": ["Silva", "Ruibal", "Mendy", "Rodríguez", "Collado", "Flores", "Juanmi", "Ávila", "Bakambu"]
+          },
+          "minuto_a_minuto": [
+            "25' - Amarilla para Natan.",
+            "53' - GOOOOL DEL BETIS! Ávila, con un zapatazo, bate a Oblak. 0-1.",
+            "70' - Expulsión de Perraud por doble amarilla.",
+            "90' - El Betis aguanta y gana en el Metropolitano."
+          ]
+        },
+        {
+          "fecha": "08/02/26",
+          "local": "Valencia",
+          "visitante": "Real Madrid",
+          "resultado": "0-2",
+          "estadio": "Mestalla",
+          "asistencia": 46000,
+          "arbitro": "José Luis Munuera Montero",
+          "posesion": { "local": 45, "visitante": 55 },
+          "tiros": { "local": 9, "visitante": 16 },
+          "tiros_puerta": { "local": 2, "visitante": 7 },
+          "faltas": { "local": 15, "visitante": 10 },
+          "corners": { "local": 3, "visitante": 6 },
+          "tarjetas": {
+            "local": { "amarillas": 4, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 28, "equipo": "Real Madrid", "jugador": "Kylian Mbappé", "asistencia": "Jude Bellingham" },
+            { "minuto": 68, "equipo": "Real Madrid", "jugador": "Rodrygo", "asistencia": "Federico Valverde" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-4-2", "titulares": ["Mamardashvili", "Foulquier", "Mosquera", "Tárrega", "Gayà", "Pepelu", "Guerra", "Almeida", "López", "Duro", "Mir"] },
+            "visitante": { "formacion": "4-3-3", "titulares": ["Courtois", "Carvajal", "Rüdiger", "Alaba", "Mendy", "Valverde", "Tchouaméni", "Bellingham", "Rodrygo", "Mbappé", "Vinícius Jr."] }
+          },
+          "suplentes": {
+            "local": ["Dimitrievski", "Correia", "Diakhaby", "Vázquez", "Barrenechea", "F. Pérez", "Tejón", "Canós", "Otorbi"],
+            "visitante": ["Lunin", "Vázquez", "Militao", "Fran García", "Ceballos", "Modrić", "Güler", "Díaz", "Endrick"]
+          },
+          "minuto_a_minuto": [
+            "28' - GOOOOL DEL REAL MADRID! Mbappé. 0-1.",
+            "68' - GOOOOL DEL REAL MADRID! Rodrygo. 0-2."
+          ]
+        },
+        {
+          "fecha": "09/02/26",
+          "local": "Villarreal",
+          "visitante": "Espanyol",
+          "resultado": "4-1",
+          "estadio": "La Cerámica",
+          "asistencia": 17000,
+          "arbitro": "Adrián Cordero Vega",
+          "posesion": { "local": 62, "visitante": 38 },
+          "tiros": { "local": 19, "visitante": 7 },
+          "tiros_puerta": { "local": 9, "visitante": 3 },
+          "faltas": { "local": 8, "visitante": 14 },
+          "corners": { "local": 7, "visitante": 2 },
+          "tarjetas": {
+            "local": { "amarillas": 1, "rojas": 0 },
+            "visitante": { "amarillas": 3, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 12, "equipo": "Villarreal", "jugador": "Gerard Moreno", "asistencia": "Álex Baena" },
+            { "minuto": 30, "equipo": "Espanyol", "jugador": "Javi Puado", "asistencia": "Álvaro Aguado" },
+            { "minuto": 45, "equipo": "Villarreal", "jugador": "Yeremy Pino", "asistencia": "Parejo" },
+            { "minuto": 60, "equipo": "Villarreal", "jugador": "Alexander Sørloth", "asistencia": "Dani Parejo" },
+            { "minuto": 82, "equipo": "Villarreal", "jugador": "Álex Baena", "asistencia": "Gerard Moreno" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-4-2", "titulares": ["Conde", "Femenía", "Albiol", "Costa", "Cardona", "Parejo", "Comesaña", "Baena", "Pino", "Barry", "Moreno"] },
+            "visitante": { "formacion": "4-4-2", "titulares": ["Pacheco", "Hernández", "Kumbulla", "Cabrera", "Olivan", "Bauza", "Lozano", "Aguado", "Tejero", "Puado", "Cheddira"] }
+          },
+          "suplentes": {
+            "local": ["Júnior", "Kambwala", "Navarro", "Bernat", "Gueye", "Terrats", "Denis", "Yeremy", "García"],
+            "visitante": ["Fortuño", "Gómez", "Romero", "Sánchez", "Salvi", "Gragera", "Jofre", "Véliz", "Baldé"]
+          },
+          "minuto_a_minuto": [
+            "12' - GOOOOL DEL VILLARREAL! Moreno. 1-0.",
+            "30' - GOOOOL DEL ESPANYOL! Puado. 1-1.",
+            "45' - GOOOOL DEL VILLARREAL! Pino. 2-1.",
+            "60' - GOOOOL DEL VILLARREAL! Sørloth. 3-1.",
+            "82' - GOOOOL DEL VILLARREAL! Baena. 4-1."
+          ]
+        },
+        {
+          "fecha": "04/03/26",
+          "local": "Rayo Vallecano",
+          "visitante": "Oviedo",
+          "resultado": "Pospuesto",
+          "horario": "19:00",
+          "estadio": "Vallecas",
+          "asistencia": null,
+          "arbitro": "Pendiente",
+          "posesion": {},
+          "tiros": {},
+          "tiros_puerta": {},
+          "faltas": {},
+          "corners": {},
+          "tarjetas": {},
+          "goles": [],
+          "alineaciones": {},
+          "suplentes": [],
+          "minuto_a_minuto": ["Partido pospuesto. Se jugará en fecha pendiente."]
+        }
       ]
     },
-
     {
       "jornada": 24,
       "partidos": [
-        { "fecha": "13/02/26", "local": "Elche", "visitante": "Osasuna", "resultado": "0-0" },
-        { "fecha": "14/02/26", "local": "Espanyol", "visitante": "Celta de Vigo", "resultado": "2-2" },
-        { "fecha": "14/02/26", "local": "Getafe", "visitante": "Villarreal", "resultado": "2-1" },
-        { "fecha": "14/02/26", "local": "Sevilla", "visitante": "Alavés", "resultado": "1-1" },
-        { "fecha": "14/02/26", "local": "Real Madrid", "visitante": "Real Sociedad", "resultado": "4-1" },
-        { "fecha": "15/02/26", "local": "Oviedo", "visitante": "Athletic Club", "resultado": "1-2" },
-        { "fecha": "15/02/26", "local": "Rayo Vallecano", "visitante": "Atlético Madrid", "resultado": "3-0" },
-        { "fecha": "15/02/26", "local": "Levante", "visitante": "Valencia", "resultado": "0-2"},
-        { "fecha": "15/02/26", "local": "Mallorca", "visitante": "Real Betis", "resultado": "1-2" },
-        { "fecha": "16/02/26", "local": "Girona", "visitante": "Barcelona", "resultado": "2-1" }
+        {
+          "fecha": "13/02/26",
+          "local": "Elche",
+          "visitante": "Osasuna",
+          "resultado": "0-0",
+          "estadio": "Martínez Valero",
+          "asistencia": 22000,
+          "arbitro": "Francisco José Hernández Maeso",
+          "posesion": { "local": 46, "visitante": 54 },
+          "tiros": { "local": 8, "visitante": 10 },
+          "tiros_puerta": { "local": 2, "visitante": 3 },
+          "faltas": { "local": 15, "visitante": 13 },
+          "corners": { "local": 3, "visitante": 5 },
+          "tarjetas": {
+            "local": { "amarillas": 3, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [],
+          "alineaciones": {
+            "local": { "formacion": "4-4-2", "titulares": ["Dituro", "Salinas", "Bigas", "Clerc", "Martín", "Febas", "Guti", "Castro", "Plano", "Fernández", "Mourad"] },
+            "visitante": { "formacion": "4-3-3", "titulares": ["Herrera", "Areso", "Catena", "Boyomo", "Cruz", "Moncayola", "Torró", "Oroz", "R. García", "Budimir", "Zaragoza"] }
+          },
+          "suplentes": {
+            "local": ["López", "Núñez", "Álvarez", "Hernández", "Mercau", "Cristian", "Ramos", "Apu", "Álvarez"],
+            "visitante": ["Fernández", "Peña", "Herrando", "Ibáñez", "Muñoz", "Arnáiz", "García", "Gómez", "García de Haro"]
+          },
+          "minuto_a_minuto": [
+            "25' - Amarilla para Febas.",
+            "60' - Herrera detiene un remate de Mourad.",
+            "90' - Empate sin goles en Elche."
+          ]
+        },
+        {
+          "fecha": "14/02/26",
+          "local": "Espanyol",
+          "visitante": "Celta de Vigo",
+          "resultado": "2-2",
+          "estadio": "RCDE Stadium",
+          "asistencia": 21000,
+          "arbitro": "Javier Alberola Rojas",
+          "posesion": { "local": 50, "visitante": 50 },
+          "tiros": { "local": 11, "visitante": 13 },
+          "tiros_puerta": { "local": 5, "visitante": 6 },
+          "faltas": { "local": 14, "visitante": 12 },
+          "corners": { "local": 4, "visitante": 5 },
+          "tarjetas": {
+            "local": { "amarillas": 3, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 18, "equipo": "Celta de Vigo", "jugador": "Iago Aspas", "asistencia": "Óscar Mingueza" },
+            { "minuto": 35, "equipo": "Espanyol", "jugador": "Javi Puado", "asistencia": "Álvaro Aguado" },
+            { "minuto": 62, "equipo": "Celta de Vigo", "jugador": "Jørgen Strand Larsen", "asistencia": "Fran Beltrán" },
+            { "minuto": 80, "equipo": "Espanyol", "jugador": "Walid Cheddira", "asistencia": "Brian Oliván" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-4-2", "titulares": ["Pacheco", "Hernández", "Kumbulla", "Cabrera", "Olivan", "Bauza", "Lozano", "Aguado", "Tejero", "Puado", "Cheddira"] },
+            "visitante": { "formacion": "4-1-3-2", "titulares": ["Villar", "Mingueza", "Starfelt", "Núñez", "Álvarez", "Beltrán", "Durán", "Moriba", "Swedberg", "Aspas", "Larsen"] }
+          },
+          "suplentes": {
+            "local": ["Fortuño", "Gómez", "Romero", "Sánchez", "Salvi", "Gragera", "Jofre", "Véliz", "Baldé"],
+            "visitante": ["Rodríguez", "Manquillo", "Alonso", "Rodríguez", "Domínguez", "Damián", "Sotelo", "Iglesias", "Allende"]
+          },
+          "minuto_a_minuto": [
+            "18' - GOOOOL DEL CELTA! Aspas. 0-1.",
+            "35' - GOOOOL DEL ESPANYOL! Puado. 1-1.",
+            "62' - GOOOOL DEL CELTA! Larsen. 1-2.",
+            "80' - GOOOOL DEL ESPANYOL! Cheddira. 2-2."
+          ]
+        },
+        {
+          "fecha": "14/02/26",
+          "local": "Getafe",
+          "visitante": "Villarreal",
+          "resultado": "2-1",
+          "estadio": "Coliseum",
+          "asistencia": 11000,
+          "arbitro": "César Soto Grado",
+          "posesion": { "local": 35, "visitante": 65 },
+          "tiros": { "local": 9, "visitante": 17 },
+          "tiros_puerta": { "local": 4, "visitante": 6 },
+          "faltas": { "local": 19, "visitante": 11 },
+          "corners": { "local": 2, "visitante": 8 },
+          "tarjetas": {
+            "local": { "amarillas": 5, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 32, "equipo": "Villarreal", "jugador": "Gerard Moreno", "asistencia": "Álex Baena" },
+            { "minuto": 58, "equipo": "Getafe", "jugador": "Mauro Arambarri", "asistencia": "Luis Milla" },
+            { "minuto": 85, "equipo": "Getafe", "jugador": "Borja Mayoral", "asistencia": "Juan Iglesias" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "5-3-2", "titulares": ["Soria", "Iglesias", "Djené", "Alderete", "Berrocal", "Rico", "Milla", "Arambarri", "Pérez", "Mayoral", "Uche"] },
+            "visitante": { "formacion": "4-4-2", "titulares": ["Conde", "Femenía", "Albiol", "Costa", "Cardona", "Parejo", "Comesaña", "Baena", "Pino", "Barry", "Moreno"] }
+          },
+          "suplentes": {
+            "local": ["Letáček", "Nyom", "Duarte", "González", "Yıldırım", "Rey", "Keenan", "Rodríguez", "Fedor"],
+            "visitante": ["Júnior", "Kambwala", "Navarro", "Bernat", "Gueye", "Terrats", "Denis", "Yeremy", "García"]
+          },
+          "minuto_a_minuto": [
+            "32' - GOOOOL DEL VILLARREAL! Moreno. 0-1.",
+            "58' - GOOOOL DEL GETAFE! Arambarri. 1-1.",
+            "85' - GOOOOL DEL GETAFE! Mayoral remonta. 2-1."
+          ]
+        },
+        {
+          "fecha": "14/02/26",
+          "local": "Sevilla",
+          "visitante": "Alavés",
+          "resultado": "1-1",
+          "estadio": "Ramón Sánchez-Pizjuán",
+          "asistencia": 35000,
+          "arbitro": "Isidro Díaz de Mera Escuderos",
+          "posesion": { "local": 60, "visitante": 40 },
+          "tiros": { "local": 15, "visitante": 6 },
+          "tiros_puerta": { "local": 5, "visitante": 3 },
+          "faltas": { "local": 10, "visitante": 16 },
+          "corners": { "local": 7, "visitante": 2 },
+          "tarjetas": {
+            "local": { "amarillas": 2, "rojas": 0 },
+            "visitante": { "amarillas": 4, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 20, "equipo": "Alavés", "jugador": "Toni Martínez", "asistencia": "Carlos Vicente" },
+            { "minuto": 67, "equipo": "Sevilla", "jugador": "Dodi Lukébakio", "asistencia": "Jesús Navas" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-3-3", "titulares": ["Nyland", "Navas", "Bade", "Nianzou", "Pedrosa", "Agoumé", "Sow", "Lokonga", "Lukébakio", "Romero", "Ejuke"] },
+            "visitante": { "formacion": "4-2-3-1", "titulares": ["Sivera", "Tenaglia", "Mouriño", "Diarra", "López", "Blanco", "Guevara", "Vicente", "Stoichkov", "Conceiçao", "Martínez"] }
+          },
+          "suplentes": {
+            "local": ["Flores", "Carmona", "Marcao", "Gudelj", "Bueno", "Montiel", "Collado", "Peque", "Idumbo"],
+            "visitante": ["Owono", "Sánchez", "García", "Pica", "Martín", "Jordán", "Hagi", "Villalibre", "Kike"]
+          },
+          "minuto_a_minuto": [
+            "20' - GOOOOL DEL ALAVÉS! Martínez. 0-1.",
+            "67' - GOOOOL DEL SEVILLA! Lukébakio. 1-1.",
+            "85' - Empate en Nervión."
+          ]
+        },
+        {
+          "fecha": "14/02/26",
+          "local": "Real Madrid",
+          "visitante": "Real Sociedad",
+          "resultado": "4-1",
+          "estadio": "Santiago Bernabéu",
+          "asistencia": 72000,
+          "arbitro": "José Luis Munuera Montero",
+          "posesion": { "local": 58, "visitante": 42 },
+          "tiros": { "local": 20, "visitante": 8 },
+          "tiros_puerta": { "local": 10, "visitante": 3 },
+          "faltas": { "local": 8, "visitante": 12 },
+          "corners": { "local": 7, "visitante": 3 },
+          "tarjetas": {
+            "local": { "amarillas": 1, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 12, "equipo": "Real Madrid", "jugador": "Kylian Mbappé", "asistencia": "Jude Bellingham" },
+            { "minuto": 28, "equipo": "Real Sociedad", "jugador": "Mikel Oyarzabal", "asistencia": "Take Kubo" },
+            { "minuto": 45, "equipo": "Real Madrid", "jugador": "Vinícius Jr.", "asistencia": "Federico Valverde" },
+            { "minuto": 62, "equipo": "Real Madrid", "jugador": "Rodrygo", "asistencia": "Eduardo Camavinga" },
+            { "minuto": 80, "equipo": "Real Madrid", "jugador": "Brahim Díaz", "asistencia": "Luka Modrić" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-3-3", "titulares": ["Courtois", "Carvajal", "Rüdiger", "Alaba", "Mendy", "Valverde", "Tchouaméni", "Bellingham", "Rodrygo", "Mbappé", "Vinícius Jr."] },
+            "visitante": { "formacion": "4-3-3", "titulares": ["Remiro", "Aramburu", "Zubeldia", "Aguerd", "Muñoz", "Zubimendi", "Sucic", "Méndez", "Kubo", "Oyarzabal", "Bakker"] }
+          },
+          "suplentes": {
+            "local": ["Lunin", "Vázquez", "Militao", "Fran García", "Ceballos", "Modrić", "Güler", "Díaz", "Endrick"],
+            "visitante": ["Fraga", "Odriozola", "Elustondo", "Pacheco", "Turrientes", "Marín", "Olasagasti", "Becker", "Barrenetxea"]
+          },
+          "minuto_a_minuto": [
+            "12' - GOOOOL DEL REAL MADRID! Mbappé. 1-0.",
+            "28' - GOOOOL DE LA REAL! Oyarzabal. 1-1.",
+            "45' - GOOOOL DEL REAL MADRID! Vinícius. 2-1.",
+            "62' - GOOOOL DEL REAL MADRID! Rodrygo. 3-1.",
+            "80' - GOOOOL DEL REAL MADRID! Brahim. 4-1."
+          ]
+        },
+        {
+          "fecha": "15/02/26",
+          "local": "Oviedo",
+          "visitante": "Athletic Club",
+          "resultado": "1-2",
+          "estadio": "Carlos Tartiere",
+          "asistencia": 26000,
+          "arbitro": "Ricardo de Burgos Bengoetxea",
+          "posesion": { "local": 44, "visitante": 56 },
+          "tiros": { "local": 9, "visitante": 14 },
+          "tiros_puerta": { "local": 4, "visitante": 6 },
+          "faltas": { "local": 15, "visitante": 13 },
+          "corners": { "local": 3, "visitante": 6 },
+          "tarjetas": {
+            "local": { "amarillas": 3, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 22, "equipo": "Athletic Club", "jugador": "Iñaki Williams", "asistencia": "Oihan Sancet" },
+            { "minuto": 48, "equipo": "Oviedo", "jugador": "Borja Bastón", "asistencia": "Santi Cazorla" },
+            { "minuto": 75, "equipo": "Athletic Club", "jugador": "Gorka Guruzeta", "asistencia": "Nico Williams" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-2-3-1", "titulares": ["Braat", "Viti", "Costas", "Luengo", "Arana", "Jiménez", "Cazorla", "Seoane", "Masca", "Paulino", "Bastón"] },
+            "visitante": { "formacion": "4-2-3-1", "titulares": ["Agirrezabala", "De Marcos", "Yeray", "Vivian", "Yuri", "Vesga", "Prados", "I. Williams", "Sancet", "Berenguer", "Guruzeta"] }
+          },
+          "suplentes": {
+            "local": ["Álvarez", "Tarín", "Chaira", "Benítez", "Del Moral", "Portillo", "Hassan", "Moyano", "Álvarez"],
+            "visitante": ["Padilla", "Gorosabel", "Núñez", "Lekue", "Herrera", "Jauregizar", "Gómez", "N. Williams", "Villalibre"]
+          },
+          "minuto_a_minuto": [
+            "22' - GOOOOL DEL ATHLETIC! Iñaki Williams. 0-1.",
+            "48' - GOOOOL DEL OVIEDO! Bastón. 1-1.",
+            "75' - GOOOOL DEL ATHLETIC! Guruzeta. 1-2."
+          ]
+        },
+        {
+          "fecha": "15/02/26",
+          "local": "Rayo Vallecano",
+          "visitante": "Atlético Madrid",
+          "resultado": "3-0",
+          "estadio": "Vallecas",
+          "asistencia": 14000,
+          "arbitro": "Juan Martínez Munuera",
+          "posesion": { "local": 38, "visitante": 62 },
+          "tiros": { "local": 11, "visitante": 14 },
+          "tiros_puerta": { "local": 6, "visitante": 4 },
+          "faltas": { "local": 17, "visitante": 9 },
+          "corners": { "local": 3, "visitante": 8 },
+          "tarjetas": {
+            "local": { "amarillas": 4, "rojas": 0 },
+            "visitante": { "amarillas": 2, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 23, "equipo": "Rayo Vallecano", "jugador": "Isi Palazón", "asistencia": "Álvaro García" },
+            { "minuto": 52, "equipo": "Rayo Vallecano", "jugador": "Jorge de Frutos", "asistencia": "Óscar Valentín" },
+            { "minuto": 79, "equipo": "Rayo Vallecano", "jugador": "Randy Nteka", "asistencia": "Pep Chavarría" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-2-3-1", "titulares": ["Cárdenas", "Balliu", "Mumin", "Aridane", "Chavarría", "López", "Ciss", "Palazón", "Álvaro", "De Frutos", "Camello"] },
+            "visitante": { "formacion": "5-3-2", "titulares": ["Oblak", "Molina", "Giménez", "Le Normand", "Lenglet", "Lino", "Llorente", "Barrios", "De Paul", "Griezmann", "Álvarez"] }
+          },
+          "suplentes": {
+            "local": ["Batalla", "Ratiu", "Hernández", "Gumbau", "Díaz", "Valentín", "Embarba", "Nteka", "Guardiola"],
+            "visitante": ["Gomis", "Azpilicueta", "Witsel", "Gallagher", "Koke", "Lemar", "Riquelme", "Correa", "Sorloth"]
+          },
+          "minuto_a_minuto": [
+            "23' - GOOOOL DEL RAYO! Palazón. 1-0.",
+            "52' - GOOOOL DEL RAYO! De Frutos. 2-0.",
+            "79' - GOOOOL DEL RAYO! Nteka. 3-0."
+          ]
+        },
+        {
+          "fecha": "15/02/26",
+          "local": "Levante",
+          "visitante": "Valencia",
+          "resultado": "0-2",
+          "estadio": "Ciutat de València",
+          "asistencia": 23000,
+          "arbitro": "Víctor García Verdura",
+          "posesion": { "local": 47, "visitante": 53 },
+          "tiros": { "local": 8, "visitante": 13 },
+          "tiros_puerta": { "local": 2, "visitante": 6 },
+          "faltas": { "local": 16, "visitante": 14 },
+          "corners": { "local": 3, "visitante": 5 },
+          "tarjetas": {
+            "local": { "amarillas": 4, "rojas": 1 },
+            "visitante": { "amarillas": 3, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 38, "equipo": "Valencia", "jugador": "Hugo Duro", "asistencia": "Pepelu" },
+            { "minuto": 68, "equipo": "Valencia", "jugador": "André Almeida", "asistencia": "Fran Pérez" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-2-3-1", "titulares": ["Cárdenas", "Mujaid", "Postigo", "Vezo", "Cabello", "Iborra", "Martínez", "Brugué", "Lozano", "Morales", "Álvarez"] },
+            "visitante": { "formacion": "4-4-2", "titulares": ["Mamardashvili", "Foulquier", "Mosquera", "Tárrega", "Gayà", "Pepelu", "Guerra", "Almeida", "López", "Duro", "Mir"] }
+          },
+          "suplentes": {
+            "local": ["Navarro", "Giménez", "Pascanu", "Clemente", "Algobia", "Espí", "Fabrício", "Cantero", "Blanco"],
+            "visitante": ["Dimitrievski", "Correia", "Diakhaby", "Vázquez", "Barrenechea", "F. Pérez", "Tejón", "Canós", "Otorbi"]
+          },
+          "minuto_a_minuto": [
+            "38' - GOOOOL DEL VALENCIA! Duro. 0-1.",
+            "60' - Expulsión de Postigo en el Levante.",
+            "68' - GOOOOL DEL VALENCIA! Almeida. 0-2."
+          ]
+        },
+        {
+          "fecha": "15/02/26",
+          "local": "Mallorca",
+          "visitante": "Real Betis",
+          "resultado": "1-2",
+          "estadio": "Son Moix",
+          "asistencia": 19000,
+          "arbitro": "Alejandro Quintero González",
+          "posesion": { "local": 48, "visitante": 52 },
+          "tiros": { "local": 10, "visitante": 12 },
+          "tiros_puerta": { "local": 4, "visitante": 5 },
+          "faltas": { "local": 13, "visitante": 15 },
+          "corners": { "local": 4, "visitante": 5 },
+          "tarjetas": {
+            "local": { "amarillas": 3, "rojas": 0 },
+            "visitante": { "amarillas": 4, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 15, "equipo": "Real Betis", "jugador": "Ayoze Pérez", "asistencia": "Isco" },
+            { "minuto": 42, "equipo": "Mallorca", "jugador": "Vedat Muriqi", "asistencia": "Sergi Darder" },
+            { "minuto": 70, "equipo": "Real Betis", "jugador": "Chimy Ávila", "asistencia": "Giovani Lo Celso" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "5-3-2", "titulares": ["Greif", "Maffeo", "Valjent", "Copete", "Raíllo", "Lato", "Sánchez", "Mascarell", "Darder", "Muriqi", "Larin"] },
+            "visitante": { "formacion": "4-2-3-1", "titulares": ["Vieites", "Bellerín", "Llorente", "Natan", "Perraud", "Cardoso", "Altimira", "Fornals", "Isco", "Lo Celso", "Ayoze"] }
+          },
+          "suplentes": {
+            "local": ["Cuéllar", "Morey", "Nastasić", "Gayá", "Morlanes", "Costas", "Rodríguez", "Llabrés", "Abdón"],
+            "visitante": ["Silva", "Ruibal", "Mendy", "Rodríguez", "Collado", "Flores", "Juanmi", "Ávila", "Bakambu"]
+          },
+          "minuto_a_minuto": [
+            "15' - GOOOOL DEL BETIS! Ayoze. 0-1.",
+            "42' - GOOOOL DEL MALLORCA! Muriqi. 1-1.",
+            "70' - GOOOOL DEL BETIS! Ávila. 1-2."
+          ]
+        },
+        {
+          "fecha": "16/02/26",
+          "local": "Girona",
+          "visitante": "Barcelona",
+          "resultado": "2-1",
+          "estadio": "Montilivi",
+          "asistencia": 13000,
+          "arbitro": "Guillermo Cuadra Fernández",
+          "posesion": { "local": 43, "visitante": 57 },
+          "tiros": { "local": 10, "visitante": 16 },
+          "tiros_puerta": { "local": 5, "visitante": 6 },
+          "faltas": { "local": 14, "visitante": 8 },
+          "corners": { "local": 3, "visitante": 7 },
+          "tarjetas": {
+            "local": { "amarillas": 3, "rojas": 0 },
+            "visitante": { "amarillas": 1, "rojas": 0 }
+          },
+          "goles": [
+            { "minuto": 25, "equipo": "Girona", "jugador": "Artem Dovbyk", "asistencia": "Iván Martín" },
+            { "minuto": 48, "equipo": "Barcelona", "jugador": "Robert Lewandowski", "asistencia": "Lamine Yamal" },
+            { "minuto": 72, "equipo": "Girona", "jugador": "Cristhian Stuani", "asistencia": "Viktor Tsygankov" }
+          ],
+          "alineaciones": {
+            "local": { "formacion": "4-3-3", "titulares": ["Gazzaniga", "Martínez", "López", "Blind", "Gutiérrez", "Herrera", "Romeu", "Martín", "Tsygankov", "Dovbyk", "Portu"] },
+            "visitante": { "formacion": "4-2-3-1", "titulares": ["Peña", "Koundé", "Cubarsí", "Iñigo", "Balde", "Casadó", "Pedri", "Yamal", "Gavi", "Raphinha", "Lewandowski"] }
+          },
+          "suplentes": {
+            "local": ["Carlos", "Bernardo", "Juanpe", "Solís", "Torre", "Fernández", "Stuani", "Valery", "Artero"],
+            "visitante": ["Szczęsny", "Fort", "Domínguez", "Martín", "De Jong", "Torre", "Olmo", "Fermín", "Víctor"]
+          },
+          "minuto_a_minuto": [
+            "25' - GOOOOL DEL GIRONA! Dovbyk. 1-0.",
+            "48' - GOOOOL DEL BARÇA! Lewandowski. 1-1.",
+            "72' - GOOOOL DEL GIRONA! Stuani. 2-1.",
+            "90' - Victoria histórica del Girona contra el Barça."
+          ]
+        }
       ]
     }
   ],
-
   "calendario_proximo": [
     {
       "ronda": 25,
@@ -112,6 +1919,4 @@
       ]
     }
   ]
-
-  
 }

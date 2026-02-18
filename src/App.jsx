@@ -68,7 +68,7 @@ function AppContent() {
         <Route path="/admin" element={<AdminPanel />} />
 
         {/* PARTIDUAREN ORRIA */}
-        <Route path="/partida/:local/:visitante" element={<EstadisticasPartido />} />
+       <Route path="/estadisticas/:local/:visitante" element={<EstadisticasPartido />} />
       </Routes>
 
       <Footer />
