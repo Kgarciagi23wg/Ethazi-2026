@@ -90,16 +90,7 @@
       "stock": 10,
       "ekipoa": "Arsenal"
     },
-    {
-      "id": 10,
-      "izena": "Chelsea FC kamiseta ofiziala",
-      "deskribapena": "Chelsea FCren kamiseta ofiziala, urdina",
-      "puntuak": 500,
-      "kategoria": "kamiseta",
-      "irudia": "https://i.imgur.com/chelsea-shirt.jpg",
-      "stock": 7,
-      "ekipoa": "Chelsea"
-    },
+   
     {
       "id": 11,
       "izena": "Borussia Dortmund kamiseta ofiziala",
@@ -110,26 +101,8 @@
       "stock": 8,
       "ekipoa": "Borussia Dortmund"
     },
-    {
-      "id": 12,
-      "izena": "Atletico Madrid kamiseta ofiziala",
-      "deskribapena": "Atletico Madrilen kamiseta ofiziala, gorri eta zuria",
-      "puntuak": 500,
-      "kategoria": "kamiseta",
-      "irudia": "https://i.imgur.com/atletico-shirt.jpg",
-      "stock": 9,
-      "ekipoa": "Atletico Madrid"
-    },
-    {
-      "id": 13,
-      "izena": "Tottenham Hotspur kamiseta ofiziala",
-      "deskribapena": "Tottenhamen kamiseta ofiziala, zuria",
-      "puntuak": 500,
-      "kategoria": "kamiseta",
-      "irudia": "https://i.imgur.com/tottenham-shirt.jpg",
-      "stock": 6,
-      "ekipoa": "Tottenham"
-    },
+    
+   
     {
       "id": 14,
       "izena": "Juventus kamiseta ofiziala",
