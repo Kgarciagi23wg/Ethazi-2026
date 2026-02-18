@@ -93,8 +93,78 @@ export const ligas = {
                     { dorsal: 29, nombre: "Toni Fernández", imagen: "/T.Laliga/FCBarcelona/ToniFernandez.png", camiseta: "Toni Fernández" }
                 ]
 
-            }
-        }
+            },
+            Alaves: {
+        nombre: "Deportivo Alavés",
+        jugadores: []
+    },
+    Athletic: {
+        nombre: "Athletic Club",
+        jugadores: []
+    },
+    AtleticoMadrid: {
+        nombre: "Atlético de Madrid",
+        jugadores: []
+    },
+    Betis: {
+        nombre: "Real Betis",
+        jugadores: []
+    },
+    Celta: {
+        nombre: "Celta de Vigo",
+        jugadores: []
+    },
+    Elche: {
+        nombre: "Elche CF",
+        jugadores: []
+    },
+    Espanyol: {
+        nombre: "RCD Espanyol",
+        jugadores: []
+    },
+    Getafe: {
+        nombre: "Getafe CF",
+        jugadores: []
+    },
+    Girona: {
+        nombre: "Girona FC",
+        jugadores: []
+    },
+    Levante: {
+        nombre: "Levante UD",
+        jugadores: []
+    },
+    Mallorca: {
+        nombre: "RCD Mallorca",
+        jugadores: []
+    },
+    Osasuna: {
+        nombre: "CA Osasuna",
+        jugadores: []
+    },
+    Oviedo: {
+        nombre: "Real Oviedo",
+        jugadores: []
+    },
+    RayoVallecano: {
+        nombre: "Rayo Vallecano",
+        jugadores: []
+    },
+    Sevilla: {
+        nombre: "Sevilla FC",
+        jugadores: []
+    },
+    Valencia: {
+        nombre: "Valencia CF",
+        jugadores: []
+    },
+    Villarreal: {
+        nombre: "Villarreal CF",
+        jugadores: []
+    }
+            
+},
+        
     },
     PremierLeague:{
         nombre: "Premier League",
@@ -212,7 +282,76 @@ export const ligas = {
                     { dorsal: 22, nombre: "Hugo Ekitike", imagen: "/T.Premier/Liverpool/Hugo Ekitike.png", camiseta: "Ekitike" },
                     { dorsal: 73, nombre: "Rio Ngumoha", imagen: "/T.Premier/Liverpool/Rio Ngumoha.png", camiseta: "Ngumoha" }
                 ]
-            }
+            },
+            
+    AstonVilla: {
+        nombre: "Aston Villa",
+        jugadores: []
+    },
+    Bournemouth: {
+        nombre: "AFC Bournemouth",
+        jugadores: []
+    },
+    Brentford: {
+        nombre: "Brentford FC",
+        jugadores: []
+    },
+    Brighton: {
+        nombre: "Brighton & Hove Albion",
+        jugadores: []
+    },
+    Burnley: {
+        nombre: "Burnley FC",
+        jugadores: []
+    },
+    Chelsea: {
+        nombre: "Chelsea FC",
+        jugadores: []
+    },
+    CrystalPalace: {
+        nombre: "Crystal Palace",
+        jugadores: []
+    },
+    Everton: {
+        nombre: "Everton FC",
+        jugadores: []
+    },
+    Fulham: {
+        nombre: "Fulham FC",
+        jugadores: []
+    },
+    Leeds: {
+        nombre: "Leeds United",
+        jugadores: []
+    },   
+    ManUtd: {
+        nombre: "Manchester United",
+        jugadores: []
+    },
+    Newcastle: {
+        nombre: "Newcastle United",
+        jugadores: []
+    },
+    NottmForest: {
+        nombre: "Nottingham Forest",
+        jugadores: []
+    },
+    Sunderland: {
+        nombre: "Sunderland AFC",
+        jugadores: []
+    },
+    Tottenham: {
+        nombre: "Tottenham Hotspur",
+        jugadores: []
+    },
+    WestHam: {
+        nombre: "West Ham United",
+        jugadores: []
+    },
+    Wolves: {
+        nombre: "Wolverhampton Wanderers",
+        jugadores: []
+    }
 
         }
     },
@@ -335,7 +474,69 @@ export const ligas = {
         { dorsal: 27, nombre: "Karim Adeyemi", imagen: "/T.Bundesliga/BorussiaDortmund/Karim Adeyemi.png", camiseta: "Adeyemi" }
 
     ]
-}
+},
+Augsburg: {
+        nombre: "FC Augsburg",
+        jugadores: []
+    },
+   
+    Bochum: {
+        nombre: "VfL Bochum",
+        jugadores: []
+    },
+    
+    Dusseldorf: {
+        nombre: "Fortuna Düsseldorf",
+        jugadores: []
+    },
+    EintrachtFrankfurt: {
+        nombre: "Eintracht Frankfurt",
+        jugadores: []
+    },
+    Freiburg: {
+        nombre: "SC Freiburg",
+        jugadores: []
+    },
+    Hamburg: {
+        nombre: "Hamburger SV",
+        jugadores: []
+    },
+    Heidenheim: {
+        nombre: "1. FC Heidenheim",
+        jugadores: []
+    },
+    Hoffenheim: {
+        nombre: "TSG 1899 Hoffenheim",
+        jugadores: []
+    },
+    HolsteinKiel: {
+        nombre: "Holstein Kiel",
+        jugadores: []
+    },
+    Mainz: {
+        nombre: "1. FSV Mainz 05",
+        jugadores: []
+    },
+    Monchengladbach: {
+        nombre: "Borussia Mönchengladbach",
+        jugadores: []
+    },
+    RBLeipzig: {
+        nombre: "RB Leipzig",
+        jugadores: []
+    },
+    Stuttgart: {
+        nombre: "VfB Stuttgart",
+        jugadores: []
+    },
+    UnionBerlin: {
+        nombre: "1. FC Union Berlin",
+        jugadores: []
+    },
+    Wolfsburg: {
+        nombre: "VfL Wolfsburg",
+        jugadores: []
+    }
 
 
         }
@@ -450,7 +651,74 @@ export const ligas = {
                     { dorsal: 11, nombre: "Edon Zhegrova", imagen: "/T.SerieA/Juventus/Edon Zhegrova.png", camiseta: "Zhegrova" },
                     { dorsal: 13, nombre: "Jeremie Boga", imagen: "/T.SerieA/Juventus/Jeremie Boga.png", camiseta: "Boga" }
                 ]
+            },Atalanta: {
+                nombre: "Atalanta BC",
+                jugadores: []
             },
+            Bologna: {
+                nombre: "Bologna FC",
+                jugadores: []
+            },
+            Cagliari: {
+                nombre: "Cagliari Calcio",
+                jugadores: []
+            },
+            Como: {
+                nombre: "Como 1907",
+                jugadores: []
+            },
+            Empoli: {
+                nombre: "Empoli FC",
+                jugadores: []
+            },
+            Fiorentina: {
+                nombre: "ACF Fiorentina",
+                jugadores: []
+            },  
+            Lazio: {
+                nombre: "SS Lazio",
+                jugadores: []
+            },   
+            Monza: {
+                nombre: "AC Monza",
+                jugadores: []
+            },
+            Napoli: {
+                nombre: "SSC Napoli",
+                jugadores: []
+            },
+            Parma: {
+                nombre: "Parma Calcio",
+                jugadores: []
+            },
+            Pisa: {
+                nombre: "Pisa SC",
+                jugadores: []
+            },
+            Roma: {
+                nombre: "AS Roma",
+                jugadores: []
+            },
+            Sampdoria: {
+                nombre: "UC Sampdoria",
+                jugadores: []
+            },
+            Sassuolo: {
+                nombre: "US Sassuolo",
+                jugadores: []
+            },
+            Torino: {
+                nombre: "Torino FC",
+                jugadores: []
+            },
+            Udinese: {
+                nombre: "Udinese Calcio",
+                jugadores: []
+            },
+            Verona: {
+                nombre: "Hellas Verona",
+                jugadores: []
+            }
 
         }
     },
@@ -522,42 +790,102 @@ export const ligas = {
                 
                 ]
             },
-                Lyon: {
-                    nombre: "Olympique de Lyon",
-                    jugadores: [
-                        // PORTEROS
-                        { dorsal: 1, nombre: "Dominik Greif", imagen: "/T.Ligue1/Lyon/Dominik Greif.png", camiseta: "Greif" },
-                        { dorsal: 40, nombre: "Remy Descamps", imagen: "/T.Ligue1/Lyon/Remy Descamps.png", camiseta: "Descamps" },
-                        { dorsal: 50, nombre: "Lassine Diarra", imagen: "/T.Ligue1/Lyon/Lassine Diarra.png", camiseta: "Diarra" },
+            Lyon: {
+                nombre: "Olympique de Lyon",
+                jugadores: [
+                    // PORTEROS
+                    { dorsal: 1, nombre: "Dominik Greif", imagen: "/T.Ligue1/Lyon/Dominik Greif.png", camiseta: "Greif" },
+                    { dorsal: 40, nombre: "Remy Descamps", imagen: "/T.Ligue1/Lyon/Remy Descamps.png", camiseta: "Descamps" },
+                    { dorsal: 50, nombre: "Lassine Diarra", imagen: "/T.Ligue1/Lyon/Lassine Diarra.png", camiseta: "Diarra" },
 
-                        // DEFENSAS
-                        { dorsal: 19, nombre: "Moussa Niakhaté", imagen: "/T.Ligue1/Lyon/Moussa Niakhate.png", camiseta: "Niakhate" },
-                        { dorsal: 21, nombre: "Ruben Kluivert", imagen: "/T.Ligue1/Lyon/Ruben Kluivert.png", camiseta: "Kluivert" },
-                        { dorsal: 22, nombre: "Clinton Mata", imagen: "/T.Ligue1/Lyon/Clinton Mata.png", camiseta: "Mata" },
-                        { dorsal: 3, nombre: "Nicolás Tagliafico", imagen: "/T.Ligue1/Lyon/Nicolas Tagliafico.png", camiseta: "Tagliafico" },
-                        { dorsal: 16, nombre: "Abner", imagen: "/T.Ligue1/Lyon/Abner.png", camiseta: "Abner" },
-                        { dorsal: 33, nombre: "Hans Hateboer", imagen: "/T.Ligue1/Lyon/Hans Hateboer.png", camiseta: "Hateboer" },
-                        { dorsal: 98, nombre: "Ainsley Maitland-Niles", imagen: "/T.Ligue1/Lyon/Ainsley Maitland-Niles.png", camiseta: "Maitland-Niles" },
-                        { dorsal: 85, nombre: "Noham Kamara", imagen: "/T.Ligue1/Lyon/Noham Kamara.png", camiseta: "Kamara" },
+                    // DEFENSAS
+                    { dorsal: 19, nombre: "Moussa Niakhaté", imagen: "/T.Ligue1/Lyon/Moussa Niakhate.png", camiseta: "Niakhate" },
+                    { dorsal: 21, nombre: "Ruben Kluivert", imagen: "/T.Ligue1/Lyon/Ruben Kluivert.png", camiseta: "Kluivert" },
+                    { dorsal: 22, nombre: "Clinton Mata", imagen: "/T.Ligue1/Lyon/Clinton Mata.png", camiseta: "Mata" },
+                    { dorsal: 3, nombre: "Nicolás Tagliafico", imagen: "/T.Ligue1/Lyon/Nicolas Tagliafico.png", camiseta: "Tagliafico" },
+                    { dorsal: 16, nombre: "Abner", imagen: "/T.Ligue1/Lyon/Abner.png", camiseta: "Abner" },
+                    { dorsal: 33, nombre: "Hans Hateboer", imagen: "/T.Ligue1/Lyon/Hans Hateboer.png", camiseta: "Hateboer" },
+                    { dorsal: 98, nombre: "Ainsley Maitland-Niles", imagen: "/T.Ligue1/Lyon/Ainsley Maitland-Niles.png", camiseta: "Maitland-Niles" },
+                    { dorsal: 85, nombre: "Noham Kamara", imagen: "/T.Ligue1/Lyon/Noham Kamara.png", camiseta: "Kamara" },
 
-                        // CENTROCAMPISTAS
-                        { dorsal: 8, nombre: "Corentin Tolisso", imagen: "/T.Ligue1/Lyon/Corentin Tolisso.png", camiseta: "Tolisso" },
-                        { dorsal: 5, nombre: "Orel Mangala", imagen: "/T.Ligue1/Lyon/Orel Mangala.png", camiseta: "Mangala" },
-                        { dorsal: 6, nombre: "Tanner Tessmann", imagen: "/T.Ligue1/Lyon/Tanner Tessmann.png", camiseta: "Tessmann" },
-                        { dorsal: 23, nombre: "Tyler Morton", imagen: "/T.Ligue1/Lyon/Tyler Morton.png", camiseta: "Morton" },
-                        { dorsal: 10, nombre: "Pavel Šulc", imagen: "/T.Ligue1/Lyon/Pavel Šulc.png", camiseta: "Sulc" },
-                        { dorsal: 7, nombre: "Adam Karabec", imagen: "/T.Ligue1/Lyon/Adam Karabec.png", camiseta: "Karabec" },
-                        { dorsal: 99, nombre: "Noah Nartey", imagen: "/T.Ligue1/Lyon/Noah Nartey.png", camiseta: "Nartey" },
+                    // CENTROCAMPISTAS
+                    { dorsal: 8, nombre: "Corentin Tolisso", imagen: "/T.Ligue1/Lyon/Corentin Tolisso.png", camiseta: "Tolisso" },
+                    { dorsal: 5, nombre: "Orel Mangala", imagen: "/T.Ligue1/Lyon/Orel Mangala.png", camiseta: "Mangala" },
+                    { dorsal: 6, nombre: "Tanner Tessmann", imagen: "/T.Ligue1/Lyon/Tanner Tessmann.png", camiseta: "Tessmann" },
+                    { dorsal: 23, nombre: "Tyler Morton", imagen: "/T.Ligue1/Lyon/Tyler Morton.png", camiseta: "Morton" },
+                    { dorsal: 10, nombre: "Pavel Šulc", imagen: "/T.Ligue1/Lyon/Pavel Šulc.png", camiseta: "Sulc" },
+                    { dorsal: 7, nombre: "Adam Karabec", imagen: "/T.Ligue1/Lyon/Adam Karabec.png", camiseta: "Karabec" },
+                    { dorsal: 99, nombre: "Noah Nartey", imagen: "/T.Ligue1/Lyon/Noah Nartey.png", camiseta: "Nartey" },
 
-                        // DELANTEROS
-                        { dorsal: 9, nombre: "Endrick", imagen: "/T.Ligue1/Lyon/Endrick.png", camiseta: "Endrick" },
-                        { dorsal: 11, nombre: "Malick Fofana", imagen: "/T.Ligue1/Lyon/Malick Fofana.png", camiseta: "Fofana" },
-                        { dorsal: 37, nombre: "Ernest Nuamah", imagen: "/T.Ligue1/Lyon/Ernest Nuamah.png", camiseta: "Nuamah" },
-                        { dorsal: 17, nombre: "Afonso Moreira", imagen: "/T.Ligue1/Lyon/Afonso Moreira.png", camiseta: "Moreira" },
-                        { dorsal: 77, nombre: "Roman Yaremchuk", imagen: "/T.Ligue1/Lyon/Roman Yaremchuk.png", camiseta: "Yaremchuk" },
-                        { dorsal: 18, nombre: "Rachid Ghezzal", imagen: "/T.Ligue1/Lyon/Rachid Ghezzal.png", camiseta: "Ghezzal" }
-                    ]
-                },
+                    // DELANTEROS
+                    { dorsal: 9, nombre: "Endrick", imagen: "/T.Ligue1/Lyon/Endrick.png", camiseta: "Endrick" },
+                    { dorsal: 11, nombre: "Malick Fofana", imagen: "/T.Ligue1/Lyon/Malick Fofana.png", camiseta: "Fofana" },
+                    { dorsal: 37, nombre: "Ernest Nuamah", imagen: "/T.Ligue1/Lyon/Ernest Nuamah.png", camiseta: "Nuamah" },
+                    { dorsal: 17, nombre: "Afonso Moreira", imagen: "/T.Ligue1/Lyon/Afonso Moreira.png", camiseta: "Moreira" },
+                    { dorsal: 77, nombre: "Roman Yaremchuk", imagen: "/T.Ligue1/Lyon/Roman Yaremchuk.png", camiseta: "Yaremchuk" },
+                    { dorsal: 18, nombre: "Rachid Ghezzal", imagen: "/T.Ligue1/Lyon/Rachid Ghezzal.png", camiseta: "Ghezzal" }
+                ]
+            },
+            Angers: {
+        nombre: "Angers SCO",
+        jugadores: []
+            },
+            Auxerre: {
+                nombre: "AJ Auxerre",
+                jugadores: []
+            },
+            Brest: {
+                nombre: "Stade Brestois 29",
+                jugadores: []
+            },
+            Havre: {
+                nombre: "Le Havre AC",
+                jugadores: []
+            },
+            Lens: {
+                nombre: "RC Lens",
+                jugadores: []
+            },
+            Lille: {
+                nombre: "Lille OSC",
+                jugadores: []
+            },
+            Lorient: {
+                nombre: "FC Lorient",
+                jugadores: []
+            },    
+            Marsella: {
+                nombre: "Olympique de Marseille",
+                jugadores: []
+            },
+            Metz: {
+                nombre: "FC Metz",
+                jugadores: []
+            },
+            pellier: {
+                nombre: "Montpellier HSC",
+                jugadores: []
+            },
+            Nantes: {
+                nombre: "FC Nantes",
+                jugadores: []
+            },
+            Niza: {
+                nombre: "OGC Nice",
+                jugadores: []
+            },
+            Reims: {
+                nombre: "Stade de Reims",
+                jugadores: []
+            },
+            Rennes: {
+                nombre: "Stade Rennais FC",
+                jugadores: []
+            },
+            Toulouse: {
+                nombre: "Toulouse FC",
+                jugadores: []
+            }
 
         }
     },     

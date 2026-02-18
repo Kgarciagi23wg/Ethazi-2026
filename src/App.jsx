@@ -64,6 +64,7 @@ function AppContent() {
         <Route path="/partiduakPremier" element={<PartiduakPremier />} />
         <Route path="/partiduakBundesliga" element={<PartiduakBundesliga />} />
         <Route path="/partiduakSerieA" element={<PartiduakSerieA />} />
+        
          
         <Route path="/perfil" element={<Perfil />} />
 
