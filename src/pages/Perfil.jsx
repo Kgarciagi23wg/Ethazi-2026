@@ -29,7 +29,7 @@ const ligasConfig = [
   {
     id: "Ligue1",
     nombre: "Ligue 1",
-    logo: "/liga2.png",
+    logo: "/liga2.svg",
     equipos: ["Paris Saint-Germain", "Marseille", "AS Monaco", "Olympique de Lyon", "Lille"]
   }
 ];
