@@ -194,16 +194,6 @@
       "ekipoa": "Manchester"
     },
     {
-      "id": 23,
-      "izena": "San Mames bisita gidatua",
-      "deskribapena": "Bisita gidatua San Mames estadiora, Athletic Cluben museoa barne",
-      "puntuak": 800,
-      "kategoria": "tourra",
-      "irudia": "https://i.imgur.com/sanmames.jpg",
-      "stock": 15,
-      "ekipoa": "Athletic Club"
-    },
-    {
       "id": 24,
       "izena": "Camp Nou bisita gidatua",
       "deskribapena": "Bisita gidatua Camp Noura, FC Barcelonaren museoa eta jokalarien aldageletara sarbidea",
@@ -239,7 +229,7 @@
       "deskribapena": "Bisita gidatua Allianz Arenara, Bayern Munichen museoa",
       "puntuak": 1100,
       "kategoria": "tourra",
-      "irudia": "https://i.imgur.com/allianz.jpg",
+      "irudia": "./public/Sariak/alianz.jpg",
       "stock": 8,
       "ekipoa": "Bayern Munich"
     },
@@ -249,7 +239,7 @@
       "deskribapena": "Bisita gidatua Old Traffordera, Manchester Uniteden museoa",
       "puntuak": 1100,
       "kategoria": "tourra",
-      "irudia": "https://i.imgur.com/oldtrafford.jpg",
+      "irudia": "./public/Sariak/oldtraford.jpg",
       "stock": 8,
       "ekipoa": "Manchester United"
     },
@@ -259,7 +249,7 @@
       "deskribapena": "Bisita gidatua San Siro estadiora, Inter eta AC Milango museoa",
       "puntuak": 1000,
       "kategoria": "tourra",
-      "irudia": "https://i.imgur.com/sansiro.jpg",
+      "irudia": "./public/Sariak/sansiro.jpg",
       "stock": 7,
       "ekipoa": "Inter/AC Milan"
     },
@@ -269,7 +259,7 @@
       "deskribapena": "UEFA Champions League-eko baloi ofiziala, denboraldi honetakoa",
       "puntuak": 800,
       "kategoria": "ekipamendua",
-      "irudia": "https://i.imgur.com/ucl-ball.jpg",
+      "irudia": "./public/Sariak/balonchampions.jpg",
       "stock": 15,
       "ekipoa": "UEFA"
     },
@@ -279,7 +269,7 @@
       "deskribapena": "Munduko Kopako baloi ofiziala, FIFAren onespenarekin",
       "puntuak": 900,
       "kategoria": "ekipamendua",
-      "irudia": "https://i.imgur.com/wc-ball.jpg",
+      "irudia": "./public/Sariak/balonmundial.jpeg",
       "stock": 10,
       "ekipoa": "FIFA"
     },
@@ -289,7 +279,7 @@
       "deskribapena": "Nike Mercurial futbol botin profesionalak, zelaiko jokoetarako",
       "puntuak": 700,
       "kategoria": "ekipamendua",
-      "irudia": "https://i.imgur.com/nike-boots.jpg",
+      "irudia": "./public/Sariak/mercurial.jpg",
       "stock": 12,
       "ekipoa": "Nike"
     },
@@ -299,7 +289,7 @@
       "deskribapena": "Adidas Predator futbol botin profesionalak, kontrol eta zehaztasun handiagoarekin",
       "puntuak": 700,
       "kategoria": "ekipamendua",
-      "irudia": "https://i.imgur.com/adidas-boots.jpg",
+      "irudia": "../public/Sariak/predator.jpeg",
       "stock": 12,
       "ekipoa": "Adidas"
     },
@@ -309,7 +299,7 @@
       "deskribapena": "Atezain profesionalentzako eskularruak, helduleku eta babes handiagoarekin",
       "puntuak": 400,
       "kategoria": "ekipamendua",
-      "irudia": "https://i.imgur.com/goalie-gloves.jpg",
+      "irudia": "./public/Sariak/guantes.jpg",
       "stock": 8,
       "ekipoa": "Hainbat"
     },
@@ -319,7 +309,7 @@
       "deskribapena": "FIFA 24 bideojokoa, PlayStation 5 edo Xbox-erako",
       "puntuak": 600,
       "kategoria": "jokoak",
-      "irudia": "https://i.imgur.com/fifa24.jpg",
+      "irudia": "./public/Sariak/fc26.jpeg",
       "stock": 20,
       "ekipoa": "EA Sports"
     },
@@ -329,7 +319,7 @@
       "deskribapena": "Football Manager 2024 bideojokoa, PCrako",
       "puntuak": 550,
       "kategoria": "jokoak",
-      "irudia": "https://i.imgur.com/fm24.jpg",
+      "irudia": "./public/Sariak/futbolmanager.jpg",
       "stock": 15,
       "ekipoa": "Sports Interactive"
     },
@@ -339,7 +329,7 @@
       "deskribapena": "Partida hasi baino lehen, zelaian baloia jaurtitzeko aukera",
       "puntuak": 1800,
       "kategoria": "esperientziak",
-      "irudia": "https://i.imgur.com/kickoff.jpg",
+      "irudia": "./public/Sariak/chutinauguracion.jpg",
       "stock": 4,
       "ekipoa": "Hainbat"
     },
@@ -349,7 +339,7 @@
       "deskribapena": "Partida ondoren, taldeko argazkia ateratzeko aukera jokalari guztiekin",
       "puntuak": 2000,
       "kategoria": "esperientziak",
-      "irudia": "https://i.imgur.com/team-photo.jpg",
+      "irudia": "./public/Sariak/taldekoArgazkia.jpeg",
       "stock": 6,
       "ekipoa": "Hainbat"
     }
