@@ -1,0 +1,484 @@
+{
+  "sariak": [
+    {
+      "id": 1,
+      "izena": "Real Madril CF kamiseta ofiziala",
+      "deskribapena": "Real Madrilen kamiseta ofiziala, zuria eta urre koloreko detaileekin",
+      "puntuak": 500,
+      "kategoria": "kamiseta",
+      "irudia": "https://i.imgur.com/real-madrid-shirt.jpg",
+      "stock": 10,
+      "ekipoa": "Real Madril"
+    },
+    {
+      "id": 2,
+      "izena": "FC Barcelona kamiseta ofiziala",
+      "deskribapena": "FC Barcelonaren kamiseta ofiziala, blaugrana kolorekoa",
+      "puntuak": 500,
+      "kategoria": "kamiseta",
+      "irudia": "https://i.imgur.com/barca-shirt.jpg",
+      "stock": 8,
+      "ekipoa": "FC Barcelona"
+    },
+    {
+      "id": 3,
+      "izena": "Manchester City kamiseta ofiziala",
+      "deskribapena": "Manchester Cityren kamiseta ofiziala, urdin zerua kolorekoa",
+      "puntuak": 500,
+      "kategoria": "kamiseta",
+      "irudia": "https://i.imgur.com/mcity-shirt.jpg",
+      "stock": 12,
+      "ekipoa": "Manchester City"
+    },
+    {
+      "id": 4,
+      "izena": "Liverpool FC kamiseta ofiziala",
+      "deskribapena": "Liverpool FCren kamiseta ofiziala, gorri bizia",
+      "puntuak": 500,
+      "kategoria": "kamiseta",
+      "irudia": "https://i.imgur.com/liverpool-shirt.jpg",
+      "stock": 7,
+      "ekipoa": "Liverpool"
+    },
+    {
+      "id": 5,
+      "izena": "Bayern Munich kamiseta ofiziala",
+      "deskribapena": "Bayern Munichen kamiseta ofiziala, gorria",
+      "puntuak": 500,
+      "kategoria": "kamiseta",
+      "irudia": "https://i.imgur.com/bayern-shirt.jpg",
+      "stock": 9,
+      "ekipoa": "Bayern Munich"
+    },
+    {
+      "id": 6,
+      "izena": "Paris Saint-Germain kamiseta ofiziala",
+      "deskribapena": "PSGren kamiseta ofiziala, urdina",
+      "puntuak": 500,
+      "kategoria": "kamiseta",
+      "irudia": "https://i.imgur.com/psg-shirt.jpg",
+      "stock": 11,
+      "ekipoa": "PSG"
+    },
+    {
+      "id": 7,
+      "izena": "Inter Milan kamiseta ofiziala",
+      "deskribapena": "Inter Milango kamiseta ofiziala, urdin eta beltza",
+      "puntuak": 500,
+      "kategoria": "kamiseta",
+      "irudia": "https://i.imgur.com/inter-shirt.jpg",
+      "stock": 6,
+      "ekipoa": "Inter Milan"
+    },
+    {
+      "id": 8,
+      "izena": "AC Milan kamiseta ofiziala",
+      "deskribapena": "AC Milango kamiseta ofiziala, gorri eta beltza",
+      "puntuak": 500,
+      "kategoria": "kamiseta",
+      "irudia": "https://i.imgur.com/acmilan-shirt.jpg",
+      "stock": 8,
+      "ekipoa": "AC Milan"
+    },
+    {
+      "id": 9,
+      "izena": "Arsenal FC kamiseta ofiziala",
+      "deskribapena": "Arsenal FCren kamiseta ofiziala, gorria",
+      "puntuak": 500,
+      "kategoria": "kamiseta",
+      "irudia": "https://i.imgur.com/arsenal-shirt.jpg",
+      "stock": 10,
+      "ekipoa": "Arsenal"
+    },
+    {
+      "id": 10,
+      "izena": "Chelsea FC kamiseta ofiziala",
+      "deskribapena": "Chelsea FCren kamiseta ofiziala, urdina",
+      "puntuak": 500,
+      "kategoria": "kamiseta",
+      "irudia": "https://i.imgur.com/chelsea-shirt.jpg",
+      "stock": 7,
+      "ekipoa": "Chelsea"
+    },
+    {
+      "id": 11,
+      "izena": "Borussia Dortmund kamiseta ofiziala",
+      "deskribapena": "Borussia Dortmund-en kamiseta ofiziala, hori eta beltza",
+      "puntuak": 500,
+      "kategoria": "kamiseta",
+      "irudia": "https://i.imgur.com/dortmund-shirt.jpg",
+      "stock": 8,
+      "ekipoa": "Borussia Dortmund"
+    },
+    {
+      "id": 12,
+      "izena": "Atletico Madrid kamiseta ofiziala",
+      "deskribapena": "Atletico Madrilen kamiseta ofiziala, gorri eta zuria",
+      "puntuak": 500,
+      "kategoria": "kamiseta",
+      "irudia": "https://i.imgur.com/atletico-shirt.jpg",
+      "stock": 9,
+      "ekipoa": "Atletico Madrid"
+    },
+    {
+      "id": 13,
+      "izena": "Tottenham Hotspur kamiseta ofiziala",
+      "deskribapena": "Tottenhamen kamiseta ofiziala, zuria",
+      "puntuak": 500,
+      "kategoria": "kamiseta",
+      "irudia": "https://i.imgur.com/tottenham-shirt.jpg",
+      "stock": 6,
+      "ekipoa": "Tottenham"
+    },
+    {
+      "id": 14,
+      "izena": "Juventus kamiseta ofiziala",
+      "deskribapena": "Juventusen kamiseta ofiziala, zuri eta beltza",
+      "puntuak": 500,
+      "kategoria": "kamiseta",
+      "irudia": "https://i.imgur.com/juventus-shirt.jpg",
+      "stock": 10,
+      "ekipoa": "Juventus"
+    },
+    {
+      "id": 15,
+      "izena": "Bidai paketea: Londres + Arsenal partida",
+      "deskribapena": "Bidaia Londresera, 3 gau hotelarekin eta Arsenal partida bat ikusteko sarrerak",
+      "puntuak": 5000,
+      "kategoria": "bidaiak",
+      "irudia": "https://i.imgur.com/london-trip.jpg",
+      "stock": 3,
+      "ekipoa": "Arsenal"
+    },
+    {
+      "id": 16,
+      "izena": "Bidai paketea: Munich + Bayern partida",
+      "deskribapena": "Bidaia Munichera, 3 gau hotelarekin eta Bayern Munich partida bat ikusteko sarrerak",
+      "puntuak": 4800,
+      "kategoria": "bidaiak",
+      "irudia": "https://i.imgur.com/munich-trip.jpg",
+      "stock": 4,
+      "ekipoa": "Bayern Munich"
+    },
+    {
+      "id": 17,
+      "izena": "Bidai paketea: Milan + Derby della Madonnina",
+      "deskribapena": "Bidaia Milanera, 3 gau hotelarekin eta Milaneko derbia ikusteko sarrerak (Inter vs AC Milan)",
+      "puntuak": 5500,
+      "kategoria": "bidaiak",
+      "irudia": "https://i.imgur.com/milan-trip.jpg",
+      "stock": 2,
+      "ekipoa": "Inter/AC Milan"
+    },
+    {
+      "id": 18,
+      "izena": "Bidai paketea: Manchester + United/City partida",
+      "deskribapena": "Bidaia Manchesterrera, 3 gau hotelarekin eta Manchester United edo City partida bat ikusteko sarrerak",
+      "puntuak": 4900,
+      "kategoria": "bidaiak",
+      "irudia": "https://i.imgur.com/manchester-trip.jpg",
+      "stock": 3,
+      "ekipoa": "Manchester"
+    },
+    {
+      "id": 19,
+      "izena": "Bidai paketea: Paris + PSG partida",
+      "deskribapena": "Bidaia Parisera, 3 gau hotelarekin eta PSG partida bat ikusteko sarrerak",
+      "puntuak": 5200,
+      "kategoria": "bidaiak",
+      "irudia": "https://i.imgur.com/paris-trip.jpg",
+      "stock": 3,
+      "ekipoa": "PSG"
+    },
+    {
+      "id": 20,
+      "izena": "Champions League Finalerako sarrerak",
+      "deskribapena": "Bi sarrera Champions League Finalerako + hegaldia eta hotela",
+      "puntuak": 10000,
+      "kategoria": "bidaiak",
+      "irudia": "https://i.imgur.com/ucl-final.jpg",
+      "stock": 1,
+      "ekipoa": "Finalista"
+    },
+    {
+      "id": 21,
+      "izena": "El Clasico sarrerak (Madril vs Barça)",
+      "deskribapena": "Bi sarrera El Clasico ikusteko Santiago Bernabeun edo Camp Noun",
+      "puntuak": 3500,
+      "kategoria": "sarrerak",
+      "irudia": "https://i.imgur.com/elclasico.jpg",
+      "stock": 5,
+      "ekipoa": "Real Madrid/Barça"
+    },
+    {
+      "id": 22,
+      "izena": "Manchester derby sarrerak",
+      "deskribapena": "Bi sarrera Manchester derbyrako (United vs City)",
+      "puntuak": 3000,
+      "kategoria": "sarrerak",
+      "irudia": "https://i.imgur.com/manderby.jpg",
+      "stock": 4,
+      "ekipoa": "Manchester"
+    },
+    {
+      "id": 23,
+      "izena": "San Mames bisita gidatua",
+      "deskribapena": "Bisita gidatua San Mames estadiora, Athletic Cluben museoa barne",
+      "puntuak": 800,
+      "kategoria": "tourra",
+      "irudia": "https://i.imgur.com/sanmames.jpg",
+      "stock": 15,
+      "ekipoa": "Athletic Club"
+    },
+    {
+      "id": 24,
+      "izena": "Camp Nou bisita gidatua",
+      "deskribapena": "Bisita gidatua Camp Noura, FC Barcelonaren museoa eta jokalarien aldageletara sarbidea",
+      "puntuak": 1200,
+      "kategoria": "tourra",
+      "irudia": "https://i.imgur.com/campnou.jpg",
+      "stock": 10,
+      "ekipoa": "FC Barcelona"
+    },
+    {
+      "id": 25,
+      "izena": "Santiago Bernabeu bisita gidatua",
+      "deskribapena": "Bisita gidatua Santiago Bernabeura, Real Madrilen museoa eta trofeo gela",
+      "puntuak": 1200,
+      "kategoria": "tourra",
+      "irudia": "https://i.imgur.com/bernabeu.jpg",
+      "stock": 10,
+      "ekipoa": "Real Madrid"
+    },
+    {
+      "id": 26,
+      "izena": "Anfield bisita gidatua",
+      "deskribapena": "Bisita gidatua Anfield-era, Liverpooleko museoa eta 'This is Anford' esperientzia",
+      "puntuak": 1100,
+      "kategoria": "tourra",
+      "irudia": "https://i.imgur.com/anfield.jpg",
+      "stock": 8,
+      "ekipoa": "Liverpool"
+    },
+    {
+      "id": 27,
+      "izena": "Allianz Arena bisita gidatua",
+      "deskribapena": "Bisita gidatua Allianz Arenara, Bayern Munichen museoa",
+      "puntuak": 1100,
+      "kategoria": "tourra",
+      "irudia": "https://i.imgur.com/allianz.jpg",
+      "stock": 8,
+      "ekipoa": "Bayern Munich"
+    },
+    {
+      "id": 28,
+      "izena": "Old Trafford bisita gidatua",
+      "deskribapena": "Bisita gidatua Old Traffordera, Manchester Uniteden museoa",
+      "puntuak": 1100,
+      "kategoria": "tourra",
+      "irudia": "https://i.imgur.com/oldtrafford.jpg",
+      "stock": 8,
+      "ekipoa": "Manchester United"
+    },
+    {
+      "id": 29,
+      "izena": "San Siro bisita gidatua",
+      "deskribapena": "Bisita gidatua San Siro estadiora, Inter eta AC Milango museoa",
+      "puntuak": 1000,
+      "kategoria": "tourra",
+      "irudia": "https://i.imgur.com/sansiro.jpg",
+      "stock": 7,
+      "ekipoa": "Inter/AC Milan"
+    },
+    {
+      "id": 30,
+      "izena": "Jokalariarekin bazkaria - Erretiroa hartutako legenda",
+      "deskribapena": "Bazkari pribatua futbol legenda batekin (Carles Puyol, Iker Casillas, edo antzekoa)",
+      "puntuak": 8000,
+      "kategoria": "vip",
+      "irudia": "https://i.imgur.com/legend-dinner.jpg",
+      "stock": 2,
+      "ekipoa": "Hainbat"
+    },
+    {
+      "id": 31,
+      "izena": "Jokalariarekin bideo-deia",
+      "deskribapena": "30 minutuko bideo-deia futbol jokalari profesional batekin",
+      "puntuak": 2500,
+      "kategoria": "vip",
+      "irudia": "https://i.imgur.com/videocall.jpg",
+      "stock": 10,
+      "ekipoa": "Hainbat"
+    },
+    {
+      "id": 32,
+      "izena": "Kamiseta sinatua - Lionel Messi",
+      "deskribapena": "Argentinako selekzioko kamiseta ofiziala Lionel Messik sinatua",
+      "puntuak": 4500,
+      "kategoria": "oroigarriak",
+      "irudia": "https://i.imgur.com/messi-shirt.jpg",
+      "stock": 2,
+      "ekipoa": "Argentina/Barça"
+    },
+    {
+      "id": 33,
+      "izena": "Kamiseta sinatua - Cristiano Ronaldo",
+      "deskribapena": "Portugaleko selekzioko kamiseta ofiziala Cristiano Ronaldek sinatua",
+      "puntuak": 4500,
+      "kategoria": "oroigarriak",
+      "irudia": "https://i.imgur.com/cr7-shirt.jpg",
+      "stock": 2,
+      "ekipoa": "Portugal"
+    },
+    {
+      "id": 34,
+      "izena": "Baloi ofiziala - Champions League",
+      "deskribapena": "UEFA Champions League-eko baloi ofiziala, denboraldi honetakoa",
+      "puntuak": 800,
+      "kategoria": "ekipamendua",
+      "irudia": "https://i.imgur.com/ucl-ball.jpg",
+      "stock": 15,
+      "ekipoa": "UEFA"
+    },
+    {
+      "id": 35,
+      "izena": "Baloi ofiziala - Mundiala",
+      "deskribapena": "Munduko Kopako baloi ofiziala, FIFAren onespenarekin",
+      "puntuak": 900,
+      "kategoria": "ekipamendua",
+      "irudia": "https://i.imgur.com/wc-ball.jpg",
+      "stock": 10,
+      "ekipoa": "FIFA"
+    },
+    {
+      "id": 36,
+      "izena": "Futbol botin profesionalak - Nike Mercurial",
+      "deskribapena": "Nike Mercurial futbol botin profesionalak, zelaiko jokoetarako",
+      "puntuak": 700,
+      "kategoria": "ekipamendua",
+      "irudia": "https://i.imgur.com/nike-boots.jpg",
+      "stock": 12,
+      "ekipoa": "Nike"
+    },
+    {
+      "id": 37,
+      "izena": "Futbol botin profesionalak - Adidas Predator",
+      "deskribapena": "Adidas Predator futbol botin profesionalak, kontrol eta zehaztasun handiagoarekin",
+      "puntuak": 700,
+      "kategoria": "ekipamendua",
+      "irudia": "https://i.imgur.com/adidas-boots.jpg",
+      "stock": 12,
+      "ekipoa": "Adidas"
+    },
+    {
+      "id": 38,
+      "izena": "Atezainaren eskularru profesionalak",
+      "deskribapena": "Atezain profesionalentzako eskularruak, helduleku eta babes handiagoarekin",
+      "puntuak": 400,
+      "kategoria": "ekipamendua",
+      "irudia": "https://i.imgur.com/goalie-gloves.jpg",
+      "stock": 8,
+      "ekipoa": "Hainbat"
+    },
+    {
+      "id": 39,
+      "izena": "Futbol mahai jokoa - FIFA 24",
+      "deskribapena": "FIFA 24 bideojokoa, PlayStation 5 edo Xbox-erako",
+      "puntuak": 600,
+      "kategoria": "jokoak",
+      "irudia": "https://i.imgur.com/fifa24.jpg",
+      "stock": 20,
+      "ekipoa": "EA Sports"
+    },
+    {
+      "id": 40,
+      "izena": "Futbol manager jokoa - Football Manager 2024",
+      "deskribapena": "Football Manager 2024 bideojokoa, PCrako",
+      "puntuak": 550,
+      "kategoria": "jokoak",
+      "irudia": "https://i.imgur.com/fm24.jpg",
+      "stock": 15,
+      "ekipoa": "Sports Interactive"
+    },
+    {
+      "id": 41,
+      "izena": "Futbol 7 txapelketa pribatua",
+      "deskribapena": "Antolatu zure futbol 7 txapelketa zure lagunekin, arbitro profesional eta kamiseta berdinekin",
+      "puntuak": 2500,
+      "kategoria": "esperientziak",
+      "irudia": "https://i.imgur.com/futbol7.jpg",
+      "stock": 5,
+      "ekipoa": "Hainbat"
+    },
+    {
+      "id": 42,
+      "izena": "Partida baterako maskota izatea",
+      "deskribapena": "Zure seme/alaba partida ofizial batean maskota izatea, jokalariarekin eskuan sartuz",
+      "puntuak": 3000,
+      "kategoria": "esperientziak",
+      "irudia": "https://i.imgur.com/mascot.jpg",
+      "stock": 3,
+      "ekipoa": "Hainbat"
+    },
+    {
+      "id": 43,
+      "izena": "Zelaian baloia jaurtitzea",
+      "deskribapena": "Partida hasi baino lehen, zelaian baloia jaurtitzeko aukera",
+      "puntuak": 1800,
+      "kategoria": "esperientziak",
+      "irudia": "https://i.imgur.com/kickoff.jpg",
+      "stock": 4,
+      "ekipoa": "Hainbat"
+    },
+    {
+      "id": 44,
+      "izena": "Taldeko argazkia jokalariekin",
+      "deskribapena": "Partida ondoren, taldeko argazkia ateratzeko aukera jokalari guztiekin",
+      "puntuak": 2000,
+      "kategoria": "esperientziak",
+      "irudia": "https://i.imgur.com/team-photo.jpg",
+      "stock": 6,
+      "ekipoa": "Hainbat"
+    },
+    {
+      "id": 45,
+      "izena": "Futbol arbitro izateko ikastaroa",
+      "deskribapena": "Futbol arbitro izateko ikastaro ofiziala, tituluarekin",
+      "puntuak": 1500,
+      "kategoria": "ikasketak",
+      "irudia": "https://i.imgur.com/referee-course.jpg",
+      "stock": 8,
+      "ekipoa": "Federazioa"
+    },
+    {
+      "id": 46,
+      "izena": "Futbol entrenatzaile izateko ikastaroa",
+      "deskribapena": "Futbol entrenatzaile izateko ikastaro ofiziala, UEFAren tituluarekin",
+      "puntuak": 2000,
+      "kategoria": "ikasketak",
+      "irudia": "https://i.imgur.com/coach-course.jpg",
+      "stock": 6,
+      "ekipoa": "UEFA"
+    },
+    {
+      "id": 47,
+      "izena": "Urteko sasoiko bazkidetza - Real Madril",
+      "deskribapena": "Real Madrilen bazkidetza urtebetez, partida guztietarako lehentasunezko sarbidea",
+      "puntuak": 3500,
+      "kategoria": "bazkidetza",
+      "irudia": "https://i.imgur.com/realmadrid-membership.jpg",
+      "stock": 5,
+      "ekipoa": "Real Madrid"
+    },
+    {
+      "id": 48,
+      "izena": "Urteko sasoiko bazkidetza - FC Barcelona",
+      "deskribapena": "FC Barcelonaren bazkidetza urtebetez, partida guztietarako lehentasunezko sarbidea",
+      "puntuak": 3500,
+      "kategoria": "bazkidetza",
+      "irudia": "https://i.imgur.com/barca-membership.jpg",
+      "stock": 5,
+      "ekipoa": "FC Barcelona"
+    }
+  ]
+}

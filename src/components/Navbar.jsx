@@ -20,6 +20,9 @@ export default function NavbarSecondary() {
           <Nav.Link as={Link} to="/panela" className="text-white">
             Panela
           </Nav.Link>
+           <Nav.Link as={Link} to="/sariak" className="text-white">
+            Sariak
+          </Nav.Link>
         </Nav>
 
       </Container>

@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+
 // Testuinguruak
 import { LanguageProvider } from "./context/LanguageContext";
 import { AuthProvider, useAuth } from "./context/AuthContext";
@@ -31,6 +32,7 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import NavbarSecondary from "./components/Navbar.jsx";
 import NavbarAdmin from "./components/NavbarAdmin.jsx";
+import Sariak from "./components/Sariak.jsx";
 
 function AppContent() {
   const { user } = useAuth();
@@ -69,6 +71,9 @@ function AppContent() {
 
         {/* PARTIDUAREN ORRIA */}
        <Route path="/estadisticas/:local/:visitante" element={<EstadisticasPartido />} />
+
+        {/* Sariak orria */}
+        <Route path="/sariak" element={<Sariak />} />
       </Routes>
 
       <Footer />
