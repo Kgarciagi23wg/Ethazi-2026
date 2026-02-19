@@ -111,11 +111,12 @@ export default function PartiduakLigue1() {
 
         <button
           className="btn btn-outline-primary px-4 py-2 rounded-3"
-          onClick={() => setJornadaActual(j => Math.max(1, j - 1))}
-          disabled={jornadaActual === 1}
+          onClick={() => setJornadaActual(j => Math.max(24, j - 1))}
+          disabled={jornadaActual === 24}
         >
           ← Aurrekoa
         </button>
+
 
         <h2 className="fw-bold text-dark">
           Jornada {jornadaActual}
@@ -123,11 +124,12 @@ export default function PartiduakLigue1() {
 
         <button
           className="btn btn-outline-primary px-4 py-2 rounded-3"
-          onClick={() => setJornadaActual(j => Math.min(34, j + 1))}
-          disabled={jornadaActual === 34}
+          onClick={() => setJornadaActual(j => Math.min(26, j + 1))}
+          disabled={jornadaActual === 26}
         >
           Hurrengoa →
         </button>
+
 
       </div>
 

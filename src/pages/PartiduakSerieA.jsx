@@ -107,17 +107,18 @@ export default function PartiduakSerieA() {
 
         <button
           className="btn btn-outline-primary px-4 py-2 rounded-3"
-          onClick={() => setJornadaActual(j => Math.max(20, j - 1))}
-          disabled={jornadaActual === 20}
+          onClick={() => setJornadaActual(j => Math.max(24, j - 1))}
+          disabled={jornadaActual === 24}
         >
           ← Aurrekoa
         </button>
+
 
         <h2 className="fw-bold text-dark">
           Jornada {jornadaActual}
         </h2>
 
-        <button
+       <button
           className="btn btn-outline-primary px-4 py-2 rounded-3"
           onClick={() => setJornadaActual(j => Math.min(26, j + 1))}
           disabled={jornadaActual === 26}

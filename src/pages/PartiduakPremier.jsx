@@ -105,13 +105,14 @@ export default function PartiduakPremier() {
 
       <div className="d-flex justify-content-between align-items-center mb-4">
 
-        <button
+       <button
           className="btn btn-outline-primary px-4 py-2 rounded-3"
-          onClick={() => setJornadaActual(j => Math.max(20, j - 1))}
-          disabled={jornadaActual === 20}
+          onClick={() => setJornadaActual(j => Math.max(24, j - 1))}
+          disabled={jornadaActual === 24}
         >
           ← Aurrekoa
         </button>
+
 
         <h2 className="fw-bold text-dark">
           Jornada {jornadaActual}
