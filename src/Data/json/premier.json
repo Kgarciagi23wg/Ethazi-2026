@@ -1,0 +1,52 @@
+{
+  "jornadas": [
+    {
+      "jornada": 24,
+      "partidos": [
+        { "fecha": "15/02/26", "hora": "21:00", "local": "Manchester City", "visitante": "Everton", "resultado": "3 - 1" },
+        { "fecha": "16/02/26", "hora": "14:00", "local": "Arsenal", "visitante": "Brighton", "resultado": "2 - 0" },
+        { "fecha": "16/02/26", "hora": "16:15", "local": "Liverpool", "visitante": "West Ham", "resultado": "1 - 1" },
+        { "fecha": "16/02/26", "hora": "18:30", "local": "Chelsea", "visitante": "Newcastle", "resultado": "0 - 2" },
+        { "fecha": "16/02/26", "hora": "21:00", "local": "Manchester United", "visitante": "Aston Villa", "resultado": "2 - 2" },
+        { "fecha": "17/02/26", "hora": "14:00", "local": "Tottenham", "visitante": "Crystal Palace", "resultado": "1 - 0" },
+        { "fecha": "17/02/26", "hora": "16:15", "local": "Leeds United", "visitante": "Bournemouth", "resultado": "0 - 1" },
+        { "fecha": "17/02/26", "hora": "18:30", "local": "Wolves", "visitante": "Fulham", "resultado": "2 - 2" },
+        { "fecha": "17/02/26", "hora": "21:00", "local": "Burnley", "visitante": "Brentford", "resultado": "1 - 3" },
+        { "fecha": "18/02/26", "hora": "21:00", "local": "Nottingham Forest", "visitante": "Sunderland", "resultado": "2 - 1" }
+      ]
+    }
+  ],
+
+  "calendario_proximo": [
+    {
+      "ronda": 25,
+      "partidos": [
+        { "fecha": "20/02/26", "hora": "21:00", "local": "Arsenal", "visitante": "Chelsea" },
+        { "fecha": "21/02/26", "hora": "14:00", "local": "Liverpool", "visitante": "Brighton" },
+        { "fecha": "21/02/26", "hora": "16:15", "local": "Manchester City", "visitante": "Tottenham" },
+        { "fecha": "21/02/26", "hora": "18:30", "local": "Aston Villa", "visitante": "West Ham" },
+        { "fecha": "21/02/26", "hora": "21:00", "local": "Newcastle", "visitante": "Everton" },
+        { "fecha": "22/02/26", "hora": "14:00", "local": "Fulham", "visitante": "Leeds United" },
+        { "fecha": "22/02/26", "hora": "16:15", "local": "Crystal Palace", "visitante": "Burnley" },
+        { "fecha": "22/02/26", "hora": "18:30", "local": "Brentford", "visitante": "Wolves" },
+        { "fecha": "22/02/26", "hora": "21:00", "local": "Bournemouth", "visitante": "Nottingham Forest" },
+        { "fecha": "23/02/26", "hora": "21:00", "local": "Sunderland", "visitante": "Manchester United" }
+      ]
+    },
+    {
+      "ronda": 26,
+      "partidos": [
+        { "fecha": "27/02/26", "hora": "21:00", "local": "Chelsea", "visitante": "Liverpool" },
+        { "fecha": "28/02/26", "hora": "14:00", "local": "Brighton", "visitante": "Arsenal" },
+        { "fecha": "28/02/26", "hora": "16:15", "local": "West Ham", "visitante": "Manchester City" },
+        { "fecha": "28/02/26", "hora": "18:30", "local": "Everton", "visitante": "Aston Villa" },
+        { "fecha": "28/02/26", "hora": "21:00", "local": "Tottenham", "visitante": "Newcastle" },
+        { "fecha": "01/03/26", "hora": "14:00", "local": "Leeds United", "visitante": "Crystal Palace" },
+        { "fecha": "01/03/26", "hora": "16:15", "local": "Burnley", "visitante": "Fulham" },
+        { "fecha": "01/03/26", "hora": "18:30", "local": "Wolves", "visitante": "Bournemouth" },
+        { "fecha": "01/03/26", "hora": "21:00", "local": "Nottingham Forest", "visitante": "Brentford" },
+        { "fecha": "02/03/26", "hora": "21:00", "local": "Manchester United", "visitante": "Sunderland" }
+      ]
+    }
+  ]
+}

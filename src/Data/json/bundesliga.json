@@ -1,477 +1,51 @@
 {
-  "liga": "Bundesliga 2025-2026",
-  "temporada_actual": "2026",
   "jornadas": [
     {
       "jornada": 24,
       "partidos": [
-        {
-          "fecha": "06/03/26",
-          "local": "Borussia Dortmund",
-          "visitante": "FC Augsburg",
-          "resultado": "3-1",
-          "estadio": "Signal Iduna Park",
-          "asistencia": 81365,
-          "arbitro": "Daniel Siebert",
-          "posesion": { "local": 62, "visitante": 38 },
-          "tiros": { "local": 18, "visitante": 7 },
-          "tiros_puerta": { "local": 8, "visitante": 3 },
-          "faltas": { "local": 9, "visitante": 14 },
-          "corners": { "local": 7, "visitante": 2 },
-          "tarjetas": {
-            "local": { "amarillas": 1, "rojas": 0 },
-            "visitante": { "amarillas": 3, "rojas": 0 }
-          },
-          "goles": [
-            { "minuto": 15, "equipo": "Borussia Dortmund", "jugador": "Niclas Füllkrug", "asistencia": "Julian Brandt" },
-            { "minuto": 32, "equipo": "FC Augsburg", "jugador": "Ermedin Demirović", "asistencia": "Ruben Vargas" },
-            { "minuto": 58, "equipo": "Borussia Dortmund", "jugador": "Donyell Malen", "asistencia": "Karim Adeyemi" },
-            { "minuto": 82, "equipo": "Borussia Dortmund", "jugador": "Marco Reus", "asistencia": "Mats Hummels" }
-          ],
-          "alineaciones": {
-            "local": { "formacion": "4-2-3-1", "titulares": ["Kobel", "Ryerson", "Süle", "Hummels", "Maatsen", "Can", "Sabitzer", "Malen", "Brandt", "Adeyemi", "Füllkrug"] },
-            "visitante": { "formacion": "4-4-2", "titulares": ["Dahmen", "Mbabu", "Gouweleeuw", "Uduokhai", "Iago", "Engels", "Dorsch", "Jakic", "Vargas", "Tietz", "Demirović"] }
-          },
-          "suplentes": {
-            "local": ["Meyer", "Wolf", "Schlotterbeck", "Nmecha", "Wätjen", "Reus", "Bynoe-Gittens", "Moukoko", "Özcan"],
-            "visitante": ["Koubek", "Bauer", "Pfeiffer", "Oxford", "Breithaupt", "Maier", "Michel", "Beljo", "Cardona"]
-          },
-          "minuto_a_minuto": [
-            "15' - GOOOOL DEL DORTMUND! Centro de Brandt y Füllkrug, de cabeza, adelanta a los locales. 1-0.",
-            "32' - GOOOOL DEL AUGSBURG! Contragolpe letal, Vargas asiste a Demirović que bate a Kobel. 1-1.",
-            "45' - Tarjeta amarilla para Jakic por falta sobre Malen.",
-            "58' - GOOOOL DEL DORTMUND! Jugada personal de Adeyemi, centro atrás y Malen empuja a la red. 2-1.",
-            "70' - Doble cambio en Dortmund: entran Reus y Moukoko.",
-            "82' - GOOOOL DEL DORTMUND! Hummels sube al ataque y asiste a Reus, que define con calidad. 3-1.",
-            "90' - Final en el Signal Iduna Park. Victoria merecida del Dortmund."
-          ]
-        },
-        {
-          "fecha": "07/03/26",
-          "local": "Bayern Munich",
-          "visitante": "Mainz 05",
-          "resultado": "4-0",
-          "estadio": "Allianz Arena",
-          "asistencia": 75000,
-          "arbitro": "Felix Zwayer",
-          "posesion": { "local": 68, "visitante": 32 },
-          "tiros": { "local": 24, "visitante": 5 },
-          "tiros_puerta": { "local": 12, "visitante": 1 },
-          "faltas": { "local": 6, "visitante": 12 },
-          "corners": { "local": 9, "visitante": 2 },
-          "tarjetas": {
-            "local": { "amarillas": 0, "rojas": 0 },
-            "visitante": { "amarillas": 2, "rojas": 0 }
-          },
-          "goles": [
-            { "minuto": 18, "equipo": "Bayern Munich", "jugador": "Harry Kane", "asistencia": "Leroy Sané" },
-            { "minuto": 32, "equipo": "Bayern Munich", "jugador": "Jamal Musiala", "asistencia": "Joshua Kimmich" },
-            { "minuto": 58, "equipo": "Bayern Munich", "jugador": "Thomas Müller", "asistencia": "Alphonso Davies" },
-            { "minuto": 75, "equipo": "Bayern Munich", "jugador": "Serge Gnabry", "asistencia": "Mathys Tel" }
-          ],
-          "alineaciones": {
-            "local": { "formacion": "4-2-3-1", "titulares": ["Neuer", "Mazraoui", "Upamecano", "Kim", "Davies", "Kimmich", "Goretzka", "Sané", "Musiala", "Müller", "Kane"] },
-            "visitante": { "formacion": "3-5-2", "titulares": ["Zentner", "Bell", "Kohr", "Leitsch", "Widmer", "Barreiro", "Krauß", "Caci", "Mwei", "Burkardt", "Ajorque"] }
-          },
-          "suplentes": {
-            "local": ["Ulreich", "De Ligt", "Dier", "Guerrero", "Laimer", "Pavlović", "Tel", "Choupo-Moting", "Gnabry"],
-            "visitante": ["Batz", "Hanin", "Mamutovic", "Gleiber", "Ricci", "Gans", "Ronnel", "Gruda", "Onisiwo"]
-          },
-          "minuto_a_minuto": [
-            "18' - GOOOOL DEL BAYERN! Centro de Sané y Kane, con un cabezazo potente, abre la lata. 1-0.",
-            "32' - GOOOOL DEL BAYERN! Kimmich pone un pase filtrado y Musiala define cruzado. 2-0.",
-            "45' - Tarjeta amarilla para Kohr.",
-            "58' - GOOOOL DEL BAYERN! Davies desborda y asiste a Müller, que marca a placer. 3-0.",
-            "75' - GOOOOL DEL BAYERN! Gnabry, recién entrado, remata un centro de Tel. 4-0.",
-            "90' - Goleada del Bayern en el Allianz Arena."
-          ]
-        },
-        {
-          "fecha": "07/03/26",
-          "local": "RB Leipzig",
-          "visitante": "VfL Wolfsburg",
-          "resultado": "2-1",
-          "estadio": "Red Bull Arena",
-          "asistencia": 45000,
-          "arbitro": "Tobias Stieler",
-          "posesion": { "local": 55, "visitante": 45 },
-          "tiros": { "local": 14, "visitante": 10 },
-          "tiros_puerta": { "local": 6, "visitante": 4 },
-          "faltas": { "local": 11, "visitante": 13 },
-          "corners": { "local": 5, "visitante": 4 },
-          "tarjetas": {
-            "local": { "amarillas": 2, "rojas": 0 },
-            "visitante": { "amarillas": 3, "rojas": 0 }
-          },
-          "goles": [
-            { "minuto": 23, "equipo": "RB Leipzig", "jugador": "Lois Openda", "asistencia": "Xavi Simons" },
-            { "minuto": 58, "equipo": "VfL Wolfsburg", "jugador": "Jonas Wind", "asistencia": "Ridle Baku" },
-            { "minuto": 79, "equipo": "RB Leipzig", "jugador": "Benjamin Šeško", "asistencia": "Dani Olmo" }
-          ],
-          "alineaciones": {
-            "local": { "formacion": "4-4-2", "titulares": ["Gulácsi", "Henrichs", "Orbán", "Lukeba", "Raum", "Simons", "Schlager", "Seiwald", "Olmo", "Openda", "Šeško"] },
-            "visitante": { "formacion": "4-3-3", "titulares": ["Casteels", "Baku", "Lacroix", "Zesiger", "Mäle", "Arnold", "Svanberg", "Gerhardt", "Wimmer", "Wind", "Tomás"] }
-          },
-          "suplentes": {
-            "local": ["Blaswich", "Kloostermann", "Bitshiabu", "Kampl", "Haidara", "Elmas", "Poulsen", "Sesko", "Novoa"],
-            "visitante": ["Pervan", "Fischer", "Jenz", "Rogério", "Vranckx", "Paredes", "Majer", "Nmecha", "Behrens"]
-          },
-          "minuto_a_minuto": [
-            "23' - GOOOOL DEL LEIPZIG! Jugada de Xavi Simons, pared con Openda y este define. 1-0.",
-            "45' - Amarilla para Lacroix.",
-            "58' - GOOOOL DEL WOLFSBURGO! Centro de Baku y Wind empata de cabeza. 1-1.",
-            "70' - Ataja Gulácsi! Remate peligroso de Arnold.",
-            "79' - GOOOOL DEL LEIPZIG! Centro de Olmo y Šeško, de volea, hace el 2-1 definitivo."
-          ]
-        },
-        {
-          "fecha": "07/03/26",
-          "local": "Eintracht Frankfurt",
-          "visitante": "TSG Hoffenheim",
-          "resultado": "2-2",
-          "estadio": "Deutsche Bank Park",
-          "asistencia": 52000,
-          "arbitro": "Sven Jablonski",
-          "posesion": { "local": 52, "visitante": 48 },
-          "tiros": { "local": 13, "visitante": 12 },
-          "tiros_puerta": { "local": 6, "visitante": 5 },
-          "faltas": { "local": 12, "visitante": 10 },
-          "corners": { "local": 5, "visitante": 4 },
-          "tarjetas": {
-            "local": { "amarillas": 2, "rojas": 0 },
-            "visitante": { "amarillas": 2, "rojas": 0 }
-          },
-          "goles": [
-            { "minuto": 12, "equipo": "Eintracht Frankfurt", "jugador": "Omar Marmoush", "asistencia": "Mario Götze" },
-            { "minuto": 35, "equipo": "TSG Hoffenheim", "jugador": "Wout Weghorst", "asistencia": "Anton Stach" },
-            { "minuto": 60, "equipo": "Eintracht Frankfurt", "jugador": "Hugo Ekitiké", "asistencia": "Ansgar Knauff" },
-            { "minuto": 80, "equipo": "TSG Hoffenheim", "jugador": "Ihlas Bebou", "asistencia": "Pavel Kadeřábek" }
-          ],
-          "alineaciones": {
-            "local": { "formacion": "4-4-2", "titulares": ["Trapp", "Tuta", "Koch", "Pacho", "Max", "Götze", "Skhiri", "Larsson", "Knauff", "Marmoush", "Ekitiké"] },
-            "visitante": { "formacion": "4-2-3-1", "titulares": ["Baumann", "Kadeřábek", "Grillitsch", "Akpoguma", "Prass", "Stach", "Becker", "Bülter", "Kramarić", "Weghorst", "Bebou"] }
-          },
-          "suplentes": {
-            "local": ["Grahl", "Smolčić", "Buta", "Hasebe", "Dina Ebimbe", "Chandler", "Nkounkou", "Matanović", "Chaïbi"],
-            "visitante": ["Philipp", "Drexler", "Szalai", "John", "Geiger", "Conté", "Justvan", "Berisha", "Hložek"]
-          },
-          "minuto_a_minuto": [
-            "12' - GOOOOL DEL FRANKFURT! Götze filtra un pase y Marmoush define cruzado. 1-0.",
-            "35' - GOOOOL DEL HOFFENHEIM! Centro de Stach y Weghorst empata de cabeza. 1-1.",
-            "45' - Amarilla para Skhiri.",
-            "60' - GOOOOL DEL FRANKFURT! Knauff desborda y asiste a Ekitiké, que marca. 2-1.",
-            "80' - GOOOOL DEL HOFFENHEIM! Bebou remata un centro de Kadeřábek. 2-2.",
-            "90' - Reparto de puntos en Frankfurt."
-          ]
-        },
-        {
-          "fecha": "07/03/26",
-          "local": "SC Freiburg",
-          "visitante": "Werder Bremen",
-          "resultado": "1-0",
-          "estadio": "Europa-Park Stadion",
-          "asistencia": 34700,
-          "arbitro": "Frank Willenborg",
-          "posesion": { "local": 53, "visitante": 47 },
-          "tiros": { "local": 12, "visitante": 8 },
-          "tiros_puerta": { "local": 5, "visitante": 2 },
-          "faltas": { "local": 11, "visitante": 14 },
-          "corners": { "local": 5, "visitante": 3 },
-          "tarjetas": {
-            "local": { "amarillas": 2, "rojas": 0 },
-            "visitante": { "amarillas": 3, "rojas": 0 }
-          },
-          "goles": [
-            { "minuto": 67, "equipo": "SC Freiburg", "jugador": "Vincenzo Grifo", "asistencia": "Ritsu Dōan" }
-          ],
-          "alineaciones": {
-            "local": { "formacion": "4-4-2", "titulares": ["Atubolu", "Kübler", "Ginter", "Lienhart", "Günter", "Dōan", "Keitel", "Höfler", "Grifo", "Höler", "Adamu"] },
-            "visitante": { "formacion": "4-3-3", "titulares": ["Zetterer", "Weiser", "Friedl", "Jung", "Agu", "Stage", "Bittencourt", "Schmid", "Njinmah", "Ducksch", "Kownacki"] }
-          },
-          "suplentes": {
-            "local": ["Müller", "Sildillia", "Rosenfelder", "Makengo", "Muslija", "Eggestein", "Weißhaupt", "Philipp", "Gregoritsch"],
-            "visitante": ["Dinkçi", "Veljkovic", "Rapp", "Demán", "Lynen", "Hansen", "Woltemade", "Grüll", "Młynkowski"]
-          },
-          "minuto_a_minuto": [
-            "25' - Ataja Atubolu! Remate de Ducksch.",
-            "45' - Amarilla para Friedl.",
-            "67' - GOOOOL DEL FREIBURG! Centro de Dōan y Grifo, de primeras, bate a Zetterer. 1-0.",
-            "80' - Amarilla para Günter.",
-            "90' - Victoria sufrida del Freiburg en casa."
-          ]
-        },
-        {
-          "fecha": "07/03/26",
-          "local": "VfB Stuttgart",
-          "visitante": "Heidenheim",
-          "resultado": "3-2",
-          "estadio": "MHPArena",
-          "asistencia": 54000,
-          "arbitro": "Robert Hartmann",
-          "posesion": { "local": 61, "visitante": 39 },
-          "tiros": { "local": 17, "visitante": 8 },
-          "tiros_puerta": { "local": 8, "visitante": 4 },
-          "faltas": { "local": 9, "visitante": 15 },
-          "corners": { "local": 7, "visitante": 3 },
-          "tarjetas": {
-            "local": { "amarillas": 1, "rojas": 0 },
-            "visitante": { "amarillas": 4, "rojas": 0 }
-          },
-          "goles": [
-            { "minuto": 8, "equipo": "VfB Stuttgart", "jugador": "Serhou Guirassy", "asistencia": "Chris Führich" },
-            { "minuto": 28, "equipo": "Heidenheim", "jugador": "Tim Kleindienst", "asistencia": "Jan-Niklas Beste" },
-            { "minuto": 45, "equipo": "Heidenheim", "jugador": "Eren Dinkçi", "asistencia": "Lennard Maloney" },
-            { "minuto": 62, "equipo": "VfB Stuttgart", "jugador": "Deniz Undav", "asistencia": "Enzo Millot" },
-            { "minuto": 85, "equipo": "VfB Stuttgart", "jugador": "Chris Führich", "asistencia": "Maximilian Mittelstädt" }
-          ],
-          "alineaciones": {
-            "local": { "formacion": "4-4-2", "titulares": ["Nübel", "Vagnoman", "Rouault", "Ito", "Mittelstädt", "Millot", "Karazor", "Stiller", "Führich", "Undav", "Guirassy"] },
-            "visitante": { "formacion": "4-2-3-1", "titulares": ["Müller", "Traoré", "Mainka", "Gimber", "Föhrenbach", "Maloney", "Schöppner", "Dinkçi", "Beste", "Pick", "Kleindienst"] }
-          },
-          "suplentes": {
-            "local": ["Bredlow", "Stergiou", "Zagadou", "Keitel", "Leweling", "Jeong", "Silas", "Nartey", "Pfeiffer"],
-            "visitante": ["Eicher", "Busch", "Siersleben", "Theuerkauf", "Niehues", "Seesa", "Keller", "Qenaj", "Schimmer"]
-          },
-          "minuto_a_minuto": [
-            "8' - GOOOOL DEL STUTTGART! Führich asiste a Guirassy, que abre el marcador. 1-0.",
-            "28' - GOOOOL DEL HEIDENHEIM! Beste pone un centro y Kleindienst empata. 1-1.",
-            "45' - GOOOOL DEL HEIDENHEIM! Maloney recupera y asiste a Dinkçi, que remonta. 1-2. Así se llega al descanso.",
-            "62' - GOOOOL DEL STUTTGART! Millot asiste a Undav, que empata. 2-2.",
-            "85' - GOOOOL DEL STUTTGART! Mittelstädt centra y Führich, de cabeza, da la victoria. 3-2."
-          ]
-        },
-        {
-          "fecha": "08/03/26",
-          "local": "Bayer Leverkusen",
-          "visitante": "FC Köln",
-          "resultado": "2-0",
-          "estadio": "BayArena",
-          "asistencia": 30210,
-          "arbitro": "Deniz Aytekin",
-          "posesion": { "local": 65, "visitante": 35 },
-          "tiros": { "local": 19, "visitante": 6 },
-          "tiros_puerta": { "local": 8, "visitante": 2 },
-          "faltas": { "local": 8, "visitante": 14 },
-          "corners": { "local": 8, "visitante": 2 },
-          "tarjetas": {
-            "local": { "amarillas": 1, "rojas": 0 },
-            "visitante": { "amarillas": 3, "rojas": 0 }
-          },
-          "goles": [
-            { "minuto": 32, "equipo": "Bayer Leverkusen", "jugador": "Florian Wirtz", "asistencia": "Jeremie Frimpong" },
-            { "minuto": 68, "equipo": "Bayer Leverkusen", "jugador": "Victor Boniface", "asistencia": "Alejandro Grimaldo" }
-          ],
-          "alineaciones": {
-            "local": { "formacion": "4-2-3-1", "titulares": ["Hrádecký", "Kossounou", "Tah", "Tapsoba", "Hincapié", "Xhaka", "Andrich", "Frimpong", "Wirtz", "Grimaldo", "Boniface"] },
-            "visitante": { "formacion": "4-4-2", "titulares": ["Schwäbe", "Schmitz", "Hübers", "Chabot", "Heintz", "Ljubicic", "Martel", "Kainz", "Maina", "Tigges", "Selke"] }
-          },
-          "suplentes": {
-            "local": ["Kovar", "Stanisic", "Arthur", "Puerta", "Palacios", "Hofmann", "Adli", "Tella", "Iglesias"],
-            "visitante": ["Pentke", "Paqarada", "Katterbach", "Olesen", "Christensen", "Huseinbasic", "Adamyan", "Dietz", "Alidou"]
-          },
-          "minuto_a_minuto": [
-            "20' - Remate de Wirtz que despeja Schwäbe.",
-            "32' - GOOOOL DEL LEVERKUSEN! Frimpong desborda, centra y Wirtz, de primeras, marca. 1-0.",
-            "45' - Amarilla para Martel.",
-            "68' - GOOOOL DEL LEVERKUSEN! Grimaldo pone un centro perfecto y Boniface remata de cabeza. 2-0.",
-            "85' - Victoria cómoda del Leverkusen en el derbi."
-          ]
-        },
-        {
-          "fecha": "08/03/26",
-          "local": "Borussia Mönchengladbach",
-          "visitante": "Union Berlin",
-          "resultado": "1-1",
-          "estadio": "Borussia-Park",
-          "asistencia": 50000,
-          "arbitro": "Bastian Dankert",
-          "posesion": { "local": 54, "visitante": 46 },
-          "tiros": { "local": 13, "visitante": 9 },
-          "tiros_puerta": { "local": 5, "visitante": 4 },
-          "faltas": { "local": 12, "visitante": 16 },
-          "corners": { "local": 5, "visitante": 4 },
-          "tarjetas": {
-            "local": { "amarillas": 2, "rojas": 0 },
-            "visitante": { "amarillas": 4, "rojas": 1 }
-          },
-          "goles": [
-            { "minuto": 38, "equipo": "Union Berlin", "jugador": "Kevin Volland", "asistencia": "Robin Gosens" },
-            { "minuto": 72, "equipo": "Borussia Mönchengladbach", "jugador": "Alassane Pléa", "asistencia": "Franck Honorat" }
-          ],
-          "alineaciones": {
-            "local": { "formacion": "4-4-2", "titulares": ["Omlin", "Lainer", "Friedrich", "Elvedi", "Netz", "Honorat", "Weigl", "Reitz", "Hack", "Pléa", "Čvančara"] },
-            "visitante": { "formacion": "5-3-2", "titulares": ["Rönnow", "Juranović", "Knoche", "Doekhi", "Leite", "Gosens", "Khedira", "Tousart", "Haberer", "Volland", "Hollerbach"] }
-          },
-          "suplentes": {
-            "local": ["Nicolas", "Ullrich", "Wöber", "Kone", "Kramer", "Ngoumou", "Wolf", "Siebatcheu", "Ranđelović"],
-            "visitante": ["Stein", "Trimmel", "Roussillon", "Puchacz", "Laïdouni", "Kemlein", "Bedia", "Behrens", "Vertessen"]
-          },
-          "minuto_a_minuto": [
-            "25' - Amarilla para Khedira.",
-            "38' - GOOOOL DEL UNION! Centro de Gosens y Volland, de cabeza, adelanta a los visitantes. 0-1.",
-            "45' - Expulsión de Leite por doble amarilla. El Union con 10.",
-            "72' - GOOOOL DEL GLADBACH! Honorat centra y Pléa empata. 1-1.",
-            "85' - Omlin detiene un mano a mano a Behrens.",
-            "90' - Empate en el Borussia-Park."
-          ]
-        },
-        {
-          "fecha": "08/03/26",
-          "local": "Hamburgo",
-          "visitante": "St. Pauli",
-          "resultado": "2-1",
-          "estadio": "Volksparkstadion",
-          "asistencia": 57000,
-          "arbitro": "Harm Osmers",
-          "posesion": { "local": 52, "visitante": 48 },
-          "tiros": { "local": 12, "visitante": 10 },
-          "tiros_puerta": { "local": 5, "visitante": 4 },
-          "faltas": { "local": 14, "visitante": 16 },
-          "corners": { "local": 4, "visitante": 5 },
-          "tarjetas": {
-            "local": { "amarillas": 4, "rojas": 0 },
-            "visitante": { "amarillas": 5, "rojas": 1 }
-          },
-          "goles": [
-            { "minuto": 15, "equipo": "St. Pauli", "jugador": "Elias Saad", "asistencia": "Jackson Irvine" },
-            { "minuto": 42, "equipo": "Hamburgo", "jugador": "Robert Glatzel", "asistencia": "Jean-Luc Dompé" },
-            { "minuto": 78, "equipo": "Hamburgo", "jugador": "László Bénes", "asistencia": "Jonas Meffert" }
-          ],
-          "alineaciones": {
-            "local": { "formacion": "4-3-3", "titulares": ["Heuer", "Van der Brempt", "Ramos", "Schonlau", "Muheim", "Meffert", "Reis", "Bénes", "Dompé", "Glatzel", "Jatta"] },
-            "visitante": { "formacion": "4-4-2", "titulares": ["Burchert", "Saliakas", "Smith", "Wahl", "Ritzka", "Hartel", "Irvine", "Metcalfe", "Afolayan", "Saad", "Eggestein"] }
-          },
-          "suplentes": {
-            "local": ["Raab", "Heyer", "Zumberi", "Krahn", "Pohjanpalo", "Sanneh", "Katterbach", "Stange", "Hernández"],
-            "visitante": ["Vasilj", "Avevor", "Nemeth", "Dzwigala", "Boukhalfa", "Albers", "Maurides", "Maurice", "Otto"]
-          },
-          "minuto_a_minuto": [
-            "15' - GOOOOL DEL ST. PAULI! Centro de Irvine y Saad, de cabeza, adelanta a los visitantes. 0-1.",
-            "35' - Amarilla para Muheim.",
-            "42' - GOOOOL DEL HAMBURGO! Dompé desborda y asiste a Glatzel, que empata. 1-1.",
-            "55' - Expulsión en St. Pauli: doble amarilla para Hartel.",
-            "78' - GOOOOL DEL HAMBURGO! Bénes, de falta directa, da la victoria al Hamburgo. 2-1.",
-            "90' - El Hamburgo gana el derbi en el último tramo."
-          ]
-        }
+        { "fecha": "15/02/26", "hora": "20:30", "local": "Bayern Munich", "visitante": "Borussia Dortmund", "resultado": "2 - 1" },
+        { "fecha": "16/02/26", "hora": "15:30", "local": "RB Leipzig", "visitante": "Bayer Leverkusen", "resultado": "1 - 1" },
+        { "fecha": "16/02/26", "hora": "15:30", "local": "VfB Stuttgart", "visitante": "SC Freiburg", "resultado": "3 - 0" },
+        { "fecha": "16/02/26", "hora": "18:30", "local": "Eintracht Frankfurt", "visitante": "Union Berlin", "resultado": "2 - 2" },
+        { "fecha": "16/02/26", "hora": "20:30", "local": "TSG Hoffenheim", "visitante": "Werder Bremen", "resultado": "0 - 1" },
+        { "fecha": "17/02/26", "hora": "15:30", "local": "Borussia Mönchengladbach", "visitante": "Mainz 05", "resultado": "1 - 0" },
+        { "fecha": "17/02/26", "hora": "15:30", "local": "FC Augsburg", "visitante": "VfL Wolfsburg", "resultado": "0 - 2" },
+        { "fecha": "17/02/26", "hora": "17:30", "local": "FC Köln", "visitante": "Heidenheim", "resultado": "1 - 1" },
+        { "fecha": "17/02/26", "hora": "19:30", "local": "Hamburgo", "visitante": "St. Pauli", "resultado": "2 - 2" },
+        { "fecha": "18/02/26", "hora": "20:30", "local": "Bayer Leverkusen", "visitante": "Borussia Dortmund", "resultado": "1 - 3" }
+      ]
+    }
+  ],
+
+  "calendario_proximo": [
+    {
+      "ronda": 25,
+      "partidos": [
+        { "fecha": "21/02/26", "hora": "20:30", "local": "Bayern Munich", "visitante": "RB Leipzig" },
+        { "fecha": "22/02/26", "hora": "15:30", "local": "Borussia Dortmund", "visitante": "VfB Stuttgart" },
+        { "fecha": "22/02/26", "hora": "15:30", "local": "SC Freiburg", "visitante": "Eintracht Frankfurt" },
+        { "fecha": "22/02/26", "hora": "18:30", "local": "Union Berlin", "visitante": "TSG Hoffenheim" },
+        { "fecha": "22/02/26", "hora": "20:30", "local": "Werder Bremen", "visitante": "Borussia Mönchengladbach" },
+        { "fecha": "23/02/26", "hora": "15:30", "local": "Mainz 05", "visitante": "FC Augsburg" },
+        { "fecha": "23/02/26", "hora": "17:30", "local": "VfL Wolfsburg", "visitante": "FC Köln" },
+        { "fecha": "23/02/26", "hora": "19:30", "local": "Heidenheim", "visitante": "Hamburgo" },
+        { "fecha": "24/02/26", "hora": "15:30", "local": "St. Pauli", "visitante": "Bayer Leverkusen" },
+        { "fecha": "24/02/26", "hora": "18:30", "local": "RB Leipzig", "visitante": "SC Freiburg" }
       ]
     },
     {
-      "jornada": 25,
+      "ronda": 26,
       "partidos": [
-        {
-          "fecha": "13/03/26",
-          "local": "FC Augsburg",
-          "visitante": "Bayern Munich",
-          "resultado": "Programado"
-        },
-        {
-          "fecha": "14/03/26",
-          "local": "Mainz 05",
-          "visitante": "Borussia Dortmund",
-          "resultado": "Programado"
-        },
-        {
-          "fecha": "14/03/26",
-          "local": "VfL Wolfsburg",
-          "visitante": "Eintracht Frankfurt",
-          "resultado": "Programado"
-        },
-        {
-          "fecha": "14/03/26",
-          "local": "TSG Hoffenheim",
-          "visitante": "SC Freiburg",
-          "resultado": "Programado"
-        },
-        {
-          "fecha": "14/03/26",
-          "local": "Werder Bremen",
-          "visitante": "VfB Stuttgart",
-          "resultado": "Programado"
-        },
-        {
-          "fecha": "14/03/26",
-          "local": "Heidenheim",
-          "visitante": "Bayer Leverkusen",
-          "resultado": "Programado"
-        },
-        {
-          "fecha": "15/03/26",
-          "local": "FC Köln",
-          "visitante": "Borussia Mönchengladbach",
-          "resultado": "Programado"
-        },
-        {
-          "fecha": "15/03/26",
-          "local": "Union Berlin",
-          "visitante": "Hamburgo",
-          "resultado": "Programado"
-        },
-        {
-          "fecha": "16/03/26",
-          "local": "St. Pauli",
-          "visitante": "RB Leipzig",
-          "resultado": "Programado"
-        }
-      ]
-    },
-    {
-      "jornada": 26,
-      "partidos": [
-        {
-          "fecha": "20/03/26",
-          "local": "Bayern Munich",
-          "visitante": "Borussia Dortmund",
-          "resultado": "Programado"
-        },
-        {
-          "fecha": "21/03/26",
-          "local": "Eintracht Frankfurt",
-          "visitante": "Werder Bremen",
-          "resultado": "Programado"
-        },
-        {
-          "fecha": "21/03/26",
-          "local": "SC Freiburg",
-          "visitante": "Heidenheim",
-          "resultado": "Programado"
-        },
-        {
-          "fecha": "21/03/26",
-          "local": "Bayer Leverkusen",
-          "visitante": "Mainz 05",
-          "resultado": "Programado"
-        },
-        {
-          "fecha": "21/03/26",
-          "local": "VfB Stuttgart",
-          "visitante": "FC Augsburg",
-          "resultado": "Programado"
-        },
-        {
-          "fecha": "21/03/26",
-          "local": "Borussia Mönchengladbach",
-          "visitante": "TSG Hoffenheim",
-          "resultado": "Programado"
-        },
-        {
-          "fecha": "22/03/26",
-          "local": "Hamburgo",
-          "visitante": "VfL Wolfsburg",
-          "resultado": "Programado"
-        },
-        {
-          "fecha": "22/03/26",
-          "local": "RB Leipzig",
-          "visitante": "Union Berlin",
-          "resultado": "Programado"
-        },
-        {
-          "fecha": "22/03/26",
-          "local": "St. Pauli",
-          "visitante": "FC Köln",
-          "resultado": "Programado"
-        }
+        { "fecha": "28/02/26", "hora": "20:30", "local": "Bayer Leverkusen", "visitante": "Bayern Munich" },
+        { "fecha": "01/03/26", "hora": "15:30", "local": "VfB Stuttgart", "visitante": "RB Leipzig" },
+        { "fecha": "01/03/26", "hora": "15:30", "local": "Eintracht Frankfurt", "visitante": "Borussia Dortmund" },
+        { "fecha": "01/03/26", "hora": "18:30", "local": "TSG Hoffenheim", "visitante": "SC Freiburg" },
+        { "fecha": "01/03/26", "hora": "20:30", "local": "Borussia Mönchengladbach", "visitante": "Union Berlin" },
+        { "fecha": "02/03/26", "hora": "15:30", "local": "FC Augsburg", "visitante": "Werder Bremen" },
+        { "fecha": "02/03/26", "hora": "17:30", "local": "FC Köln", "visitante": "Mainz 05" },
+        { "fecha": "02/03/26", "hora": "19:30", "local": "Hamburgo", "visitante": "VfL Wolfsburg" },
+        { "fecha": "03/03/26", "hora": "15:30", "local": "St. Pauli", "visitante": "Heidenheim" },
+        { "fecha": "03/03/26", "hora": "18:30", "local": "RB Leipzig", "visitante": "Bayer Leverkusen" }
       ]
     }
   ]

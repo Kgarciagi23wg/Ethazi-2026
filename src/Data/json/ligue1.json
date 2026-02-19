@@ -1,0 +1,52 @@
+{
+  "jornadas": [
+    {
+      "jornada": 24,
+      "partidos": [
+        { "fecha": "15/02/26", "hora": "21:00", "local": "Paris Saint-Germain", "visitante": "AS Monaco", "resultado": "2 - 1" },
+        { "fecha": "16/02/26", "hora": "14:00", "local": "Olympique Lyonnais", "visitante": "FC Lorient", "resultado": "1 - 0" },
+        { "fecha": "16/02/26", "hora": "16:15", "local": "RC Lens", "visitante": "OGC Nice", "resultado": "1 - 1" },
+        { "fecha": "16/02/26", "hora": "18:30", "local": "Stade Rennais", "visitante": "Le Havre AC", "resultado": "3 - 2" },
+        { "fecha": "16/02/26", "hora": "21:00", "local": "Olympique de Marseille", "visitante": "FC Nantes", "resultado": "0 - 0" },
+        { "fecha": "17/02/26", "hora": "14:00", "local": "OSC Lille", "visitante": "FC Metz", "resultado": "4 - 1" },
+        { "fecha": "17/02/26", "hora": "16:15", "local": "Stade Brest", "visitante": "AJ Auxerre", "resultado": "2 - 0" },
+        { "fecha": "17/02/26", "hora": "18:30", "local": "Toulouse FC", "visitante": "Paris FC", "resultado": "1 - 2" },
+        { "fecha": "17/02/26", "hora": "21:00", "local": "Racing Strasbourg", "visitante": "Angers SCO", "resultado": "1 - 1" },
+        { "fecha": "18/02/26", "hora": "21:00", "local": "FC Lorient", "visitante": "OGC Nice", "resultado": "0 - 3" }
+      ]
+    }
+  ],
+
+  "calendario_proximo": [
+    {
+      "ronda": 25,
+      "partidos": [
+        { "fecha": "20/02/26", "hora": "21:00", "local": "Paris Saint-Germain", "visitante": "FC Lorient" },
+        { "fecha": "21/02/26", "hora": "14:00", "local": "Olympique Lyonnais", "visitante": "Le Havre AC" },
+        { "fecha": "21/02/26", "hora": "16:15", "local": "AS Monaco", "visitante": "Stade Brest" },
+        { "fecha": "21/02/26", "hora": "18:30", "local": "RC Lens", "visitante": "FC Metz" },
+        { "fecha": "21/02/26", "hora": "21:00", "local": "OGC Nice", "visitante": "Toulouse FC" },
+        { "fecha": "22/02/26", "hora": "14:00", "local": "Stade Rennais", "visitante": "AJ Auxerre" },
+        { "fecha": "22/02/26", "hora": "16:15", "local": "Olympique de Marseille", "visitante": "Racing Strasbourg" },
+        { "fecha": "22/02/26", "hora": "18:30", "local": "FC Nantes", "visitante": "Angers SCO" },
+        { "fecha": "22/02/26", "hora": "21:00", "local": "OSC Lille", "visitante": "Paris FC" },
+        { "fecha": "23/02/26", "hora": "21:00", "local": "FC Lorient", "visitante": "OGC Nice" }
+      ]
+    },
+    {
+      "ronda": 26,
+      "partidos": [
+        { "fecha": "27/02/26", "hora": "21:00", "local": "Angers SCO", "visitante": "AS Monaco" },
+        { "fecha": "28/02/26", "hora": "14:00", "local": "Paris FC", "visitante": "Stade Rennais" },
+        { "fecha": "28/02/26", "hora": "16:15", "local": "Racing Strasbourg", "visitante": "Paris Saint-Germain" },
+        { "fecha": "28/02/26", "hora": "18:30", "local": "Le Havre AC", "visitante": "Olympique de Marseille" },
+        { "fecha": "28/02/26", "hora": "21:00", "local": "FC Metz", "visitante": "Olympique Lyonnais" },
+        { "fecha": "01/03/26", "hora": "14:00", "local": "Toulouse FC", "visitante": "RC Lens" },
+        { "fecha": "01/03/26", "hora": "16:15", "local": "Stade Brest", "visitante": "FC Nantes" },
+        { "fecha": "01/03/26", "hora": "18:30", "local": "AJ Auxerre", "visitante": "OSC Lille" },
+        { "fecha": "01/03/26", "hora": "21:00", "local": "OGC Nice", "visitante": "FC Lorient" },
+        { "fecha": "02/03/26", "hora": "21:00", "local": "Olympique de Marseille", "visitante": "AS Monaco" }
+      ]
+    }
+  ]
+}

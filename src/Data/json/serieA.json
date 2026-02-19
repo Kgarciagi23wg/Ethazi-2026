@@ -1,0 +1,52 @@
+{
+  "jornadas": [
+    {
+      "jornada": 24,
+      "partidos": [
+        { "fecha": "15/02/26", "hora": "20:45", "local": "Inter", "visitante": "Udinese", "resultado": "3 - 1" },
+        { "fecha": "16/02/26", "hora": "15:00", "local": "Juventus", "visitante": "Torino", "resultado": "1 - 1" },
+        { "fecha": "16/02/26", "hora": "18:00", "local": "AC Milan", "visitante": "Atalanta", "resultado": "2 - 0" },
+        { "fecha": "16/02/26", "hora": "20:45", "local": "Napoli", "visitante": "Fiorentina", "resultado": "0 - 2" },
+        { "fecha": "17/02/26", "hora": "12:30", "local": "AS Roma", "visitante": "Lazio", "resultado": "2 - 2" },
+        { "fecha": "17/02/26", "hora": "15:00", "local": "Bologna", "visitante": "Genoa", "resultado": "1 - 0" },
+        { "fecha": "17/02/26", "hora": "18:00", "local": "Sassuolo", "visitante": "Cagliari", "resultado": "0 - 1" },
+        { "fecha": "17/02/26", "hora": "20:45", "local": "Hellas Verona", "visitante": "Cremonese", "resultado": "1 - 1" },
+        { "fecha": "18/02/26", "hora": "18:00", "local": "Lecce", "visitante": "Pisa", "resultado": "2 - 0" },
+        { "fecha": "18/02/26", "hora": "20:45", "local": "Parma", "visitante": "Como", "resultado": "1 - 2" }
+      ]
+    }
+  ],
+
+  "calendario_proximo": [
+    {
+      "ronda": 25,
+      "partidos": [
+        { "fecha": "21/02/26", "hora": "20:45", "local": "Inter", "visitante": "Lazio" },
+        { "fecha": "22/02/26", "hora": "15:00", "local": "AC Milan", "visitante": "Napoli" },
+        { "fecha": "22/02/26", "hora": "18:00", "local": "Atalanta", "visitante": "AS Roma" },
+        { "fecha": "22/02/26", "hora": "20:45", "local": "Fiorentina", "visitante": "Juventus" },
+        { "fecha": "23/02/26", "hora": "12:30", "local": "Torino", "visitante": "Bologna" },
+        { "fecha": "23/02/26", "hora": "15:00", "local": "Genoa", "visitante": "Sassuolo" },
+        { "fecha": "23/02/26", "hora": "18:00", "local": "Cagliari", "visitante": "Hellas Verona" },
+        { "fecha": "23/02/26", "hora": "20:45", "local": "Cremonese", "visitante": "Lecce" },
+        { "fecha": "24/02/26", "hora": "18:00", "local": "Pisa", "visitante": "Parma" },
+        { "fecha": "24/02/26", "hora": "20:45", "local": "Como", "visitante": "Udinese" }
+      ]
+    },
+    {
+      "ronda": 26,
+      "partidos": [
+        { "fecha": "28/02/26", "hora": "20:45", "local": "Juventus", "visitante": "Inter" },
+        { "fecha": "01/03/26", "hora": "12:30", "local": "Napoli", "visitante": "Atalanta" },
+        { "fecha": "01/03/26", "hora": "15:00", "local": "AS Roma", "visitante": "AC Milan" },
+        { "fecha": "01/03/26", "hora": "18:00", "local": "Lazio", "visitante": "Fiorentina" },
+        { "fecha": "01/03/26", "hora": "20:45", "local": "Bologna", "visitante": "Cagliari" },
+        { "fecha": "02/03/26", "hora": "15:00", "local": "Sassuolo", "visitante": "Genoa" },
+        { "fecha": "02/03/26", "hora": "18:00", "local": "Hellas Verona", "visitante": "Parma" },
+        { "fecha": "02/03/26", "hora": "20:45", "local": "Lecce", "visitante": "Como" },
+        { "fecha": "03/03/26", "hora": "18:00", "local": "Pisa", "visitante": "Udinese" },
+        { "fecha": "03/03/26", "hora": "20:45", "local": "Cremonese", "visitante": "Torino" }
+      ]
+    }
+  ]
+}
