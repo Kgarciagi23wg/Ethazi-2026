@@ -9,189 +9,195 @@ export default function AdminPanel() {
   const [active, setActive] = useState("arbela");
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
+
+  const [erabiltzaileak, setErabiltzaileak] = useState([
+    { id: 1, izena: "Iker Unanue", email: "iker@example.com", rola: "Admin" },
+    { id: 2, izena: "Ane Garmendia", email: "ane@example.com", rola: "Editorea" },
+    { id: 3, izena: "Koldo Mitxelena", email: "koldo@example.com", rola: "Erabiltzailea" },
+  ]);
+  const [newUser, setNewUser] = useState({ izena: "", email: "" });
+
+
+  const addUser = (e) => {
+    e.preventDefault();
+    if (!newUser.izena || !newUser.email) return;
+    const userObj = { 
+      id: Date.now(), 
+      izena: newUser.izena, 
+      email: newUser.email, 
+      rola: "Erabiltzailea" 
+    };
+    setErabiltzaileak([...erabiltzaileak, userObj]);
+    setNewUser({ izena: "", email: "" });
+  };
+
+  const deleteUser = (id) => {
+    if (window.confirm("Ziur zaude erabiltzaile hau ezabatu nahi duzula?")) {
+      setErabiltzaileak(erabiltzaileak.filter((u) => u.id !== id));
+    }
+  };
+
   const handleLogout = () => {
     logout();
     navigate("/");
   };
 
-  // --- CARD EFFECTS ---
+
   const cardStyle = {
-    borderRadius: "18px",
-    transition: "all 0.3s ease",
-    boxShadow: "0 4px 14px rgba(0,0,0,0.08)",
-    background: "rgba(255,255,255,0.9)",
-    backdropFilter: "blur(6px)",
+    borderRadius: "16px",
+    border: "none",
+    boxShadow: "0 4px 20px rgba(0,0,0,0.05)",
   };
-
-  const onHover = (e) => {
-    if (window.innerWidth > 768) {
-      e.currentTarget.style.transform = "translateY(-6px)";
-      e.currentTarget.style.boxShadow = "0 12px 28px rgba(0,0,0,0.18)";
-    }
-  };
-
-  const offHover = (e) => {
-    if (window.innerWidth > 768) {
-      e.currentTarget.style.transform = "translateY(0)";
-      e.currentTarget.style.boxShadow = "0 4px 14px rgba(0,0,0,0.08)";
-    }
-  };
-
-  // --- SIDEBAR BUTTON ---
-  const navButton = (id, label) => (
-    <button
-      className={`btn w-100 text-start fw-semibold mb-2 ${
-        active === id ? "btn-primary" : "btn-outline-secondary"
-      }`}
-      style={{
-        borderRadius: "12px",
-        transition: "0.3s",
-        boxShadow: active === id ? "0 4px 12px rgba(0,123,255,0.35)" : "none",
-      }}
-      onClick={() => {
-        setActive(id);
-        setSidebarOpen(false);
-      }}
-    >
-      {label}
-    </button>
-  );
 
   return (
-    <div
-      className="container-fluid"
-      style={{
-        minHeight: "100vh",
-        background: "linear-gradient(180deg, #ffffff 0%, #e5e9f0 100%)",
-      }}
-    >
-      <div className="row">
+    <div className="container-fluid bg-light min-vh-100 p-0">
+   
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
 
-        {/* MOBILE SIDEBAR TOGGLE */}
-        <div className="d-md-none p-3">
-          <button
-            className="btn btn-primary w-100 fw-bold"
-            style={{ borderRadius: "12px" }}
-            onClick={() => setSidebarOpen(!sidebarOpen)}
-          >
-            {sidebarOpen ? "Itxi menua" : "Ireki menua"}
-          </button>
-        </div>
+      <div className="row g-0">
+        
 
-        {/* SIDEBAR */}
-        <aside
-          className={`col-md-3 col-lg-2 p-4 ${
-            sidebarOpen ? "d-block" : "d-none d-md-block"
-          }`}
-          style={{
-            background: "rgba(255,255,255,0.85)",
-            backdropFilter: "blur(6px)",
-            minHeight: "100vh",
-            borderRight: "1px solid rgba(0,0,0,0.1)",
-          }}
-        >
-          <h2 className="fw-bold mb-4 text-center">Administrazio Panela</h2>
+        <aside className={`col-md-3 col-lg-2 bg-white border-end shadow-sm vh-100 sticky-top ${sidebarOpen ? "d-block" : "d-none d-md-block"}`}>
+          <div className="p-4">
+            <h4 className="fw-bold text-primary mb-5 d-flex align-items-center">
+              <i className="bi bi-speedometer2 me-2"></i> Kudeaketa
+            </h4>
 
-          {navButton("arbela", "Arbela")}
-          {navButton("erabiltzaileak", "Erabiltzaileak")}
-          {navButton("berriak", "Berriak")}
-          {navButton("aurreikuspenak", "Aurreikuspenak")}
+            <nav className="nav flex-column gap-2">
+              <button onClick={() => {setActive("arbela"); setSidebarOpen(false);}} className={`btn text-start d-flex align-items-center gap-2 p-3 fw-semibold border-0 ${active === "arbela" ? "btn-primary shadow-sm" : "text-secondary"}`} style={{ borderRadius: "12px" }}>
+                <i className="bi bi-house-door"></i> Arbela
+              </button>
+              <button onClick={() => {setActive("erabiltzaileak"); setSidebarOpen(false);}} className={`btn text-start d-flex align-items-center gap-2 p-3 fw-semibold border-0 ${active === "erabiltzaileak" ? "btn-primary shadow-sm" : "text-secondary"}`} style={{ borderRadius: "12px" }}>
+                <i className="bi bi-people"></i> Erabiltzaileak
+              </button>
+              <button onClick={() => {setActive("berriak"); setSidebarOpen(false);}} className={`btn text-start d-flex align-items-center gap-2 p-3 fw-semibold border-0 ${active === "berriak" ? "btn-primary shadow-sm" : "text-secondary"}`} style={{ borderRadius: "12px" }}>
+                <i className="bi bi-newspaper"></i> Berriak
+              </button>
+              <button onClick={() => {setActive("aurreikuspenak"); setSidebarOpen(false);}} className={`btn text-start d-flex align-items-center gap-2 p-3 fw-semibold border-0 ${active === "aurreikuspenak" ? "btn-primary shadow-sm" : "text-secondary"}`} style={{ borderRadius: "12px" }}>
+                <i className="bi bi-graph-up-arrow"></i> Aurreikuspenak
+              </button>
+            </nav>
 
-          <button
-            className="btn btn-danger w-100 mt-4 fw-bold"
-            style={{ borderRadius: "12px" }}
-            onClick={handleLogout}
-          >
-            Saioa itxi
-          </button>
+            <button className="btn btn-outline-danger w-100 mt-5 d-flex align-items-center justify-content-center gap-2 fw-bold border-2" style={{ borderRadius: "12px" }} onClick={handleLogout}>
+              <i className="bi bi-box-arrow-right"></i> Saioa itxi
+            </button>
+          </div>
         </aside>
 
-        {/* MAIN CONTENT */}
-        <main className="col-md-9 col-lg-10 p-4">
+ 
+        <main className="col-md-9 col-lg-10 p-4 p-md-5">
+          
 
-          <h1 className="fw-bold mb-4">
-            Ongi etorri, {user?.izena} (Administratzailea)
-          </h1>
+          <header className="d-flex justify-content-between align-items-center mb-5">
+            <div>
+              <h1 className="fw-bold h2 mb-1">Kaixo, {user?.izena || "Administratzailea"}!</h1>
+              <p className="text-muted mb-0">Hau da sistemaren egoera orokorra.</p>
+            </div>
+            <button className="btn btn-dark d-md-none" onClick={() => setSidebarOpen(!sidebarOpen)}>
+              <i className={`bi ${sidebarOpen ? 'bi-x-lg' : 'bi-list'}`}></i>
+            </button>
+          </header>
 
-          {/* DASHBOARD CARDS */}
-          <div className="row g-3 mb-4">
-            {[
-              { title: "Erregistratutako erabiltzaileak", num: 10 },
-              { title: "Argitaratutako berriak", num: 6 },
-              { title: "Aktibo dauden aurreikuspenak", num: 5 },
-            ].map((item, i) => (
-              <div className="col-12 col-md-4" key={i}>
-                <div
-                  className="card p-4 text-center"
-                  style={cardStyle}
-                  onMouseEnter={onHover}
-                  onMouseLeave={offHover}
-                >
-                  <h4 className="fw-bold">{item.title}</h4>
-                  <p className="display-5 fw-bold text-primary">{item.num}</p>
-                </div>
+
+          <div className="row g-4 mb-5">
+            <div className="col-md-4">
+              <div className="card p-4 text-center" style={cardStyle}>
+                <i className="bi bi-people text-primary fs-1 mb-2"></i>
+                <p className="text-muted small fw-bold text-uppercase mb-1">Erabiltzaileak</p>
+                <h2 className="fw-bold mb-0">{erabiltzaileak.length}</h2>
               </div>
-            ))}
+            </div>
+            <div className="col-md-4">
+              <div className="card p-4 text-center" style={cardStyle}>
+                <i className="bi bi-journal-text text-success fs-1 mb-2"></i>
+                <p className="text-muted small fw-bold text-uppercase mb-1">Berriak</p>
+                <h2 className="fw-bold mb-0">8</h2>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card p-4 text-center" style={cardStyle}>
+                <i className="bi bi-trophy text-warning fs-1 mb-2"></i>
+                <p className="text-muted small fw-bold text-uppercase mb-1">Aurreikuspenak</p>
+                <h2 className="fw-bold mb-0">15</h2>
+              </div>
+            </div>
           </div>
 
-          {/* CONTENT SECTIONS */}
+   
           {active === "arbela" && (
-            <div
-              className="card p-4"
-              style={cardStyle}
-              onMouseEnter={onHover}
-              onMouseLeave={offHover}
-            >
-              <h3 className="fw-bold mb-3">📊 Arbela</h3>
-              <p>Hemen administrazioaren laburpena ikusiko duzu.</p>
+            <div className="card p-5 border-0 shadow-sm text-center" style={{ borderRadius: "18px" }}>
+              <i className="bi bi-pie-chart text-light-emphasis display-1 mb-3"></i>
+              <h3 className="fw-bold">Ongi etorri Arbelara</h3>
+              <p className="text-muted">Hemen datu estatistikoak eta grafikoak agertuko dira.</p>
             </div>
           )}
+
 
           {active === "erabiltzaileak" && (
-            <div
-              className="card p-4"
-              style={cardStyle}
-              onMouseEnter={onHover}
-              onMouseLeave={offHover}
-            >
-              <h3 className="fw-bold mb-3">👥 Erabiltzaileak</h3>
-              <ul className="list-group">
-                <li className="list-group-item">Iker</li>
-                <li className="list-group-item">Ane</li>
-                <li className="list-group-item">Koldo</li>
-              </ul>
+            <div className="card border-0 shadow-sm p-4" style={{ borderRadius: "18px" }}>
+              <h3 className="fw-bold mb-4">Erabiltzaileen Zerrenda</h3>
+              
+              <form onSubmit={addUser} className="row g-2 mb-4 p-3 bg-light rounded-3">
+                <div className="col-md-5">
+                  <input type="text" className="form-control" placeholder="Izena..." value={newUser.izena} onChange={(e) => setNewUser({...newUser, izena: e.target.value})} required />
+                </div>
+                <div className="col-md-5">
+                  <input type="email" className="form-control" placeholder="Emaila..." value={newUser.email} onChange={(e) => setNewUser({...newUser, email: e.target.value})} required />
+                </div>
+                <div className="col-md-2">
+                  <button type="submit" className="btn btn-primary w-100 fw-bold">Gehitu</button>
+                </div>
+              </form>
+
+              <div className="table-responsive">
+                <table className="table table-hover">
+                  <thead className="table-light">
+                    <tr>
+                      <th className="border-0">Izena</th>
+                      <th className="border-0">Emaila</th>
+                      <th className="border-0">Rola</th>
+                      <th className="border-0 text-end">Ekintzak</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {erabiltzaileak.map((u) => (
+                      <tr key={u.id}>
+                        <td className="fw-bold py-3">{u.izena}</td>
+                        <td className="text-muted">{u.email}</td>
+                        <td><span className="badge rounded-pill bg-info text-dark">{u.rola}</span></td>
+                        <td className="text-end">
+                          <button className="btn btn-sm btn-outline-danger border-0" onClick={() => deleteUser(u.id)}>
+                            <i className="bi bi-trash3"></i>
+                          </button>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           )}
 
+    
           {active === "berriak" && (
-            <div
-              className="card p-4"
-              style={cardStyle}
-              onMouseEnter={onHover}
-              onMouseLeave={offHover}
-            >
-              <h3 className="fw-bold mb-3">📰 Berriak</h3>
-              <ul className="list-group">
-                <li className="list-group-item">“LaLiga: 22. jardunaldia”</li>
-                <li className="list-group-item">“Real Madriden fitxaketa berria”</li>
-                <li className="list-group-item">“Osasunaren garaipen handia”</li>
-              </ul>
+            <div className="card p-4 border-0 shadow-sm" style={{ borderRadius: "18px" }}>
+              <h3 className="fw-bold mb-4"><i className="bi bi-plus-circle me-2 text-primary"></i>Berri Berria Argitaratu</h3>
+              <div className="p-4 border-dashed text-center bg-light rounded-3 border-2" style={{borderStyle: 'dashed'}}>
+                <p className="mb-0 text-muted">Ez dago berririk kargatuta momentu honetan.</p>
+              </div>
             </div>
           )}
+
 
           {active === "aurreikuspenak" && (
-            <div
-              className="card p-4"
-              style={cardStyle}
-              onMouseEnter={onHover}
-              onMouseLeave={offHover}
-            >
-              <h3 className="fw-bold mb-3">🔮 Aurreikuspenak</h3>
-              <ul className="list-group">
-                <li className="list-group-item">Real Madrid 2 - 1 Barça</li>
-                <li className="list-group-item">Athletic 1 - 0 Osasuna</li>
-                <li className="list-group-item">Girona 2 - 2 Sevilla</li>
-              </ul>
+            <div className="card p-4 border-0 shadow-sm" style={{ borderRadius: "18px" }}>
+              <h3 className="fw-bold mb-4">Aktibo dauden Aurreikuspenak</h3>
+              <div className="list-group">
+                <div className="list-group-item d-flex justify-content-between align-items-center p-3">
+                  <span>Real Sociedad vs Athletic (Euskal Derbia)</span>
+                  <span className="badge bg-primary px-3">Bihar</span>
+                </div>
+              </div>
             </div>
           )}
 

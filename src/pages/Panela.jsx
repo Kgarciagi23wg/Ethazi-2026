@@ -9,196 +9,206 @@ export default function Panel() {
   const [active, setActive] = useState("perfil");
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
+
+  const [aurreikuspenak, setAurreikuspenak] = useState([
+    { id: 1, partida: "Real Sociedad 2 - 1 Athletic", data: "2024/02/10" },
+    { id: 2, partida: "Barcelona 3 - 0 Girona", data: "2024/02/12" },
+  ]);
+  const [newPred, setNewPred] = useState("");
+
   const handleLogout = () => {
     logout();
     navigate("/");
   };
 
-  // --- CARD EFFECTS ---
+
+  const addAurreikuspena = (e) => {
+    e.preventDefault();
+    if (!newPred.trim()) return;
+    const item = {
+      id: Date.now(),
+      partida: newPred,
+      data: new Date().toLocaleDateString(),
+    };
+    setAurreikuspenak([...aurreikuspenak, item]);
+    setNewPred("");
+  };
+
+  const deleteAurreikuspena = (id) => {
+    setAurreikuspenak(aurreikuspenak.filter((a) => a.id !== id));
+  };
+
+
   const cardStyle = {
-    borderRadius: "18px",
-    transition: "all 0.3s ease",
-    boxShadow: "0 4px 14px rgba(0,0,0,0.08)",
-    background: "rgba(255,255,255,0.9)",
-    backdropFilter: "blur(6px)",
+    borderRadius: "20px",
+    border: "none",
+    boxShadow: "0 5px 15px rgba(0,0,0,0.05)",
+    background: "#ffffff",
+    transition: "transform 0.3s ease",
   };
-
-  const onHover = (e) => {
-    if (window.innerWidth > 768) {
-      e.currentTarget.style.transform = "translateY(-6px)";
-      e.currentTarget.style.boxShadow = "0 12px 28px rgba(0,0,0,0.18)";
-    }
-  };
-
-  const offHover = (e) => {
-    if (window.innerWidth > 768) {
-      e.currentTarget.style.transform = "translateY(0)";
-      e.currentTarget.style.boxShadow = "0 4px 14px rgba(0,0,0,0.08)";
-    }
-  };
-
-  // --- SIDEBAR BUTTON ---
-  const navButton = (id, label) => (
-    <button
-      className={`btn w-100 text-start fw-semibold mb-2 ${
-        active === id ? "btn-primary" : "btn-outline-secondary"
-      }`}
-      style={{
-        borderRadius: "12px",
-        transition: "0.3s",
-        boxShadow: active === id ? "0 4px 12px rgba(0,123,255,0.35)" : "none",
-      }}
-      onClick={() => {
-        setActive(id);
-        setSidebarOpen(false);
-      }}
-    >
-      {label}
-    </button>
-  );
 
   return (
-    <div
-      className="container-fluid"
-      style={{
-        minHeight: "100vh",
-        background: "linear-gradient(180deg, #ffffff 0%, #e5e9f0 100%)",
-      }}
-    >
-      <div className="row">
+    <div className="container-fluid bg-light min-vh-100 p-0">
+   
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
 
-        {/* MOBILE SIDEBAR TOGGLE */}
-        <div className="d-md-none p-3">
-          <button
-            className="btn btn-primary w-100 fw-bold"
-            style={{ borderRadius: "12px" }}
-            onClick={() => setSidebarOpen(!sidebarOpen)}
-          >
-            {sidebarOpen ? "Itxi menua" : "Ireki menua"}
-          </button>
-        </div>
+      <div className="row g-0">
+        
 
-        {/* SIDEBAR */}
-        <aside
-          className={`col-md-3 col-lg-2 p-4 ${
-            sidebarOpen ? "d-block" : "d-none d-md-block"
-          }`}
-          style={{
-            background: "rgba(255,255,255,0.85)",
-            backdropFilter: "blur(6px)",
-            minHeight: "100vh",
-            borderRight: "1px solid rgba(0,0,0,0.1)",
-          }}
-        >
-          <h2 className="fw-bold mb-4 text-center">Nire Panela</h2>
+        <aside className={`col-md-3 col-lg-2 bg-white border-end vh-100 sticky-top ${sidebarOpen ? "d-block" : "d-none d-md-block"}`}>
+          <div className="p-4">
+            <div className="text-center mb-4">
+              <div className="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-2" style={{width: "60px", height: "60px"}}>
+                <i className="bi bi-person-fill fs-2"></i>
+              </div>
+              <h5 className="fw-bold mb-0">{user?.izena || "Erabiltzailea"}</h5>
+              <small className="text-muted text-uppercase fw-bold" style={{fontSize: '10px'}}>Kide gunea</small>
+            </div>
 
-          {navButton("perfil", "Nire profila")}
-          {navButton("aurreikuspenak", "Nire aurreikuspenak")}
-          {navButton("berriak", "Gordetako berriak")}
-          {navButton("jarduera", "Azken jarduerak")}
+            <nav className="nav flex-column gap-2">
+              {[
+                { id: "perfil", label: "Nire profila", icon: "bi-person" },
+                { id: "aurreikuspenak", label: "Aurreikuspenak", icon: "bi-magic" },
+                { id: "berriak", label: "Gordetakoak", icon: "bi-bookmark-star" },
+                { id: "jarduera", label: "Jarduera", icon: "bi-clock-history" },
+              ].map((item) => (
+                <button
+                  key={item.id}
+                  onClick={() => { setActive(item.id); setSidebarOpen(false); }}
+                  className={`btn text-start d-flex align-items-center gap-3 p-3 fw-semibold border-0 ${active === item.id ? "btn-primary shadow-sm" : "text-secondary hover-bg-light"}`}
+                  style={{ borderRadius: "15px" }}
+                >
+                  <i className={`bi ${item.icon}`}></i> {item.label}
+                </button>
+              ))}
+            </nav>
 
-          {/* LOGOUT BUTTON */}
-          <button
-            className="btn btn-danger w-100 mt-4 fw-bold"
-            style={{ borderRadius: "12px" }}
-            onClick={handleLogout}
-          >
-            Saioa itxi
-          </button>
+            <button className="btn btn-outline-danger w-100 mt-5 fw-bold border-2 d-flex align-items-center justify-content-center gap-2" style={{ borderRadius: "15px" }} onClick={handleLogout}>
+              <i className="bi bi-door-open"></i> Saioa itxi
+            </button>
+          </div>
         </aside>
 
-        {/* MAIN CONTENT */}
-        <main className="col-md-9 col-lg-10 p-4">
+  
+        <main className="col-md-9 col-lg-10 p-4 p-md-5">
+          
+          <header className="d-flex justify-content-between align-items-center mb-5">
+            <h2 className="fw-bold text-dark">Ongi etorri berriro, <span className="text-primary">{user?.izena}</span></h2>
+            <button className="btn btn-dark d-md-none rounded-circle" onClick={() => setSidebarOpen(!sidebarOpen)}>
+              <i className={`bi ${sidebarOpen ? 'bi-x' : 'bi-list'}`}></i>
+            </button>
+          </header>
 
-          <h1 className="fw-bold mb-4">
-            Ongi etorri, {user?.izena}
-          </h1>
-
-          {/* DASHBOARD CARDS */}
-          <div className="row g-3 mb-4">
+          <div className="row g-4 mb-5">
             {[
-              { title: "Nire aurreikuspenak", num: 5 },
-              { title: "Gordetako berriak", num: 8 },
-              { title: "Azken jarduerak", num: 3 },
+              { title: "Aurreikuspenak", num: aurreikuspenak.length, icon: "bi-magic", color: "text-primary" },
+              { title: "Gordetakoak", num: 8, icon: "bi-bookmark", color: "text-success" },
+              { title: "Puntuak", num: 3200, icon: "bi-star", color: "text-warning" },
             ].map((item, i) => (
               <div className="col-12 col-md-4" key={i}>
-                <div
-                  className="card p-4 text-center"
-                  style={cardStyle}
-                  onMouseEnter={onHover}
-                  onMouseLeave={offHover}
-                >
-                  <h4 className="fw-bold">{item.title}</h4>
-                  <p className="display-5 fw-bold text-primary">{item.num}</p>
+                <div className="card p-4 border-0 shadow-sm" style={cardStyle}>
+                  <div className="d-flex align-items-center gap-3">
+                    <div className={`fs-1 ${item.color}`}><i className={`bi ${item.icon}`}></i></div>
+                    <div>
+                      <p className="text-muted small fw-bold mb-0 text-uppercase">{item.title}</p>
+                      <h3 className="fw-bold mb-0">{item.num}</h3>
+                    </div>
+                  </div>
                 </div>
               </div>
             ))}
           </div>
 
-          {/* CONTENT SECTIONS */}
+
+          
+   
           {active === "perfil" && (
-            <div
-              className="card p-4"
-              style={cardStyle}
-              onMouseEnter={onHover}
-              onMouseLeave={offHover}
-            >
-              <h3 className="fw-bold mb-3">👤 Nire profila</h3>
-              <p><strong>Izena:</strong> {user?.izena}</p>
-              <p><strong>Emaila:</strong> {user?.email}</p>
-              <p><strong>Kontua sortua:</strong> 2024/01/12</p>
+            <div className="card p-4 shadow-sm" style={cardStyle}>
+              <h4 className="fw-bold mb-4 border-bottom pb-2">👤 Nire datuak</h4>
+              <div className="row">
+                <div className="col-md-6 mb-3">
+                  <label className="text-muted small fw-bold">IZENA</label>
+                  <p className="fs-5 fw-semibold">{user?.izena}</p>
+                </div>
+                <div className="col-md-6 mb-3">
+                  <label className="text-muted small fw-bold">POSTA ELEKTRONIKOA</label>
+                  <p className="fs-5 fw-semibold">{user?.email}</p>
+                </div>
+                <div className="col-md-6">
+                  <label className="text-muted small fw-bold">KONTU MOTA</label>
+                  <p><span className="badge bg-soft-primary text-primary" style={{backgroundColor: '#e7f1ff'}}>Erabiltzaile Arrunta</span></p>
+                </div>
+              </div>
             </div>
           )}
+
 
           {active === "aurreikuspenak" && (
-            <div
-              className="card p-4"
-              style={cardStyle}
-              onMouseEnter={onHover}
-              onMouseLeave={offHover}
-            >
-              <h3 className="fw-bold mb-3">🔮 Nire aurreikuspenak</h3>
-              <ul className="list-group">
-                <li className="list-group-item">Real Sociedad 2 - 1 Athletic</li>
-                <li className="list-group-item">Barcelona 3 - 0 Girona</li>
-                <li className="list-group-item">Valencia 1 - 1 Sevilla</li>
-              </ul>
+            <div className="card p-4 shadow-sm" style={cardStyle}>
+              <h4 className="fw-bold mb-4">Nire Aurreikuspenak</h4>
+              
+              <form onSubmit={addAurreikuspena} className="input-group mb-4 shadow-sm rounded-pill overflow-hidden border">
+                <input 
+                  type="text" 
+                  className="form-control border-0 px-4" 
+                  placeholder="Adib: Osasuna 1 - 0 Alaves" 
+                  value={newPred}
+                  onChange={(e) => setNewPred(e.target.value)}
+                />
+                <button className="btn btn-primary px-4 fw-bold" type="submit">Gorde</button>
+              </form>
+
+              <div className="list-group list-group-flush">
+                {aurreikuspenak.map((a) => (
+                  <div key={a.id} className="list-group-item d-flex justify-content-between align-items-center border-bottom py-3 px-0 bg-transparent">
+                    <div>
+                      <div className="fw-bold">{a.partida}</div>
+                      <small className="text-muted"><i className="bi bi-calendar3 me-1"></i> {a.data}</small>
+                    </div>
+                    <button className="btn btn-outline-danger btn-sm border-0" onClick={() => deleteAurreikuspena(a.id)}>
+                      <i className="bi bi-trash3"></i>
+                    </button>
+                  </div>
+                ))}
+              </div>
             </div>
           )}
+
 
           {active === "berriak" && (
-            <div
-              className="card p-4"
-              style={cardStyle}
-              onMouseEnter={onHover}
-              onMouseLeave={offHover}
-            >
-              <h3 className="fw-bold mb-3">📰 Gordetako berriak</h3>
-              <ul className="list-group">
-                <li className="list-group-item">“LaLiga: 22. jardunaldia”</li>
-                <li className="list-group-item">“Real Madriden fitxaketa berria”</li>
-                <li className="list-group-item">“Osasunaren garaipen handia”</li>
-              </ul>
+            <div className="card p-4 shadow-sm" style={cardStyle}>
+              <h4 className="fw-bold mb-4 text-success"><i className="bi bi-bookmark-check me-2"></i>Gordetako Berriak</h4>
+              <div className="row g-3">
+                {["“LaLiga: 22. jardunaldia”", "“Real Madriden fitxaketa”"].map((item, i) => (
+                  <div className="col-12" key={i}>
+                    <div className="p-3 bg-light rounded-3 d-flex justify-content-between align-items-center">
+                      <span className="fw-semibold">{item}</span>
+                      <i className="bi bi-chevron-right"></i>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           )}
 
+    
           {active === "jarduera" && (
-            <div
-              className="card p-4"
-              style={cardStyle}
-              onMouseEnter={onHover}
-              onMouseLeave={offHover}
-            >
-              <h3 className="fw-bold mb-3">📅 Azken jarduerak</h3>
-              <ul className="list-group list-group-flush">
-                <li className="list-group-item">
-                  Aurreikuspena sortu duzu: <strong>Real Sociedad vs Athletic</strong>
-                </li>
-                <li className="list-group-item">
-                  Berria gorde duzu: <strong>“LaLiga: 22. jardunaldia”</strong>
-                </li>
-                <li className="list-group-item">Profila eguneratu duzu</li>
-              </ul>
+            <div className="card p-4 shadow-sm" style={cardStyle}>
+              <h4 className="fw-bold mb-4">📅 Azken Mugimenduak</h4>
+              <div className="timeline-container">
+                <div className="border-start ps-4">
+                  <div className="mb-4 position-relative">
+                    <i className="bi bi-circle-fill text-primary position-absolute" style={{left: '-31px', top: '5px', fontSize: '12px'}}></i>
+                    <p className="mb-0 fw-bold">Aurreikuspena gehitu duzu</p>
+                    <small className="text-muted">Gaur, 10:30etan</small>
+                  </div>
+                  <div className="mb-4 position-relative">
+                    <i className="bi bi-circle-fill text-secondary position-absolute" style={{left: '-31px', top: '5px', fontSize: '12px'}}></i>
+                    <p className="mb-0 fw-bold">Saioa hasi duzu</p>
+                    <small className="text-muted">Gaur, 09:00etan</small>
+                  </div>
+                </div>
+              </div>
             </div>
           )}
 
